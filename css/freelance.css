@@ -1,8 +1,4 @@
-div {
-  vertical-align: top; 
-  height: auto;
-  position: relative;
-}
+
 
 hr {
     background-color: #eee;
@@ -15,78 +11,9 @@ hr {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #0051ba;
     transition: background-color 0.2s ease;
-  }
-
-.freelance-title-container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: -50px;
-    margin-bottom: 50px;
 }
 
-.freelance-signup-container {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 75px;
-}
 
-#freelanceHeader {
-    margin-top: 150px;
-    font-size: 72px;
-}
-
-.freelancer-container {
-    padding-left: 15%;
-    padding-right: 10%;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-.nameHeader {
-    width: 70%;
-    margin-top: 0px;
-    margin-bottom: -150px;
-    position: relative;
-    text-align: center;
-    padding-right: 15%;
-}
-
-.about {
-    display: inline-block;
-    width: 70%;
-    padding-right: 15%;
-    margin-top: 200px;
-    text-align: center;
-}
-
-.summary {
-    display: inline-block;
-    width: 25%;
-    margin-top: 200px;
-}
-
-.who {
-    padding-bottom: 25px;
-}
-
-.email {
-    padding-bottom: 10px;
-}
-
-.personalWebsite {
-    padding-bottom: 25px;
-}
-
-.interests {
-    margin-bottom: 10px;
-}
-
-.skills {
-    margin-top: 25px;
-}
 
 
 
