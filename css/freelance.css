@@ -1,0 +1,17 @@
+.divider-big {
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 0.313rem;
+}
+
+ul {
+    padding-left: 0; text-align:center; list-style-type:none;
+}
+
+@media (max-width: 991px){
+    .col-sm-padding{
+        /* used for extra padding  */
+        margin-bottom: 3em;
+    }  
+}
