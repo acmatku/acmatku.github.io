@@ -1,5 +1,5 @@
 const TUTORS = [
-	// Note: The order of the tutors are listed here affects the order they display when occupying the same time slot and their colors
+	// Note: The order the tutors are listed here affects the order they display when occupying the same time slot and their colors
 	/*{
 		"name": "Example Tutor",
 		// For time blocks, first charater is day of the week, M/T/W/R/F. Weekends are not supported. 
@@ -8,25 +8,61 @@ const TUTORS = [
 		"courses": ["EECS 168", "EECS 268", "MATH 125"]
 	},*/
 	{
-		"name": "Jonathan Downs", 
-		"times": [["M", 10, 11], ["F", 10, 11]], 
-		"courses": ["EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 510", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
+		"name": "Rishab Bhat", 
+		"times": [["M", 9, 10], ["W", 9, 10]],
+		"courses": ["EECS 138", "EECS 168", "EECS 268"]
 	},
 	{
-		"name": "Victoria Maldonado", 
-		"times": [["M", 11, 12], ["M", 13, 14]], 
-		"courses": ["EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 510", "EECS 560", "MATH 125", "MATH 220"]
+		"name": "Rohan Chinalachaiagari", 
+		"times": [["T", 10, 12]],
+		"courses": ["EECS 140", "MATH 125", "MATH 126"]
 	},
 	{
-		"name": "Rohan Chinalachaiagari",
-		"times": [["R", 11, 12.5]],
-		"courses": ["MATH 125"]
+		"name": "Adair Torres", 
+		"times": [["M", 10, 11], ["W", 10, 11.5], ["F", 10, 11.5]],
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
 	},
 	{
-		"name": "Overlap Example",
-		"times": [["M", 11.5, 13.5], ["T", 10.5, 14.5], ["W", 10, 10.5]],
-		"courses": ["EECS 140", "MATH 125"]
+		"name": "Nolan Blankenau", 
+		"times": [["M", 11.5, 13.5], ["T", 12, 14], ["W", 12, 14], ["R", 12, 14], ["F", 12, 14]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560"]
 	},
+	{
+		"name": "Drake Prebyl", 
+		"times": [["T", 11, 12]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125"]
+	},
+	{
+		"name": "Firangiz Ganbarli", 
+		"times": [["R", 9, 10]],
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
+	},
+	{
+		"name": "Jacky Lin",
+		"times": [["M", 14.5, 16], ["T", 14.5, 15.5], ["W", 14.5, 15.5], ["F", 14.5, 15.5]],
+		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"]
+	},
+	{
+		"name": "Landen Doty", 
+		"times": [["T", 15, 16], ["F", 11, 12]],
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 290"]
+	},
+	{
+		"name": "Suhaib Ansari",
+		"times": [["M", 9.5, 10.5], ["T", 11, 13], ["R", 11, 13], ["F", 9.5, 10.5]],
+		"courses": ["EECS 138", "EECS 168", "EECS 211", "EECS 221", "EECS 268", "EECS 420", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 220"]
+	},
+	{
+		"name": "Porter Furlong",
+		"times": [["W", 11.5, 12.5]],
+		"courses": ["EECS 210"]
+	},
+	{"name":"","times":[],"courses":[]}, // Skip a color
+	{
+		"name": "Rafael Alaras",
+		"times": [["T", 13, 14]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
+	}
 ];
 
 // Length of a tutoring block in hours
