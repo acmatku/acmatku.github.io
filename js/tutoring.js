@@ -8,24 +8,24 @@ const TUTORS = [
 		"courses": ["EECS 168", "EECS 268", "MATH 125"]
 	},*/
 	{
-		"name": "Rishab Bhat", 
+		"name": "Rishab Bhat",
 		"times": [["M", 9, 10], ["W", 9, 10]],
 		"courses": ["EECS 138", "EECS 168", "EECS 268"]
 	},
 	{
-		"name": "Rohan Chinalachaiagari", 
+		"name": "Rohan Chinalachaiagari",
 		"times": [["T", 10, 12]],
 		"courses": ["EECS 140", "MATH 125", "MATH 126"]
 	},
 	{
-		"name": "Adair Torres", 
-		"times": [["M", 10, 11], ["W", 10, 11.5], ["W", 15, 16], ["R", 13, 16], ["F", 10, 11.5], ["F", 15, 16]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
-	},
-	{
-		"name": "Nolan Blankenau", 
+		"name": "Nolan Blankenau",
 		"times": [["M", 11.5, 13.5], ["T", 9, 10], ["W", 12, 14], ["R", 10, 11], ["R", 12, 14], ["F", 12, 14]],
 		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560"]
+	},
+	{
+		"name": "Adair Torres",
+		"times": [["M", 10, 11], ["W", 10, 11.5], ["W", 15, 16], ["R", 13, 16], ["F", 10, 11.5], ["F", 15, 16]],
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
 	},
 	{
 		"name": "Drake Prebyl", 
@@ -33,7 +33,7 @@ const TUTORS = [
 		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125"]
 	},
 	{
-		"name": "Firangiz Ganbarli", 
+		"name": "Firangiz Ganbarli",
 		"times": [["R", 9, 10]],
 		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
 	},
@@ -43,7 +43,7 @@ const TUTORS = [
 		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"]
 	},
 	{
-		"name": "Landen Doty", 
+		"name": "Landen Doty",
 		"times": [["T", 15, 16], ["F", 11, 12]],
 		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 290"]
 	},
@@ -62,6 +62,11 @@ const TUTORS = [
 		"name": "Rafael Alaras",
 		"times": [["T", 13, 14]],
 		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
+	},
+	{
+		"name": "Kameron Bielawski",
+		"times": [["M", 13.5, 14.5], ["F", 13.5, 14.5]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
 	}
 ];
 
@@ -69,10 +74,10 @@ const TUTORS = [
 const BLOCK_SIZE = 0.5;
 
 // Colors to assign to tutors (from https://www.materialpalette.com/)
-const COLORS = ["#F44336" /*red*/, "#2196F3" /*blue*/, "#4CAF50" /*green*/, "#9C27B0" /*purple*/,
-	"#FF5722" /*deep orange*/, "#00BCD4" /*cyan*/, "#3F51B5" /*indigo*/, "#FFC107" /*amber*/, 
-	"#CDDC39" /*lime*/, "#E91E63" /*pink*/, "#673AB7" /*deep purple*/, "#FF9800" /*orange*/, 
-	"#FFEB3B" /*yellow*/, "#009688" /*teal*/, "#03A9F4" /*light blue*/, "#607D8B" /*blue grey*/];
+const COLORS = ["#F44336" /*red*/, "#2196F3" /*blue*/, "#9C27B0" /*purple*/, "#4CAF50" /*green*/,
+	"#FF5722" /*deep orange*/, "#00BCD4" /*cyan*/, "#3F51B5" /*indigo*/, "#FFC107" /*amber*/,
+	"#CDDC39" /*lime*/, "#E91E63" /*pink*/, "#673AB7" /*deep purple*/, "#FF9800" /*orange*/,
+	"#009688" /*teal*/, "#FFEB3B" /*yellow*/, "#03A9F4" /*light blue*/, "#607D8B" /*blue grey*/];
 
 // Sorted list of all courses offered by at least one tutor (Set is used to remove duplicates)
 const COURSES = [...new Set(TUTORS.reduce((courses, tutor) => courses.concat(tutor.courses), []))].sort();
