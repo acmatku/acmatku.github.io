@@ -1,3 +1,8 @@
+const RED = "#F44336", BLUE = "#2196F3", PURPLE = "#9C27B0", GREEN = "#4CAF50", 
+	DEEP_ORANGE = "#FF5722", CYAN = "#00BCD4", INDIGO = "#3F51B5", AMBER = "#FFC107",
+	LIME = "#CDDC39", PINK = "#E91E63", DEEP_PURPLE = "#673AB7", ORANGE = "#FF9800",
+	TEAL = "#009688", YELLOW = "#FFEB3B", LIGHT_BLUE = "#03A9F4", BLUE_GRAY = "#607D8B";
+
 const TUTORS = [
 	// Note: The order the tutors are listed here affects the order they display when occupying the same time slot and their colors
 	/*{
@@ -6,78 +11,82 @@ const TUTORS = [
 		// Second two digits are start and end time, which can be specified to the nearest half hour with .5
 		"times": [["M", 10.5, 13], ["T", 14, 15.5], ["R", 9, 10]],
 		"courses": ["EECS 168", "EECS 268", "MATH 125"]
+		"color": BLUE // optional, will be assigned automatically if unspecified
 	},*/
 	{
 		"name": "Rishab Bhat",
 		"times": [["M", 9, 10], ["W", 9, 10]],
-		"courses": ["EECS 138", "EECS 168", "EECS 268"]
+		"courses": ["EECS 138", "EECS 168", "EECS 268"],
+		"color": RED
 	},
 	{
 		"name": "Rohan Chinalachaiagari",
 		"times": [["T", 10, 12]],
-		"courses": ["EECS 140", "MATH 125", "MATH 126"]
-	},
-	{
-		"name": "Nolan Blankenau",
-		"times": [["M", 11.5, 13.5], ["T", 9, 10], ["W", 12, 14], ["R", 10, 11], ["R", 12, 14], ["F", 12, 14]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560"]
+		"courses": ["EECS 140", "MATH 125", "MATH 126"],
+		"color": BLUE
 	},
 	{
 		"name": "Adair Torres",
 		"times": [["M", 10, 11], ["W", 10, 11.5], ["W", 15, 16], ["R", 13, 16], ["F", 10, 11.5], ["F", 15, 16]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"],
+		"color": GREEN
 	},
 	{
 		"name": "Drake Prebyl", 
 		"times": [["T", 11, 12]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125"]
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125"],
+		"color": DEEP_PURPLE
 	},
 	{
 		"name": "Firangiz Ganbarli",
 		"times": [["R", 9, 10]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"]
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"],
+		"color": CYAN
+	},
+	{
+		"name": "Kameron Bielawski",
+		"times": [["M", 14, 15], ["F", 14, 15]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
+		"color": DEEP_ORANGE
 	},
 	{
 		"name": "Jacky Lin",
 		"times": [["M", 14.5, 16], ["T", 14.5, 15.5], ["W", 14.5, 15.5], ["F", 14.5, 15.5]],
-		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"]
+		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"],
+		"color": INDIGO
 	},
 	{
 		"name": "Landen Doty",
 		"times": [["T", 15, 16], ["F", 11, 12]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 290"]
+		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 290"],
+		"color": AMBER
 	},
 	{
 		"name": "Suhaib Ansari",
 		"times": [["M", 9.5, 10.5], ["T", 11, 13], ["R", 11, 13], ["F", 9.5, 10.5]],
-		"courses": ["EECS 138", "EECS 168", "EECS 211", "EECS 221", "EECS 268", "EECS 420", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 220"]
+		"courses": ["EECS 138", "EECS 168", "EECS 211", "EECS 221", "EECS 268", "EECS 420", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 220"],
+		"color": LIME
+		
 	},
 	{
 		"name": "Porter Furlong",
 		"times": [["W", 11.5, 12.5]],
-		"courses": ["EECS 210"]
+		"courses": ["EECS 210"],
+		"color": PINK
 	},
-	{"name":"","times":[],"courses":[]}, // Skip a color
 	{
 		"name": "Rafael Alaras",
 		"times": [["T", 13, 14]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
+		"color": ORANGE
 	},
-	{
-		"name": "Kameron Bielawski",
-		"times": [["M", 13.5, 14.5], ["F", 13.5, 14.5]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"]
-	}
 ];
 
 // Length of a tutoring block in hours
 const BLOCK_SIZE = 0.5;
 
 // Colors to assign to tutors (from https://www.materialpalette.com/)
-const COLORS = ["#F44336" /*red*/, "#2196F3" /*blue*/, "#9C27B0" /*purple*/, "#4CAF50" /*green*/,
-	"#FF5722" /*deep orange*/, "#00BCD4" /*cyan*/, "#3F51B5" /*indigo*/, "#FFC107" /*amber*/,
-	"#CDDC39" /*lime*/, "#E91E63" /*pink*/, "#673AB7" /*deep purple*/, "#FF9800" /*orange*/,
-	"#009688" /*teal*/, "#FFEB3B" /*yellow*/, "#03A9F4" /*light blue*/, "#607D8B" /*blue grey*/];
+const COLORS = [RED, BLUE, PURPLE, GREEN, DEEP_ORANGE, CYAN, INDIGO, AMBER, LIME, PINK, DEEP_PURPLE, ORANGE, TEAL, YELLOW, LIGHT_BLUE, BLUE_GRAY];
 
 // Sorted list of all courses offered by at least one tutor (Set is used to remove duplicates)
 const COURSES = [...new Set(TUTORS.reduce((courses, tutor) => courses.concat(tutor.courses), []))].sort();
@@ -86,8 +95,9 @@ const COURSES = [...new Set(TUTORS.reduce((courses, tutor) => courses.concat(tut
 const START_TIME = TUTORS.reduce((min, tutor) => Math.min(min, tutor.times.reduce((min, time) => Math.min(min, time[1]), 24)), 24);
 const END_TIME   = TUTORS.reduce((max, tutor) => Math.max(max, tutor.times.reduce((max, time) => Math.max(max, time[2]),  0)),  0);
 
+// Assign colors to tutors if not manually specified
 for (let i = 0; i < TUTORS.length; i++) {
-	TUTORS[i].color = COLORS[i % COLORS.length];
+	if (!TUTORS[i].color) TUTORS[i].color = COLORS[i % COLORS.length];
 }
 
 for (let course of COURSES) {
