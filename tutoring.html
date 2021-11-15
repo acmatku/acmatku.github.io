@@ -119,6 +119,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-		<script src="js/tutoring.js?rev=3"></script>
+		<script type="text/javascript">
+			var cachebuster = Math.round(new Date().getTime() / 1000);
+			document.write('<script type="text/javascript" src="js/tutoring.js?cb=' + cachebuster + '"></scr' + 'ipt>');
+		</script>
     </body>
 </html>
