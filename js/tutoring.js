@@ -34,7 +34,7 @@ const TUTORS = [
 	{
 		"name": "Drake Prebyl", 
 		"times": [["T", 11, 12]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125"],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125", "PHSX 210/211"],
 		"color": DEEP_PURPLE
 	},
 	{
@@ -62,11 +62,10 @@ const TUTORS = [
 		"color": AMBER
 	},
 	{
-		"name": "Suhaib Ansari",
-		"times": [["M", 9.5, 10.5], ["T", 11, 13], ["R", 11, 13], ["F", 9.5, 10.5]],
-		"courses": ["EECS 138", "EECS 168", "EECS 211", "EECS 221", "EECS 268", "EECS 420", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 220"],
-		"color": LIME
-		
+		"name": "Vinayak Jha",
+		"times": [["M", 9, 10]],
+		"courses": ["MATH 125", "MATH 126", "PHSX 210/211", "PHSX 212"],
+		"color": TEAL
 	},
 	{
 		"name": "Porter Furlong",
