@@ -20,12 +20,6 @@ const TUTORS = [
 		"color": RED
 	},
 	{
-		"name": "Rohan Chinalachaiagari",
-		"times": [["T", 10, 12]],
-		"courses": ["EECS 140", "MATH 125", "MATH 126"],
-		"color": BLUE
-	},
-	{
 		"name": "Adair Torres",
 		"times": [["M", 10, 11], ["W", 10, 11.5], ["W", 15, 16], ["R", 13, 16], ["F", 10, 11.5], ["F", 15, 16]],
 		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"],
