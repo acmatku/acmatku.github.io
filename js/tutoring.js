@@ -73,6 +73,12 @@ const TUTORS = [
 		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
 		"color": ORANGE
 	},
+	{
+		"name": "Ahmet Soyyigit",
+		"times": [["R", 14.5, 16]],
+		"courses": ["EECS 138", "EECS 168", "EECS 268", "EECS 388"],
+		"color": BLUE
+	}
 ];
 
 // Length of a tutoring block in hours
