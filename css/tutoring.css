@@ -43,3 +43,8 @@
 	text-shadow: 1px 1px 1px black;
 	cursor: pointer;
 }
+
+.table td.placeholder {
+	padding-top: 16em;
+	padding-bottom: 16em;
+}
