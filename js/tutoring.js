@@ -14,71 +14,57 @@ const TUTORS = [
 		"color": BLUE // optional, will be assigned automatically if unspecified
 	},*/
 	{
-		"name": "Rishab Bhat",
-		"times": [["M", 9, 10], ["W", 9, 10]],
-		"courses": ["EECS 138", "EECS 168", "EECS 268"],
-		"color": RED
-	},
-	{
-		"name": "Adair Torres",
-		"times": [["M", 10, 11], ["W", 10, 11.5], ["W", 15, 16], ["R", 13, 16], ["F", 10, 11.5], ["F", 15, 16]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"],
-		"color": GREEN
-	},
-	{
-		"name": "Drake Prebyl", 
-		"times": [["T", 11, 12]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125", "PHSX 210/211"],
-		"color": DEEP_PURPLE
-	},
-	{
-		"name": "Firangiz Ganbarli",
-		"times": [["R", 9, 10.5]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 127"],
-		"color": CYAN
-	},
-	{
-		"name": "Kameron Bielawski",
-		"times": [["M", 14, 15], ["F", 14, 15]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 210", "EECS 268", "EECS 368", "EECS 388", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
-		"color": DEEP_ORANGE
+		"name": "Bhavik Goplani",
+		"times": [["F", 10, 12]],
+		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"],
 	},
 	{
 		"name": "Jacky Lin",
-		"times": [["M", 14.5, 16], ["T", 14.5, 15.5], ["W", 14.5, 15.5], ["F", 14.5, 15.5]],
-		"courses": ["EECS 168", "MATH 125", "MATH 126", "MATH 127"],
-		"color": INDIGO
+		"times": [["M", 12.5, 13.5]],
+		"courses": ["EECS 168", "EECS 268", "MATH 125", "MATH 126", "MATH 127"],
 	},
 	{
-		"name": "Landen Doty",
-		"times": [["T", 15, 16], ["F", 11, 12]],
-		"courses": ["EECS 140", "EECS 168", "MATH 125", "MATH 126", "MATH 290"],
-		"color": AMBER
-	},
-	{
-		"name": "Vinayak Jha",
+		"name": "Quang Nguyen",
 		"times": [["M", 9, 10]],
-		"courses": ["MATH 125", "MATH 126", "PHSX 210/211", "PHSX 212"],
-		"color": TEAL
-	},
-	{
-		"name": "Porter Furlong",
-		"times": [["W", 11.5, 12.5]],
-		"courses": ["EECS 210"],
-		"color": PINK
-	},
-	{
-		"name": "Rafael Alaras",
-		"times": [["T", 13, 14]],
-		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
-		"color": ORANGE
+		"courses": ["EECS 138"],
 	},
 	{
 		"name": "Ahmet Soyyigit",
-		"times": [["R", 14.5, 16]],
-		"courses": ["EECS 138", "EECS 168", "EECS 268", "EECS 388"],
-		"color": BLUE
-	}
+		"times": [["F", 14.5, 16]],
+		"courses": ["EECS 168", "EECS 268", "EECS 388", "EECS 645", "EECS 678", "Coding interviews"],
+	},
+	{
+		"name": "Firangiz Ganbarli",
+		"times": [["T", 9, 10.5]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "MATH 125", "MATH 126", "MATH 127", "MATH 220", "MATH 290"],
+	},
+	{
+		"name": "Abir Haque",
+		"times": [["T", 10, 10.5], ["R", 10, 11]],
+		"courses": ["EECS 140", "MATH 125", "MATH 126"],
+	},
+	{
+		"name": "Michelle Chen",
+		"times": [["M", 14, 14.5], ["W", 14, 14.5], ["F", 14, 14.5]],
+		"courses": ["EECS 140", "MATH 127"],
+	},
+	{
+		"name": "Alice Kuang",
+		"times": [["T", 10.5, 11.5]],
+		"courses": ["EECS 140", "EECS 368", "MATH 290"],
+	},
+	{
+		"name": "Suhaib Ansari",
+		"times": [["T", 13, 14], ["W", 13.5, 14.5]],
+		"courses": ["EECS 168", "EECS 268", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127"],
+		"color": LIME
+	},
+	{
+		"name": "Drake Prebyl",
+		"times": [["R", 13, 14]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125", "PHSX 210/211"],
+		"color": DEEP_PURPLE
+	},
 ];
 
 // Length of a tutoring block in hours
