@@ -44,26 +44,44 @@ const TUTORS = [
 		"courses": ["EECS 140", "MATH 125", "MATH 126"],
 	},
 	{
-		"name": "Michelle Chen",
-		"times": [["M", 14, 14.5], ["W", 14, 14.5], ["F", 14, 14.5]],
-		"courses": ["EECS 140", "MATH 127"],
-	},
-	{
-		"name": "Alice Kuang",
-		"times": [["T", 10.5, 11.5]],
-		"courses": ["EECS 140", "EECS 368", "MATH 290"],
-	},
-	{
 		"name": "Suhaib Ansari",
 		"times": [["T", 13, 14], ["W", 13.5, 14.5]],
 		"courses": ["EECS 168", "EECS 268", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127"],
 		"color": LIME
 	},
 	{
+		"name": "Michelle Chen",
+		"times": [["M", 14, 14.5], ["W", 14, 14.5], ["F", 14, 14.5]],
+		"courses": ["EECS 140", "MATH 127"],
+		"color": INDIGO
+	},
+	{
+		"name": "Alice Kuang",
+		"times": [["T", 10.5, 11.5]],
+		"courses": ["EECS 140", "EECS 368", "MATH 290"],
+		"color": PINK
+	},
+	{
 		"name": "Drake Prebyl",
 		"times": [["R", 13, 14]],
 		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 388", "MATH 125", "PHSX 210/211"],
 		"color": DEEP_PURPLE
+	},
+	{
+		"name": "Rafael Alaras",
+		"times": [["R", 11, 12]],
+		"courses": ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "EECS 368", "EECS 560", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
+		"color": AMBER
+	},
+	{
+		"name": "Ethan Grantz",
+		"times": [["W", 13, 15]],
+		"courses": ["EECS 168", "EECS 268"]
+	},
+	{
+		"name": "Nina Boonyasiti",
+		"times": [["R", 12, 13]],
+		"courses": ["EECS 168", "Coding interviews"],
 	},
 ];
 
