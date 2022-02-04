@@ -83,6 +83,11 @@ const TUTORS = [
 		"times": [["R", 12, 13]],
 		"courses": ["EECS 168", "Coding interviews"],
 	},
+	{
+		"name": "James Hurd",
+		"times": [["R", 14, 16]],
+		"courses": ["EECS 140", "MATH 125", "MATH 126"],
+	},
 ];
 
 // Length of a tutoring block in hours
