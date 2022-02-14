@@ -50,12 +50,6 @@ const TUTORS = [
 		"color": LIME
 	},
 	{
-		"name": "Michelle Chen",
-		"times": [["M", 14, 14.5], ["W", 14, 14.5], ["F", 14, 14.5]],
-		"courses": ["EECS 140", "MATH 127"],
-		"color": INDIGO
-	},
-	{
 		"name": "Alice Kuang",
 		"times": [["T", 10.5, 11.5]],
 		"courses": ["EECS 140", "EECS 368", "MATH 290"],
@@ -76,17 +70,20 @@ const TUTORS = [
 	{
 		"name": "Ethan Grantz",
 		"times": [["W", 13, 15]],
-		"courses": ["EECS 168", "EECS 268"]
+		"courses": ["EECS 168", "EECS 268"],
+		"color": ORANGE
 	},
 	{
 		"name": "Nina Boonyasiti",
 		"times": [["R", 12, 13]],
 		"courses": ["EECS 168", "Coding interviews"],
+		"color": TEAL
 	},
 	{
 		"name": "James Hurd",
 		"times": [["R", 14, 16]],
 		"courses": ["EECS 140", "MATH 125", "MATH 126"],
+		"color": YELLOW
 	},
 ];
 
