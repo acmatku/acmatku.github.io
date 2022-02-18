@@ -30,7 +30,7 @@ const TUTORS = [
 	},
 	{
 		"name": "Ahmet Soyyigit",
-		"times": [["F", 14.5, 16]],
+		"times": [["T", 14.5, 16]],
 		"courses": ["EECS 168", "EECS 268", "EECS 388", "EECS 645", "EECS 678", "Coding interviews"],
 	},
 	{
