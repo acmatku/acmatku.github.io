@@ -45,7 +45,7 @@ const TUTORS = [
 	},
 	{
 		"name": "Suhaib Ansari",
-		"times": [["T", 13, 14], ["W", 13.5, 14.5]],
+		"times": [["T", 13, 14], ["R", 13, 14]],
 		"courses": ["EECS 168", "EECS 268", "EECS 510", "EECS 560", "MATH 125", "MATH 126", "MATH 127"],
 		"color": LIME
 	},
