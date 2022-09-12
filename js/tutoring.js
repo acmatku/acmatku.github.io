@@ -116,7 +116,7 @@ const TUTORS = [
   },
   {
     name: "Tej Gumaste",
-    times: [["T", 11, 12.5]],
+    times: [["F", 11, 12.5]],
     courses: ["EECS 168", "MATH 125", "MATH 126"],
     color: PINK,
   },
