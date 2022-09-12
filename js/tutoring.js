@@ -154,8 +154,8 @@ const TUTORS = [
   {
     name: "Ethan Osorio",
     times: [
-      ["M", 15, 16],
-      ["R", 15, 16],
+      ["T", 12.5, 13.5],
+      ["R", 12, 13],
     ],
     courses: ["EECS 168", "EECS 210", "EECS 268", "EECS 368"],
     color: ORANGE,
