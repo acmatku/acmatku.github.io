@@ -59,7 +59,7 @@ const TUTORS = [
     name: "Alexis Ng",
     times: [
       ["R", 9, 10.5],
-      ["F", 1, 2],
+      ["F", 13, 14],
     ],
     courses: ["EECS 140", "EECS 168", "EECS 268", "MATH 290"],
   },
