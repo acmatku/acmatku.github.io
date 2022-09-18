@@ -65,7 +65,7 @@ const TUTORS = [
   },
   {
     name: "Firangiz Ganbarli",
-    times: [["W", 15, 16]],
+    times: [["M", 11, 12], ["W", 14.5, 16]],
     courses: [
       "EECS 168",
       "EECS 140",
