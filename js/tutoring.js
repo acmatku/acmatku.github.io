@@ -53,7 +53,7 @@ const TUTORS = [
       ["M", 9, 10.5],
       ["F", 9, 10.5],
     ],
-    courses: ["MATH 125", "MATH 126", "MATH 127"],
+    courses: ["MATH 125", "MATH 127", "MATH 220", "MATH 290"],
   },
   {
     name: "Alexis Ng",
@@ -65,7 +65,7 @@ const TUTORS = [
   },
   {
     name: "Firangiz Ganbarli",
-    times: [["M", 11, 12], ["W", 14.5, 16]],
+    times: [["M", 11, 12]],
     courses: [
       "EECS 168",
       "EECS 140",
