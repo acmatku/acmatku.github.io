@@ -157,10 +157,20 @@ const TUTORS = [
     courses: ["EECS 168", "EECS 210", "EECS 268", "EECS 368"],
     color: ORANGE,
   },
+  {
+    name: "Yara Al-Shorman",
+    times: [
+      ["W", 15, 16],
+      ["R", 13.5, 16],
+    ],
+    courses: ["EECS 168", "EECS 140", "EECS 268", "MATH 125", "MATH 126"],
+    color: TEAL,
+  },
 
   /*	
-		"color": TEAL
 		"color": YELLOW
+    LIGHT_BLUE,
+    BLUE_GRAY,
 	*/
 ];
 
