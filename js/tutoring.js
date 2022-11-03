@@ -143,7 +143,6 @@ const TUTORS = [
     name: "Kyle Spragg",
     times: [
       ["M", 15, 16],
-      ["R", 15, 16],
     ],
     courses: ["MATH 125", "MATH 126"],
     color: AMBER,
