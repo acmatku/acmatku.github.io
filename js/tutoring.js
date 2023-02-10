@@ -46,7 +46,7 @@ const TUTORS = [
   {
     name: 'Manish Singh',
     times: [["W", 10, 11], ["F", 13, 14]],
-    courses: ['EECS 104', 'EECS 125', 'MATH 168'],
+    courses: ['EECS 140', 'MATH 125', 'EECS 168'],
     color: GREEN,
   },
   {
