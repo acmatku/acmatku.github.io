@@ -34,13 +34,13 @@ const TUTORS = [
   {
     name: 'Abir Haque',
     times: [["W", 9, 10], ["F", 9, 10]],
-    courses: ['EECS 138', 'EECS 140', 'EECS 168', 'EECS 210', 'EECS 268', 'EECS 388', 'MATH 125', 'MATH 126', 'MATH 127', 'MATH 290'],        
+    courses: ['C++', 'EECS 138', 'EECS 140', 'EECS 168', 'EECS 210', 'EECS 268', 'EECS 388', 'MATH 125', 'MATH 126', 'MATH 127', 'MATH 290'],        
     color: BLUE,
   },
   {
     name: 'Zoe Kulphongpatana',
     times: [["M", 11, 13], ["W", 11, 13]],
-    courses: ['EECS 140', 'EECS 168', 'EECS 268', 'EECS 368', 'EECS 448', 'EECS 510'],
+    courses: ['C++', 'EECS 140', 'EECS 168', 'EECS 268', 'EECS 368', 'EECS 448', 'EECS 510'],
     color: PURPLE,
   },
   {
@@ -82,7 +82,7 @@ const TUTORS = [
   {
     name: 'Adair Torres',
     times: [["M", 15, 16], ["W", 15, 16], ["R", 14.5, 16], ["F", 15, 16]],
-    courses: ['EECS 140', 'EECS 168', 'EECS 268', 'EECS 368', 'EECS 510', 'MATH 125', 'MATH 126', 'MATH 127', 'MATH 290'],
+    courses: ['C++', 'EECS 140', 'EECS 168', 'EECS 268', 'EECS 368', 'EECS 510', 'MATH 125', 'MATH 126', 'MATH 127', 'MATH 290'],
     color: PINK,
   },
 
