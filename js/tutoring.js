@@ -29,14 +29,6 @@ const Colors = {
  */
 const TUTORS = [
 	{
-		name: "Anh Hoang",
-		times: [
-			["M", 9, 9.5],
-			["T", 9, 9.5],
-		],
-		courses: ["MATH 125"],
-	},
-	{
 		name: "Raven Duong",
 		times: [
 			["M", 9, 10],
