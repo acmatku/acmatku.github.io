@@ -3,7 +3,6 @@
 	min-width: 800px;
 }
 
-
 #schedule-table > thead > tr > th:first-child {
 	width: 100px; /* two lines */
 }
