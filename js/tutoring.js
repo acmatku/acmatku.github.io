@@ -125,7 +125,7 @@ const TUTORS = [
 		name: "Edbert Jenson",
 		times: [
 			["T", 15, 16],
-			["R", 15, 16],
+			["R", 15, 15.5],
 		],
 		courses: [
 			"EECS 140",
