@@ -122,7 +122,7 @@ const TUTORS = [
 		courses: ["MATH 125"],
 	},
 	{
-		name: "Edbert Jenson",
+		name: "Edbert Jensen",
 		times: [
 			["T", 15, 16],
 			["R", 15, 15.5],
