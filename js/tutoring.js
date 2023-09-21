@@ -93,7 +93,7 @@ const TUTORS = [
 	{
 		name: "Aniketh Aatipamula",
 		times: [
-			["T", 11, 12.5],
+			["T", 11.5, 12.5],
 			["R", 11, 12],
 		],
 		courses: ["EECS 140", "EECS 168", "EECS 268", "MATH 125", "MATH 126"],
