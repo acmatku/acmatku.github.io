@@ -1,0 +1,49 @@
+#schedule-table {
+	table-layout: fixed;
+	min-width: 800px;
+}
+
+#schedule-table > thead > tr > th:first-child {
+	width: 100px; /* two lines */
+}
+@media (min-width: 992px) {
+	#schedule-table > thead > tr > th:first-child {
+		width: 170px; /* one line */
+	}
+}
+
+#schedule tr {
+	/* Fake height needed to get 100% height div working */
+	height: 1px;
+}
+
+/* A table cell for a timeslot containing 0 or more tutors */
+.tutor-cell {
+	height: inherit;
+	padding: 0 !important;
+	border-top: 0 none !important;
+	border-bottom: 0 none !important;
+}
+
+/* Flexbox container (cannot be the table cell itself) */
+.tutor-cell > div {
+	display: flex;
+	height: 100%;
+}
+
+/* Individual colored box for a tutor/timeslot */
+.tutor-cell > div > div {
+	height: 100%;
+	padding: 0.75rem 0.25rem;
+	flex-grow: 1;
+	flex-basis: 0;
+	color: white;
+	hyphens: auto;
+	text-shadow: 1px 1px 1px black;
+	cursor: pointer;
+}
+
+.table td.placeholder {
+	padding-top: 16em;
+	padding-bottom: 16em;
+}
