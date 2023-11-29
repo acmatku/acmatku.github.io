@@ -1,0 +1,85 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import {OfficerList} from '~/data/officers.js';
+
+const metadata = {
+  title: 'About us',
+};
+
+---
+
+<Layout metadata={metadata}>
+  <Hero tagline="Officers"
+  >
+    <Fragment slot="title">
+      Meet the Officers
+    </Fragment>
+
+    <Fragment slot="subtitle">The officers that make it all happen!</Fragment>
+  </Hero>
+
+  <!-- Officers Grid ******************* -->
+  <div class="officer-sec">
+  <div class="officers-grid">
+    {OfficerList.map((officer) => ( // Using the renamed import here
+      <div class="officer-card">
+        <img src={officer.image} alt={officer.name} />
+        <h5>{officer.name}</h5>
+        <p>{officer.role}</p>
+      </div>
+    ))}
+  </div>
+</div>
+</Layout>
+
+<style>
+  .officer-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .officers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 25px;
+    padding: 20px;
+    width: 70%; 
+  }
+  
+  .officer-card {
+    text-align: center;
+  }
+
+  .officer-card img {
+    transition: transform 0.25s;
+  }
+
+  .officer-card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+  
+  .officer-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10%; /* Adjusted for slightly round images */
+  }
+  
+  .officer-card h5 {
+    font-weight: bold; /* Making the name bold */
+    margin-top: 10px; /* Adding some space between the image and the name */
+    font-size: 1.1em; /* Slightly larger font size for better readability */
+  }
+  
+  .officer-card p {
+    margin-top: 5px; /* Adding some space between the name and the role */
+    font-style: italic; /* Making the role italic */
+  }
+  </style>
+  

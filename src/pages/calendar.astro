@@ -1,0 +1,39 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Calendar"
+  >
+    <Fragment slot="title">
+      Come see when we meet! <br />
+    </Fragment>
+
+    <Fragment slot="subtitle">View our calendar below </Fragment>
+  </Hero>
+
+
+  <div class="d-none d-md-block responsive-iframe-container" style="display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=acmukansas%40gmail.com&ctz=America%2FChicago"
+      style="border: 0, "
+      width="800"
+      height="600"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+  </div>
+
+  
+</Layout>

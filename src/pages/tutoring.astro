@@ -1,0 +1,43 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Tutors from '~/components/TutorSchedule.jsx';
+
+const metadata = {
+  title: 'About us',
+};
+// Tutor data
+
+
+
+
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Tutoring"
+  >
+    <Fragment slot="title">
+      We are here to help! <br />
+    </Fragment>
+
+    <Fragment slot="subtitle">All tutoring is held in <b>LEEP2 1328</b></Fragment>
+  </Hero>
+
+  <Tutors client:load/>
+  <Hero
+    tagline="JOIN THE TEAM"
+  >
+    <Fragment slot="title">
+      Interested in becoming a tutor? <br />
+    </Fragment>
+
+    <Fragment slot="subtitle">Join our discord to learn how!</Fragment>
+
+
+
+    
+  </Hero>
+</Layout>
