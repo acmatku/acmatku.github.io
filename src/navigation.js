@@ -6,6 +6,10 @@ export const headerData = {
       text: 'About Us',
       href: getPermalink('/'),
     },
+    {
+      text: 'Officers',
+      href: getPermalink('/officers'),
+    },
 
     {
       text: 'Calendar',
@@ -14,10 +18,6 @@ export const headerData = {
     {
       text: 'Tutoring',
       href: getPermalink('/tutoring'),
-    },
-    {
-      text: 'Officers',
-      href: getPermalink('/officers'),
     },
   ],
   actions: [{ text: 'Discord', href: 'https://discord.com/invite/yhRshEnJUB', target: '_blank' }],
