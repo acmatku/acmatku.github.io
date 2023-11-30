@@ -20,7 +20,7 @@ export default function Tutors() {
   // Update the cell style to include only vertical borders
   const cellStyle = {
     padding: '0',
-    minHeight: '50px',
+    minHeight: '30px',
     borderTop: 'none', // Remove top border of the cell
     borderBottom: 'none', // Remove bottom border of the cell
     // Keep any other styles you have for vertical borders if needed
@@ -79,7 +79,7 @@ export default function Tutors() {
 
   const tutorNameStyle = (color) => ({
     backgroundColor: color, // Add a background color to improve visibility
-    padding: '4px', // Add some padding for spacing
+    padding: '1px', // Add some padding for spacing
     color: 'white', // Change the text color to white
     height: '100%', // Ensure full height
     width: '100%',  // Ensure full width
@@ -88,7 +88,7 @@ export default function Tutors() {
     alignItems: 'center', // Center vertically
     textAlign: 'center', // Center text
     minHeight: '40px', // Ensure that even empty slots have a minimum height
-    opacity: 0.95, // Reduce opacity to improve visibility of overlapping slots
+    opacity: 0.97, // Reduce opacity to improve visibility of overlapping slots
   });
 
 
@@ -102,8 +102,9 @@ export default function Tutors() {
 
   return (
     <div className='grid justify-center my-4'>
+    <div className='grid justify-center my-4'>
       {/* Add a dropdown for class selection */}
-      <div className='flex justify-center my-4'>
+      <div className='flex justify-center my-4'>  
         <div>
         <label htmlFor="classSelect" className="mr-2">Select a course: </label>
         <select id="classSelect" onChange={handleClassChange} value={selectedClass} className='class="inline-flex justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm '>
@@ -120,6 +121,7 @@ export default function Tutors() {
 
       {/* ... (Your existing code for the table header and container) */}
       <div className="container flex justify-center items-center">
+      <div className="scrollable-table-container" style={{ overflowX: 'auto', maxWidth: '100vw', WebkitOverflowScrolling: 'touch' }}>
         <div className="row">
           <div className="col-sm col-sm-padding justify-content-center align-self-center">
             <div className="overflow-auto ">
@@ -163,6 +165,7 @@ export default function Tutors() {
                 ))}
                 </tbody>
               </table>
+              </div>
             </div>
           </div>
         </div>
@@ -172,6 +175,7 @@ export default function Tutors() {
         <div className="row">
         </div>
       </div>
+    </div>
     </div>
   );
 }

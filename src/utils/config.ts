@@ -78,7 +78,7 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'ACM@KU';
+const DEFAULT_SITE_NAME = 'KU ACM';
 
 const getSite = () => {
   const _default = {

@@ -11,11 +11,9 @@ const COLORS = {
   ORANGE: "#FF9800",
   RED: "#F44336",
   BROWN: "#795548",
-  MAGENTA: "#E91E63",
   NAVY: "#000080",
   DARK_BEIGE: "#FFCC99",
   DARK_GREEN: "#006400",
-  
 
 };
 

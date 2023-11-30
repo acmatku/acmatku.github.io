@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'ACM@KU',
+  title: 'KU ACM',
   ignoreTitleTemplate: true,
 };
 ---
@@ -28,13 +28,13 @@ const metadata = {
     ]}
     image={{ src: '~/assets/images/hero.jpg', alt: 'AstroWind Hero Image' }}
   >
-    <Fragment slot="title">ACM @ KU</Fragment>
+    <Fragment slot="title">KU ACM</Fragment>
     
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">ACM</span> brings together computing educators, researchers, and professionals to
-        inspire dialogue, share resources, and address the field's challenges.</span
+        We are a group of students with one goal: building a greater, more collaborative computing community at The University of Kansas.</span
       >
+      <span><br><br>Check the Calendar tab or join our Discord to see when we meet next!</span>
     </Fragment>
   </Hero>
 
@@ -47,13 +47,13 @@ const metadata = {
   <Features
     id="about-us"
     tagline="What we do"
-    title="About ACM at KU"
+    title="About KU ACM"
     subtitle="We are the largest Engineering student organization at the University of Kansas. We are a student chapter of the Association for Computing Machinery (ACM)."
     items={[
       {
         title: 'Weekly Meetings',
         description:
-          "ACM@KU hosts weekly meetings that provide presentations from companies like Cerner, Paycom, and Garmin. We also host student presentations that show off new and cutting edge technologies, don't forget to grab a slice of pizza while you watch!",
+          "KU ACM hosts weekly meetings that provide presentations from companies like Cerner, Paycom, and Garmin. We also host student presentations that show off new and cutting edge technologies, don't forget to grab a slice of pizza while you watch!",
         icon: 'tabler:calendar-event',
       },
       {
@@ -65,13 +65,13 @@ const metadata = {
       {
         title: 'Tutoring',
         description:
-          'ACM@KU also provides free tutoring for many engineering classes including most EECS classes 500 level and below, Calculus 1-3, and linear algebra.',
+          'KU ACM also provides free tutoring for many engineering classes including most EECS classes 500 level and below, Calculus 1-3, and linear algebra.',
         icon: 'tabler:book',
       },
       {
         title: 'Tutoring',
         description:
-          'ACM@KU also provides free tutoring for many engineering classes including most EECS classes 500 level and below, Calculus 1-3, and linear algebra.',
+          'KU ACM also provides free tutoring for many engineering classes including most EECS classes 500 level and below, Calculus 1-3, and linear algebra.',
         icon: 'tabler:book',
       },
     ]}
@@ -350,26 +350,4 @@ const metadata = {
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
-  </CallToAction>
 </Layout>

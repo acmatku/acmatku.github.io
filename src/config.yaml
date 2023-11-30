@@ -1,5 +1,5 @@
 site:
-  name: ACM@KU
+  name: KU ACM
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: ACM@KU
-    template: '%s — ACM@KU'
+    default: KU ACM
+    template: '%s | KU ACM'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: ACM@KU
+    site_name: KU ACM
     images:
       - url: '~/assets/images/default.png'
         width: 1200
