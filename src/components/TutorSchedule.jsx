@@ -11,6 +11,7 @@ export default function Tutors() {
     tableLayout: 'fixed', // Prevents the table from resizing cells based on content
     width: '100%', // Ensures that the table takes up the full width of the container
     border: 0, // Removes the border around the table
+    borderSpacing: "0px",
   };
 
   const rowStyle = {
@@ -20,18 +21,20 @@ export default function Tutors() {
   // Update the cell style to include only vertical borders
   const cellStyle = {
     padding: '0',
-    minHeight: '30px',
+    margin: '0',
+    minHeight: '48px',
     borderTop: 'none', // Remove top border of the cell
     borderBottom: 'none', // Remove bottom border of the cell
     // Keep any other styles you have for vertical borders if needed
   };
 
   const timeStyle = {
-    width: '10%', // Ensures that each weekday column is the same width  
+    width: '8%', // Ensures that each weekday column is the same width  
     textAlign: 'center',
     border: 1,
-    height: '40px',
-    minHeight: '40px', // Ensure that even empty slots have a minimum height
+    height: '30px',
+    minHeight: '48px', // Ensure that even empty slots have a minimum height
+    overflow: 'hidden', // Hide any overflow content
 
   }
 
@@ -79,15 +82,14 @@ export default function Tutors() {
 
   const tutorNameStyle = (color) => ({
     backgroundColor: color, // Add a background color to improve visibility
-    padding: '1px', // Add some padding for spacing
+    padding: '0px', // Add some padding for spacing
     color: 'white', // Change the text color to white
     height: '100%', // Ensure full height
     width: '100%',  // Ensure full width
-    display: 'flex', // Use flexbox for alignment
     justifyContent: 'center', // Center horizontally
     alignItems: 'center', // Center vertically
     textAlign: 'center', // Center text
-    minHeight: '40px', // Ensure that even empty slots have a minimum height
+    minHeight: '48px', // Ensure that even empty slots have a minimum height
     opacity: 0.97, // Reduce opacity to improve visibility of overlapping slots
   });
 
