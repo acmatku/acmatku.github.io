@@ -95,7 +95,7 @@ ui:
         heading: rgb(247, 248, 248)
         muted: rgb(200, 188, 208)
         bgPage: rgb(3 6 32)
-        primary: rgb(29 78 216)
+        primary: rgb(100 100 100)
         secondary: rgb(30 58 138)
         accent: rgb(135 77 2267)
         info: rgb(58 191 248)

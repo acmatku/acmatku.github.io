@@ -21,7 +21,7 @@ let colorIndex = 0;
 
 export const TUTORS = [
   {
-    name: 'Charlie Doherty',
+    name: 'Charlie D.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['M', 10.5, 11.5],
@@ -37,7 +37,7 @@ export const TUTORS = [
     ]
   },
   {
-    name: 'Wyatt Payne',
+    name: 'Wyatt P.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['M', 14, 15.5],
@@ -53,7 +53,7 @@ export const TUTORS = [
     ]
   },
   {
-    name: 'Chris Cooper',
+    name: 'Chris C.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['M', 9, 10],
@@ -79,7 +79,7 @@ export const TUTORS = [
     ],
   },
   {
-    name: 'Ibrahim Sufi',
+    name: 'Ibrahim S.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['M', 12, 13],
@@ -98,7 +98,7 @@ export const TUTORS = [
 
   },
   {
-    name: 'Aniketh Aatipamula',
+    name: 'Aniketh A.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['T', 10, 13],
@@ -118,7 +118,7 @@ export const TUTORS = [
     ],
   },
   {
-    name: 'John Rader',
+    name: 'John R.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['R', 10, 11],
@@ -131,7 +131,7 @@ export const TUTORS = [
     ],
   },
   {
-    name: 'Louis Tracy',
+    name: 'Louis T.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['T', 14, 16],
@@ -144,7 +144,7 @@ export const TUTORS = [
     ],
   },
   {
-    name: 'Hunter Long',
+    name: 'Hunter L.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['W', 10, 12],
@@ -160,7 +160,7 @@ export const TUTORS = [
     ],
   },
   {
-    name: "Lauren D'Souza",
+    name: "Lauren D.",
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [
       ['W', 12, 14],
@@ -177,7 +177,7 @@ export const TUTORS = [
       'MATH 290'],
   },
   {
-    name: 'Dellie Wright',
+    name: 'Dellie W.',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
     times: [['M', 13, 14]],
     courses: ['EECS 140', 'EECS 168', 'MATH 125'],

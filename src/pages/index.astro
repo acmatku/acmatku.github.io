@@ -1,28 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import InfoSection from '../components/InfoSection';
 const metadata = {
   title: 'KU ACM',
   ignoreTitleTemplate: true,
 };
-const infoItems = [
-  {
-    title: 'Weekly Meetings',
-    description: "KU ACM hosts weekly meetings...",
-    imageSrc: '~/assets/images/feature-weekly-meetings.jpg',
-    reverseLayout: false
-  },
-  {
-    title: 'HackKU',
-    description: 'HackKU is an annual 36-hour hackathon...',
-    imageSrc: '~/assets/images/feature-hackku.jpg',
-    reverseLayout: true
-  },
-  // ... other items
-];
 ---
 
 <Layout metadata={metadata}>
@@ -45,9 +28,6 @@ const infoItems = [
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
-
-  <Note />
 
   <!-- Features Widget *************** -->
 

@@ -105,7 +105,7 @@ export default function Tutors() {
       {/* Add a dropdown for class selection */}
       <div className='flex justify-center my-4'>  
         <div>
-        <label htmlFor="classSelect" className="mr-2">Select a course: </label>
+        <label htmlFor="classSelect" className="mr-2">Filter by course: </label>
         <select id="classSelect" onChange={handleClassChange} value={selectedClass} className='class="inline-flex justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm '>
           <option value="">All</option>
           {Array.from(new Set(TUTORS.flatMap((tutor) => tutor.courses))).map((course) => (
@@ -141,7 +141,7 @@ export default function Tutors() {
                     {hour < 16 && (
                       <>
                         <tr style={rowStyle} className="hover:bg-gray-600">
-                          <td style={{ ...timeStyle, ...cellStyle }}>{`${prettyTime(hour)} - ${prettyTime(hour + 0.5)}`}</td>
+                          <td style={{ ...timeStyle, ...cellStyle }}>{`${prettyTime(hour)}`}</td>
                           {['M', 'T', 'W', 'R', 'F'].map((day) => (
                             <td key={day} style={cellStyle}>
                               {TUTORS.filter((tutor) =>
