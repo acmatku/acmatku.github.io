@@ -29,78 +29,10 @@ const Colors = {
  */
 const TUTORS = [
 	{
-		name: "Raven Duong",
-		times: [
-			["M", 9, 10],
-			["T", 9, 10],
-		],
-		courses: ["EECS 140", "EECS 210", "EECS 510", "MATH 125", "MATH 126", "MATH 127", "MATH 290"],
-	},
-	{
 		name: "Chris Cooper",
 		times: [
-			["W", 15, 16],
-			["F", 9, 10],
+			["M", 9, 10],
 		],
-		courses: [
-			"EECS 140",
-			"EECS 168",
-			"EECS 210",
-			"EECS 268",
-			"MATH 125",
-			"MATH 126",
-			"MATH 127",
-			"MATH 290",
-			"PHSX 210/211",
-			"PHSX 212",
-			"PHSX 216",
-			"PHSX 236",
-		],
-	},
-	{
-		name: "Ibrahim Sufi",
-		times: [["M", 10, 12]],
-		courses: ["EECS 168", "MATH 125", "MATH 126"],
-	},
-	{
-		name: "Jacky Lin",
-		times: [["M", 14, 15.5]],
-		courses: [
-			"EECS 168",
-			"EECS 268",
-			"EECS 330",
-			"EECS 348",
-			"EECS 468",
-			"EECS 560",
-			"MATH 125",
-			"MATH 126",
-			"MATH 127",
-		],
-	},
-	{
-		name: "Nabeel Ahmad",
-		times: [["M", 15.5, 16]],
-		courses: ["EECS 168", "MATH 125"],
-	},
-	{
-		name: "Roop Singh",
-		times: [
-			["T", 10, 11],
-			["F", 13, 14],
-		],
-		courses: ["EECS 168", "EECS 210", "EECS 268", "EECS 348", "EECS 510"],
-	},
-	{
-		name: "Aniketh Aatipamula",
-		times: [
-			["T", 11.5, 12.5],
-			["R", 11, 12],
-		],
-		courses: ["EECS 140", "EECS 168", "EECS 268", "MATH 125", "MATH 126"],
-	},
-	{
-		name: "Tram-Anh Ho",
-		times: [["T", 12.5, 13.5]],
 		courses: [
 			"EECS 140",
 			"EECS 168",
@@ -109,97 +41,161 @@ const TUTORS = [
 			"EECS 348",
 			"EECS 388",
 			"EECS 468",
+
 			"MATH 125",
 			"MATH 126",
+			"MATH 127",
+			"MATH 290",
+
+			"PHSX 210/211",
+			"PHSX 212",
+			"PHSX 216",
+			"PHSX 236",
+		],
+	},
+	{
+		name: "Charlie Doherty",
+		times: [
+			["M", 10.5, 11.5],
+			["F", 9, 10],
+	],
+		courses: [
+			"EECS 138",
+			"EECS 140",
+			"EECS 168",
+
+			"MATH 125",
+			"MATH 126"
+		],
+	},
+	{
+		name: "Ibrahim Sufi",
+		times: [
+			["M", 12, 13],
+			["F", 12, 13],
+		],
+		courses: [
+			"EECS 140",
+			"EECS 168",
+			"EECS 268",
+
+			"MATH 125",
+			"MATH 126",
+			"MATH 127",
+			"MATH 290",
+		],
+	},
+	{
+		name: "Dellie Wright",
+		times: [
+			["M", 13, 14],
+			["T", 13, 14],
+		],
+		courses: [
+			"EECS 138", 
+			"EECS 140", 
+			"EECS 168",
+			"EECS 210",
+			"EECS 268",
+
+		],
+	},
+	{
+		name: "Wyatt Payne",
+		times: [
+			["M", 14, 15.5],
+			["R", 9, 10],
+		],
+		courses: [
+			"EECS 168",
+		],
+	},
+	{
+		name: "Aniketh Aatipamula",
+		times: [
+			["T", 10, 13],
+		],
+		courses: [
+			"EECS 140", 
+			"EECS 168", 
+			"EECS 210",
+			"EECS 268", 
+			"EECS 348",
+			"EECS 388",
+			"EECS 468",
+
+			"MATH 125", 
+			"MATH 126",
+			"MATH 127",
+			"MATH 290",
+		],
+	},
+	{
+		name: "Louis Tracy",
+		times: [
+			["T", 14, 16],
+			["R", 14, 16],
+		],
+		courses: [
+			"EECS 330",
+			"EECS 447",
+			"EECS 510",
+		],
+	},
+	{
+		name: "Hunter Long",
+		times: [
+			["W", 10, 12],
+		],
+		courses: [
+			"EECS 168",
+			"EECS 268",
+
+			"MATH 125",
+			"MATH 126",
+			"MATH 290",
+		],
+	},
+	{
+		name: "Lauren D'Souza",
+		times: [
+			["W", 12, 14],
+		],
+		courses: [
+			"EECS 168",
+			"EECS 210", 
+			"EECS 268", 
+			"EECS 348",
+			"EECS 388",
+
+			"MATH 125",
+			"MATH 126",
+			"MATH 127", 
+			"MATH 290"],
+	},
+	{
+		name: "Nabeel Ahmad",
+		times: [["W", 15, 16]],
+		courses: [
+			"EECS 140", 
+			"EECS 168",
+			"EECS 210",
+			"EECS 268",
 		],
 	},
 	{
 		name: "John Rader",
 		times: [
-			["T", 13.5, 14.5],
-			["R", 12, 14],
-		],
-		courses: ["MATH 125"],
-	},
-	{
-		name: "Edbert Jensen",
-		times: [
-			["T", 15, 16],
-			["R", 15, 15.5],
+			["R", 10, 11],
+			["F", 15, 16],
 		],
 		courses: [
-			"EECS 140",
 			"EECS 168",
-			"EECS 210",
-			"EECS 268",
 			"MATH 125",
 			"MATH 126",
-			"MATH 127",
-			"MATH 290",
-			"PHSX 210/211",
-			"PHSX 212",
-			"PHSX 216",
-			"PHSX 236",
 		],
 	},
-	{
-		name: "Anh Hoang",
-		times: [
-			["W", 9, 9.5],
-			["R", 9, 9.5],
-		],
-		courses: ["MATH 125"],
-	},
-	{
-		name: "Andrew Huang",
-		times: [
-			["W", 9.5, 11],
-			["R", 9.5, 11],
-		],
-		courses: ["EECS 138", "EECS 168", "MATH 125", "MATH 126", "MATH 290"],
-	},
-	{
-		name: "Lauren D'Souza",
-		times: [
-			["W", 11, 12],
-			["F", 11, 12],
-		],
-		courses: ["EECS 138", "EECS 140", "EECS 168", "EECS 268", "MATH 127", "MATH 290"],
-	},
-	{
-		name: "Adair Torres",
-		times: [["W", 12.5, 15]],
-		courses: [
-			"EECS 140",
-			"EECS 168",
-			"EECS 210",
-			"EECS 268",
-			"EECS 330",
-			"EECS 348",
-			"EECS 388",
-			"EECS 461",
-			"EECS 510",
-			"MATH 125",
-			"MATH 126",
-			"MATH 127",
-			"MATH 290",
-		],
-	},
-	{
-		name: "Sean Hammel",
-		times: [["F", 10, 11]],
-		courses: ["EECS 140", "EECS 168", "EECS 268"],
-	},
-	{
-		name: "Dellie Wright",
-		times: [["F", 12, 13]],
-		courses: ["EECS 140", "EECS 168", "MATH 125"],
-	},
-	{
-		name: "Omar Mohammed",
-		times: [["F", 14, 15]],
-		courses: ["EECS 140", "EECS 168", "MATH 125"],
-	},
+	
 ];
 
 // Colors to assign to tutors (from https://www.materialpalette.com/)
