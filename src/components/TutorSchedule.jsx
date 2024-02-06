@@ -97,7 +97,6 @@ export default function Tutors() {
 
   const handleClassChange = (e) => {
     setSelectedClass(e.target.value); // Update the selected class when the dropdown changes
-    console.log(selectedClass)
   };
 
   return (
@@ -116,7 +115,6 @@ export default function Tutors() {
           ))}
         </select>
         </div>
-        {console.log('Component re-rendered')} {/* Add this line */}
       </div>
 
       {/* ... (Your existing code for the table header and container) */}
