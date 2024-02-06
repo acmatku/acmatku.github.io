@@ -16,27 +16,10 @@ const COLORS = {
   DARK_GREEN: "#006400",
 
 };
-
 const colorKeys = Object.keys(COLORS);
 let colorIndex = 0;
 
 export const TUTORS = [
-  {
-    name: 'Raven Duong',
-    color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
-    times: [
-      ['M', 9, 10],
-      ['T', 9, 10],
-    ],
-    courses: [
-    'EECS 140', 
-    'EECS 210', 
-    'EECS 510', 
-    'MATH 125', 
-    'MATH 126', 
-    'MATH 127', 
-    'MATH 290'],
-  },
   {
     name: 'Charlie Doherty',
     color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
@@ -175,15 +158,6 @@ export const TUTORS = [
       'MATH 290',
 
     ],
-  },
-  {
-    name: 'Andrew Huang',
-    color: COLORS[colorKeys[colorIndex++ % colorKeys.length]],
-    times: [
-      ['W', 9.5, 11],
-      ['R', 9.5, 11],
-    ],
-    courses: ['EECS 138', 'EECS 168', 'MATH 125', 'MATH 126', 'MATH 290'],
   },
   {
     name: "Lauren D'Souza",
