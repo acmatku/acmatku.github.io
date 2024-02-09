@@ -188,7 +188,7 @@ const TUTORS = [
 		name: "John Rader",
 		times: [
 			["R", 10, 11],
-			["F", 14, 16],
+			["F", 15, 16],
 		],
 		courses: [
 			"EECS 168",
