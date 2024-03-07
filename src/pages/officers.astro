@@ -2,6 +2,7 @@
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import {OfficerList} from '~/data/officers.js';
+import { Image } from 'astro:assets';
 
 const metadata = {
   title: 'Officers',
@@ -24,7 +25,9 @@ const metadata = {
   <div class="officers-grid">
     {OfficerList.map((officer) => (
       <div class="officer-card">
-        <a href={officer.link} target="_blank"><img src={officer.image} alt={officer.name} /></a>
+        <a href={officer.link} target="_blank">
+          <Image src={officer.image} alt={officer.name} width="100" height="300" />
+          </a>
         <h5>{officer.name}</h5>
         <p>{officer.role}</p>
       </div>
