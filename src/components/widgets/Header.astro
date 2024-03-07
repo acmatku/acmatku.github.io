@@ -7,6 +7,7 @@ import Button from '~/components/ui/Button.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
+import { Image } from 'astro:assets';
 
 interface Link {
   text?: string;
@@ -64,10 +65,12 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   >
     <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'left' }, 'flex justify-between']}>
       <a class="flex items-center" href={getHomePermalink()}>
-        <img
+        <Image
           class="h-20 w-auto px-2 md:px-1 "
-          src="src/assets/favicons/ico.png"
+          src="/ico.png"
           alt="Astro"
+          width="80"
+          height="80"
         />
       </a>
       <div class="flex items-center md:hidden">
