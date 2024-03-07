@@ -22,9 +22,9 @@ const metadata = {
   <!-- Officers Grid ******************* -->
   <div class="officer-sec">
   <div class="officers-grid">
-    {OfficerList.map((officer) => ( // Using the renamed import here
+    {OfficerList.map((officer) => (
       <div class="officer-card">
-        <img src={officer.image} alt={officer.name} />
+        <a href={officer.link} target="_blank"><img src={officer.image} alt={officer.name} /></a>
         <h5>{officer.name}</h5>
         <p>{officer.role}</p>
       </div>
