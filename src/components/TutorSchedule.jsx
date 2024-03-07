@@ -99,7 +99,6 @@ export default function Tutors() {
   return (
     <div className="grid justify-center my-4">
       <div className="grid justify-center my-4">
-        {/* Add a dropdown for class selection */}
         <div className="flex justify-center my-4">
           <div>
             <label htmlFor="classSelect" className="mr-2">
@@ -122,8 +121,6 @@ export default function Tutors() {
             </select>
           </div>
         </div>
-
-        {/* ... (Your existing code for the table header and container) */}
         <div className="container flex justify-center items-center">
           <div
             className="scrollable-table-container"
@@ -144,7 +141,6 @@ export default function Tutors() {
                     <thead>
                       <tr style={rowStyle}>
                         <th style={{ ...timeStyle, ...cellStyle }}></th>{" "}
-                        {/* Empty cell for the time column */}
                         <th style={{ ...weekdays, ...cellStyle }}>Mon</th>
                         <th style={{ ...weekdays, ...cellStyle }}>Tue</th>
                         <th style={{ ...weekdays, ...cellStyle }}>Wed</th>
@@ -153,7 +149,6 @@ export default function Tutors() {
                       </tr>
                     </thead>
                     <tbody id="schedule">
-                      {/* Map over the 30-minute time slots from 9 am to 4 pm */}
                       {Array.from({ length: 17 }, (_, i) => 9 + i * 0.5).map(
                         (hour) => (
                           <React.Fragment key={hour}>
