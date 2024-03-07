@@ -12,6 +12,18 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/alexis-ng/",
   },
   {
+    name: "Vivian Lara",
+    image: "src/assets/images/officers/vivian_lara.jpeg",
+    role: "Treasurer",
+    link: "https://www.linkedin.com/in/vi-lara/",
+  },
+  {
+    name: "Alexis Gray",
+    image: "src/assets/images/officers/alexisgray.jpeg",
+    role: "Secretary",
+    link: "https://www.linkedin.com/in/alexisgray623/",
+  },
+  {
     name: "Joshua Lee",
     image: "src/assets/images/officers/joshua_lee.jpeg",
     role: "Publicity Director",
@@ -29,34 +41,23 @@ export const OfficerList = [
     role: "HackKU Chair",
     link: "https://www.linkedin.com/in/kulphongpatana/",
   },
-  {
-    name: "Alexis Gray",
-    image: "src/assets/images/officers/alexisgray.jpeg",
-    role: "Secretary",
-    link: "https://www.linkedin.com/in/alexisgray623/",
-  },
-  {
-    name: "Vivian Lara",
-    image: "src/assets/images/officers/vivian_lara.jpeg",
-    role: "Treasurer",
-    link: "https://www.linkedin.com/in/vi-lara/",
-  },
-  {
-    name: "Dylan Kneidel",
-    image: "src/assets/images/officers/dylan_kneidel.jpg",
-    role: "Programming Club Co-Chair",
-    link: "https://www.linkedin.com/in/dylan-kneidel/",
-  },
-  {
-    name: "Delroy Wright",
-    image: "src/assets/images/officers/Delroy_Wright.jpg",
-    role: "Programming Club Co-Chair",
-    link: "https://www.linkedin.com/in/delroy-wright-440b35210/",
-  },
+
   {
     name: "Andrew Huang",
     image: "src/assets/images/officers/andrew_huang.jpg",
     role: "ESC/Expo Representative",
     link: "https://www.linkedin.com/in/andrew-l-huang/",
+  },
+  {
+    name: "Delroy Wright",
+    image: "src/assets/images/officers/Delroy_Wright.jpg",
+    role: "Programming Club Co-chair",
+    link: "https://www.linkedin.com/in/delroy-wright-440b35210/",
+  },
+  {
+    name: "Dylan Kneidel",
+    image: "src/assets/images/officers/dylan_kneidel.jpg",
+    role: "Programming Club Co-chair",
+    link: "https://www.linkedin.com/in/dylan-kneidel/",
   },
 ];

@@ -1,8 +1,8 @@
-import fs from 'fs';
-import yaml from 'js-yaml';
-import merge from 'lodash.merge';
+import fs from "fs";
+import yaml from "js-yaml";
+import merge from "lodash.merge";
 
-import type { MetaData } from '~/types';
+import type { MetaData } from "~/types";
 
 export interface SiteConfig {
   name: string;
@@ -11,7 +11,7 @@ export interface SiteConfig {
   trailingSlash?: boolean;
   googleSiteVerificationId?: string;
 }
-export interface MetaDataConfig extends Omit<MetaData, 'title'> {
+export interface MetaDataConfig extends Omit<MetaData, "title"> {
   title?: {
     default: string;
     template: string;
@@ -67,7 +67,7 @@ export interface AnalyticsConfig {
   };
 }
 
-const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
+const config = yaml.load(fs.readFileSync("src/config.yaml", "utf8")) as {
   site?: SiteConfig;
   metadata?: MetaDataConfig;
   i18n?: I18NConfig;
@@ -78,16 +78,16 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'KU ACM';
+const DEFAULT_SITE_NAME = "KU ACM";
 
 const getSite = () => {
   const _default = {
     name: DEFAULT_SITE_NAME,
-    site: undefined,
-    base: '/',
+    site: "https://kuacm.club",
+    base: "/",
     trailingSlash: false,
 
-    googleSiteVerificationId: '',
+    googleSiteVerificationId: "",
   };
 
   return merge({}, _default, config?.site ?? {}) as SiteConfig;
@@ -99,15 +99,15 @@ const getMetadata = () => {
   const _default = {
     title: {
       default: siteConfig?.name || DEFAULT_SITE_NAME,
-      template: '%s',
+      template: "%s",
     },
-    description: '',
+    description: "",
     robots: {
       index: false,
       follow: false,
     },
     openGraph: {
-      type: 'website',
+      type: "website",
     },
   };
 
@@ -116,18 +116,18 @@ const getMetadata = () => {
 
 const getI18N = () => {
   const _default = {
-    language: 'en',
-    textDirection: 'ltr',
+    language: "en",
+    textDirection: "ltr",
   };
 
   const value = merge({}, _default, config?.i18n ?? {});
 
   return Object.assign(value, {
     dateFormatter: new Intl.DateTimeFormat(value.language, {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-      timeZone: 'UTC',
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      timeZone: "UTC",
     }),
   }) as I18NConfig;
 };
@@ -138,7 +138,7 @@ const getAppBlog = () => {
     postsPerPage: 6,
     post: {
       isEnabled: true,
-      permalink: '/blog/%slug%',
+      permalink: "/blog/%slug%",
       robots: {
         index: true,
         follow: true,
@@ -146,7 +146,7 @@ const getAppBlog = () => {
     },
     list: {
       isEnabled: true,
-      pathname: 'blog',
+      pathname: "blog",
       robots: {
         index: true,
         follow: true,
@@ -154,7 +154,7 @@ const getAppBlog = () => {
     },
     category: {
       isEnabled: true,
-      pathname: 'category',
+      pathname: "category",
       robots: {
         index: true,
         follow: true,
@@ -162,7 +162,7 @@ const getAppBlog = () => {
     },
     tag: {
       isEnabled: true,
-      pathname: 'tag',
+      pathname: "tag",
       robots: {
         index: false,
         follow: true,
@@ -175,7 +175,7 @@ const getAppBlog = () => {
 
 const getUI = () => {
   const _default = {
-    theme: 'system',
+    theme: "system",
     classes: {},
     tokens: {},
   };
