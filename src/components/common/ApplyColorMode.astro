@@ -20,7 +20,7 @@ import { UI } from "~/utils/config";
     }
   }
 
-  if ((defaultTheme && defaultTheme.endsWith(":only")) || (!localStorage.theme && defaultTheme !== "system")) {
+  if ((defaultTheme && defaultTheme.endsWith(":only")) || (!localStorage.theme && defaultTheme !== "dark")) {
     applyTheme(defaultTheme.replace(":only", ""));
   } else if (
     localStorage.theme === "dark" ||
@@ -28,6 +28,6 @@ import { UI } from "~/utils/config";
   ) {
     applyTheme("dark");
   } else {
-    applyTheme("light");
+    applyTheme("dark");
   }
 </script>
