@@ -9,7 +9,7 @@ metadata:
   title:
     default: KU ACM
     template: "%s | KU ACM"
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Official Website of KU ACM Chapter."
   robots:
     index: true
     follow: true

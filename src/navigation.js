@@ -3,10 +3,6 @@ import { getPermalink, getAsset } from "./utils/permalinks";
 export const headerData = {
   links: [
     {
-      text: "About Us",
-      href: getPermalink("/"),
-    },
-    {
       text: "Officers",
       href: getPermalink("/officers"),
     },
@@ -22,7 +18,6 @@ export const headerData = {
     {
       text: "bugSmashers",
       href: getPermalink("/bugsmashers"),
-      //open in new tab
     },
     {
       text: "HackKU",
