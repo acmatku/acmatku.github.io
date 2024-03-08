@@ -48,6 +48,11 @@ export const footerData = {
       icon: "tabler:brand-discord",
       href: "https://discord.com/invite/yhRshEnJUB",
     },
+    {
+      ariaLabel: "Linktree",
+      icon: "tabler:link",
+      href: "https://linktr.ee/acmatku",
+    },
   ],
   footNote: `
     Made with ❤️ by KU ACM
