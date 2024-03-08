@@ -8,6 +8,7 @@ const metadata = {
   title: 'Officers',
 };
 
+
 ---
 
 <Layout metadata={metadata}>
@@ -25,9 +26,13 @@ const metadata = {
   <div class="officers-grid">
     {OfficerList.map((officer) => (
       <div class="officer-card">
-        <a href={officer.link} target="_blank">
+        <div class="image-container">
+       
           <Image src={officer.image} alt={officer.name} width="100" height="300" />
+          <a href={officer.link} target="_blank">
+          <div class="arrow">View LinkedIn</div> {/* Arrow icon */}
           </a>
+        </div>
         <h5>{officer.name}</h5>
         <p>{officer.role}</p>
       </div>
@@ -53,24 +58,31 @@ const metadata = {
   }
   
   .officer-card {
-    text-align: center;
-  }
+  text-align: center;
+  position: relative; /* Position relative for absolute positioning of the arrow */
+}
 
-  .officer-card img {
-    transition: transform 0.25s;
-  }
+.officer-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10%;
+  transition: border-radius 0.25s, transform 0.25s, filter 0.25s; /* Added filter transition */
+}
+.image-container:hover  img{
+  transform: scale(1.05);
+  border-radius: 5%;
+  filter: blur(3px); /* Added blur effect on hover */
+}
 
-  .officer-card img:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  }
-  
   .officer-card img {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 10%; /* Adjusted for slightly round images */
+    cursor: default /* Cursor pointer */
   }
   
   .officer-card h5 {
@@ -83,5 +95,28 @@ const metadata = {
     margin-top: 5px; /* Adding some space between the name and the role */
     font-style: italic; /* Making the role italic */
   }
+
+  /* Arrow styles */
+.officer-card .arrow {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.25s; /* Fade in on hover */
+}
+
+.image-container:hover .arrow {
+  opacity: 1; /* Show arrow on hover */
+}
+
+.arrow {
+  padding: 10px 20px; /* Padding for better visibility */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor pointer */
+  transition: opacity 1s; /* Fade in on hover */
+
+}
   </style>
   

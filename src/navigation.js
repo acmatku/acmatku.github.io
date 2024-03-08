@@ -31,7 +31,6 @@ export const headerData = {
       href: "https://discord.com/invite/yhRshEnJUB",
       target: "_blank",
       variant: "primary",
-      icon: "tabler:brand-discord",
     },
   ],
 };
