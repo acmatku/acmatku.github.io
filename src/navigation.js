@@ -19,6 +19,16 @@ export const headerData = {
       text: "Tutoring",
       href: getPermalink("/tutoring"),
     },
+    {
+      text: "bugSmashers",
+      href: getPermalink("/bugsmashers"),
+      //open in new tab
+    },
+    {
+      text: "HackKU",
+      href: "https://hackku.org/",
+      target: "_blank",
+    },
   ],
   actions: [
     {
@@ -50,7 +60,7 @@ export const footerData = {
     },
     {
       ariaLabel: "Linktree",
-      icon: "tabler:link",
+      icon: "tabler:brand-linktree",
       href: "https://linktr.ee/acmatku",
     },
   ],
