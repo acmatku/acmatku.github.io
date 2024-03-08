@@ -3,7 +3,7 @@ export const OfficerList = [
     name: "James Hurd",
     image: "/officers/james_hurd.jpg",
     role: "Co-chair",
-    link: "https://www.linkedin.com/in/jameshurd2718/",
+    link: "https://jameshurd.net",
   },
   {
     name: "Alexis Ng",
