@@ -13,32 +13,26 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    tagline="Tutoring"
-  >
-    <Fragment slot="title">
-      We are here to help! <br />
-    </Fragment>
+  <!-- <Hero tagline="Tutoring"> -->
+  <!--   <Fragment slot="title"> -->
+  <!--     We are here to help! <br/> -->
+  <!--   </Fragment> -->
+  <!--   <Fragment slot="subtitle">All tutoring is held in <b>LEEP2 1328</b></Fragment> -->
+  <!-- </Hero> -->
 
-    <Fragment slot="subtitle">All tutoring is held in <b>LEEP2 1328</b></Fragment>
-  </Hero>
+  <!-- <Tutors client:load/> -->
 
-  <Tutors client:load/>
-  <Hero
-    tagline="JOIN THE TEAM"
-  >
+  <Hero tagline="JOIN THE TEAM">
     <Fragment slot="title">
       Want to become a tutor?
     </Fragment>
-
-    <Fragment slot="subtitle">Join our <u><a href="https://discord.com/invite/yhRshEnJUB" target="_blank">Discord</a></u> to learn how!
-      
+    <Fragment slot="subtitle">
+      Join our <u><a href="https://discord.com/invite/yhRshEnJUB" target="_blank">Discord</a></u> to learn how!
     </Fragment>
-
-    
-
-
-
-    
   </Hero>
+
+  <div style="text-align: center; margin-bottom: 2rem; color: green">
+    Tutoring will return soon!
+  </div>
+  
 </Layout>

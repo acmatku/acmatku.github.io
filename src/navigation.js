@@ -1,4 +1,4 @@
-import { getPermalink, getAsset } from "./utils/permalinks";
+import { getPermalink } from "./utils/permalinks";
 
 export const headerData = {
   links: [
@@ -16,7 +16,7 @@ export const headerData = {
       href: getPermalink("/tutoring"),
     },
     {
-      text: "bugSmashers",
+      text: "BugSmashers",
       href: getPermalink("/bugsmashers"),
     },
     {
