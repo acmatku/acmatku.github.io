@@ -5,9 +5,7 @@
     "allowJs": true,
     "baseUrl": "/Users/willwhitehead/Documents/ACM/astrowind",
     "paths": {
-      "~/*": [
-        "src/*"
-      ]
+      "~/*": ["src/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"

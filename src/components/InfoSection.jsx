@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const InfoSection = ({ items }) => {
   return (
     <section className="info-section">
-    
       {items.map((item, index) => (
-        <div key={index} className={`info-item ${item.reverseLayout ? 'reverse-layout' : ''}`}>
+        <div
+          key={index}
+          className={`info-item ${item.reverseLayout ? "reverse-layout" : ""}`}
+        >
           <div className="info-image">
             <img src={item.imageSrc} alt={item.title} />
           </div>
@@ -18,8 +20,6 @@ const InfoSection = ({ items }) => {
     </section>
   );
 };
-<style>
-  
-</style>
+<style></style>;
 
 export default InfoSection;

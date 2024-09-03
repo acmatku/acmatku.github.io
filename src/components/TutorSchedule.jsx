@@ -112,7 +112,7 @@ export default function Tutors() {
             >
               <option value="">All</option>
               {Array.from(
-                new Set(TUTORS.flatMap((tutor) => tutor.courses))
+                new Set(TUTORS.flatMap((tutor) => tutor.courses)),
               ).map((course) => (
                 <option key={course} value={course}>
                   {course}
@@ -171,9 +171,9 @@ export default function Tutors() {
                                             slot.endHour > hour &&
                                             (!selectedClass ||
                                               tutor.courses.includes(
-                                                selectedClass
-                                              ))
-                                        )
+                                                selectedClass,
+                                              )),
+                                        ),
                                       ).map((tutor, index) => (
                                         <div
                                           key={tutor.name}
@@ -181,7 +181,7 @@ export default function Tutors() {
                                         >
                                           {index === 0 &&
                                           tutorTimeSlots[tutor.name].some(
-                                            (slot) => slot.startHour === hour
+                                            (slot) => slot.startHour === hour,
                                           )
                                             ? tutor.name
                                             : ""}
@@ -193,7 +193,7 @@ export default function Tutors() {
                               </>
                             )}
                           </React.Fragment>
-                        )
+                        ),
                       )}
                     </tbody>
                   </table>
