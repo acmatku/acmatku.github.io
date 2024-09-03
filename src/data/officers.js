@@ -35,19 +35,18 @@ export const OfficerList = [
     role: "Webmaster",
     link: "https://aniketh.dev",
   },
-  // {
-  //   name: "Michael",
-  //   image: "",
-  //   role: "Logistics Chair & Webmaster",
-  //   link: "",
-  // },
+  {
+    name: "Michael",
+    image: "/officers/Michael.jpg",
+    role: "Logistics Chair",
+    link: "",
+  },
   {
     name: "James Hurd",
     image: "/officers/jamesduck_cropped.jpeg",
     role: "HackKU Chair",
     link: "https://jameshurd.net",
   },
-
   {
     name: "Andrew Huang",
     image: "/officers/andrew-deodorant-epic.JPG",
