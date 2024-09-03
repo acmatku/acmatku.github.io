@@ -1,0 +1,101 @@
+site:
+  name: KU ACM
+  site: "https://kuacm.club"
+  base: "/"
+  trailingSlash: false
+
+# Default SEO metadata
+metadata:
+  title:
+    default: KU ACM
+    template: "%s | KU ACM"
+  description: "\U0001F680 Official Website of KU ACM Chapter."
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: KU ACM
+    images:
+      - url: "~/assets/images/default.png"
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: "@onwidget"
+    site: "@onwidget"
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 6
+
+    post:
+      isEnabled: true
+      permalink: "/%slug%" # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: "blog" # Blog main path, you can change this to "articles" (/articles)
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: "category" # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      robots:
+        index: true
+
+    tag:
+      isEnabled: true
+      pathname: "tag" # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      robots:
+        index: false
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null # or "G-XXXXXXXXXX"
+
+ui:
+  theme: "dark" # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+
+  tokens:
+    default:
+      fonts: {}
+      colors:
+        default: rgb(247, 248, 248)
+        heading: rgb(247, 248, 248)
+        muted: rgb(200, 188, 208)
+        bgPage: rgb(3 6 32)
+        primary: rgb(100 100 100)
+        secondary: rgb(30 58 138)
+        accent: rgb(135 77 2267)
+        info: rgb(58 191 248)
+        success: rgb(54 211 153)
+        warning: rgb(251 189 35)
+        error: rgb(248 114 114)
+        link: var(--ph-color-primary)
+        linkActive: var(--ph-color-link)
+    dark:
+      fonts: {}
+      colors:
+        default: rgb(247, 248, 248)
+        heading: rgb(247, 248, 248)
+        muted: rgb(200, 188, 208)
+        bgPage: rgb(3 6 32)
+        primary: rgb(100 100 100)
+        secondary: rgb(30 58 138)
+        accent: rgb(135 77 2267)
+        info: rgb(58 191 248)
+        success: rgb(54 211 153)
+        warning: rgb(251 189 35)
+        error: rgb(248 114 114)
+        link: var(--ph-color-primary)
+        linkActive: var(--ph-color-link)

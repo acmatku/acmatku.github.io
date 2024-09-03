@@ -1,0 +1,37 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Calendar',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Calendar"
+  >
+    <Fragment slot="title">
+      Come see when we meet! <br />
+    </Fragment>
+
+    <Fragment slot="subtitle">View our calendar below </Fragment>
+  </Hero>
+
+
+  <div class="d-none d-md-block responsive-iframe-container" style="display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;">
+  <iframe id="open-web-calendar" 
+    src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?ending_hour=20&amp;hour_format=%25g%3A%25i%E2%80%AF%25a&amp;loader=&amp;start_of_week=work&amp;starting_hour=13&amp;tab=week&amp;url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fical%2Facmukansas%2540gmail.com%2Fpublic%2Fbasic.ics"
+    sandbox="allow-scripts allow-same-origin allow-top-navigation"
+    'allowTransparency'="true" scrolling="no" 
+    frameborder="0" height="400px" width="60%"></iframe>
+  </div>
+  <div class="pb-10"></div>
+
+  
+</Layout>

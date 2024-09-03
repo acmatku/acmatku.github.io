@@ -1,0 +1,47 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Tutors from '~/components/TutorSchedule.jsx';
+import Headline from '~/components/ui/Headline.astro';
+
+const metadata = {
+  title: 'Tutoring',
+};
+
+const heroActions = [
+  {
+    text: "Sign Up",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSeOieGEFNjaL4N4TdpFg6WlEjPIlmBTdMylodziQQxvTEkncw/viewform?usp=sf_link",
+    target: "_blank",
+    variant: "primary",
+  },
+];
+
+---
+
+<Layout metadata={metadata}>
+
+  <!-- <Hero tagline="Tutoring"> -->
+  <!--   <Fragment slot="title"> -->
+  <!--     We are here to help! <br/> -->
+  <!--   </Fragment> -->
+  <!--   <Fragment slot="subtitle">All tutoring is held in <b>LEEP2 1328</b></Fragment> -->
+  <!-- </Hero> -->
+
+  <!-- <Tutors client:load/> -->
+
+  <Hero
+    tagline="JOIN THE TEAM"
+    actions={heroActions}
+    >
+    <Fragment slot="title">
+      Want to become a tutor?
+    </Fragment>
+    <Fragment slot="subtitle">
+      Join our <u><a href="https://discord.com/invite/yhRshEnJUB" target="_blank">Discord</a></u> to learn more!
+    </Fragment>
+  </Hero>
+
+  <Headline title="Tutoring will return soon!"/>
+  
+</Layout>
