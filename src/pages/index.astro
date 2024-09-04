@@ -1,11 +1,13 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features.astro';
+import Layout from '../layouts/PageLayout.astro';
+import Hero from '../components/widgets/Hero.astro';
+import Features from '../components/widgets/Features.astro';
+
 const metadata = {
   title: 'KU ACM',
   ignoreTitleTemplate: true,
 };
+
 ---
 
 <Layout metadata={metadata}>
@@ -27,7 +29,6 @@ const metadata = {
       <span><br><br>Check the Calendar tab or join our Discord to see when we meet next!</span>
     </Fragment>
   </Hero>
-
 
   <!-- Features Widget *************** -->
 
@@ -61,10 +62,6 @@ const metadata = {
           'KU ACM also provides free tutoring for many engineering classes including most EECS classes 500 level and below, Calculus 1-3, and linear algebra.',
         icon: 'tabler:book',
       },
-      
     ]}
   />
-  
-
-  
 </Layout>
