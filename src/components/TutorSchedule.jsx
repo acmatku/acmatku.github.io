@@ -181,7 +181,7 @@ export default function Tutors() {
                                         >
                                           {index === 0 &&
                                           tutorTimeSlots[tutor.name].some(
-                                            (slot) => slot.startHour === hour,
+                                            (slot) => slot.startHour === hour && slot.day === day
                                           )
                                             ? tutor.name
                                             : ""}

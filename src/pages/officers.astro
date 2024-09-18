@@ -1,19 +1,17 @@
 ---
-import Hero from '~/components/widgets/Hero.astro';
-import Layout from '~/layouts/PageLayout.astro';
-import {OfficerList} from '~/data/officers.js';
+import Hero from '../components/widgets/Hero.astro';
+import Layout from '../layouts/PageLayout.astro';
+import {OfficerList} from '../data/officers.js';
 import { Image } from 'astro:assets';
 
 const metadata = {
   title: 'Officers',
 };
 
-
 ---
 
 <Layout metadata={metadata}>
-  <Hero tagline="Officers"
-  >
+  <Hero tagline="Officers">
     <Fragment slot="title">
       Meet the Officers!
     </Fragment>
@@ -27,7 +25,6 @@ const metadata = {
     {OfficerList.map((officer) => (
       <div class="officer-card">
         <div class="image-container">
-       
           <Image src={officer.image} alt={officer.name} width="100" height="300" />
           <a href={officer.link} target="_blank">
           <div class="arrow">View LinkedIn</div> {/* Arrow icon */}
@@ -60,21 +57,22 @@ const metadata = {
   .officer-card {
   text-align: center;
   position: relative; /* Position relative for absolute positioning of the arrow */
-}
+  }
 
-.officer-card img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 10%;
-  transition: border-radius 0.25s, transform 0.25s, filter 0.25s; /* Added filter transition */
-}
-.image-container:hover  img{
-  transform: scale(1.05);
-  border-radius: 5%;
-  filter: blur(3px); /* Added blur effect on hover */
-}
+  .officer-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: border-radius 0.25s, transform 0.25s, filter 0.25s; /* Added filter transition */
+  }
+
+  .image-container:hover  img{
+    transform: scale(1.05);
+    border-radius: 5%;
+    filter: blur(3px); /* Added blur effect on hover */
+  }
 
   .officer-card img {
     width: 100%;
@@ -84,39 +82,39 @@ const metadata = {
     border-radius: 10%; /* Adjusted for slightly round images */
     cursor: default /* Cursor pointer */
   }
-  
+
   .officer-card h5 {
     font-weight: bold; /* Making the name bold */
     margin-top: 10px; /* Adding some space between the image and the name */
     font-size: 1.1em; /* Slightly larger font size for better readability */
   }
-  
+
   .officer-card p {
     margin-top: 5px; /* Adding some space between the name and the role */
     font-style: italic; /* Making the role italic */
   }
 
-  /* Arrow styles */
-.officer-card .arrow {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  opacity: 0; /* Hidden by default */
-  transition: opacity 0.25s; /* Fade in on hover */
-}
+    /* Arrow styles */
+  .officer-card .arrow {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.25s; /* Fade in on hover */
+  }
 
-.image-container:hover .arrow {
-  opacity: 1; /* Show arrow on hover */
-}
+  .image-container:hover .arrow {
+    opacity: 1; /* Show arrow on hover */
+  }
 
-.arrow {
-  padding: 10px 20px; /* Padding for better visibility */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Cursor pointer */
-  transition: opacity 1s; /* Fade in on hover */
+  .arrow {
+    padding: 10px 20px; /* Padding for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor pointer */
+    transition: opacity 1s; /* Fade in on hover */
 
-}
-  </style>
+  }
+</style>
   
