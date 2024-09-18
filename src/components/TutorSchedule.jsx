@@ -77,6 +77,8 @@ export default function Tutors() {
     });
   });
 
+  console.log(tutorTimeSlots);
+
   const tutorNameStyle = (color) => ({
     backgroundColor: color, // Add a background color to improve visibility
     padding: "0px", // Add some padding for spacing
@@ -181,7 +183,7 @@ export default function Tutors() {
                                         >
                                           {index === 0 &&
                                           tutorTimeSlots[tutor.name].some(
-                                            (slot) => slot.startHour === hour,
+                                            (slot) => slot.startHour === hour && slot.day == day
                                           )
                                             ? tutor.name
                                             : ""}
