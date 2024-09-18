@@ -1,4 +1,23 @@
-import { I18N } from "~/utils/config";
+import { I18N } from "../utils/config";
+import type { Post } from "../types";
+import type { BugsmasherMeeting } from "../data/bugsmashers";
+
+export const createBugsmasherPosts = (meetings: BugsmasherMeeting[], authors: string): Post[] => {
+  return meetings.map((meeting) => {
+    const slug = `${meeting.title.toLowerCase()}-${meeting.semester.toLowerCase()}`;
+    return ({
+      title: meeting.title,
+      id: 'bugsmashers-' + slug,
+      slug: slug,
+      publishDate: meeting.date,
+      permalink: '/bugsmashers/' + slug,
+      excerpt: meeting.subtitle,
+      content: meeting.content,
+      author: authors,
+      tags: (meeting.tags ? meeting.tags : undefined),
+    })
+  })
+}
 
 const formatter: Intl.DateTimeFormat =
   I18N?.dateFormatter ||

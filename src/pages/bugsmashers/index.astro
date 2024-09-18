@@ -1,0 +1,36 @@
+---
+import List from '../../components/blog/List.astro';
+import Timeline from '../../components/ui/Timeline.astro';
+import Hero from '../../components/widgets/Hero.astro';
+import Headline from '../../components/ui/Headline.astro';
+import Layout from '../../layouts/PageLayout.astro';
+import { BUGSMASHERS_SCHEDULE, PROJECT_NIGHTS } from '../../data/bugsmashers.ts'
+
+const metadata = {
+  title: 'BugSmashers',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero tagline="BugSmashers">
+    <Fragment slot="title">
+      Practical Programming!
+    </Fragment>
+    <Fragment slot="subtitle">
+      All <i>Hacknights</i> and <i>Project Nights</i> will be held in <b>LEEP2 2425</b>
+    </Fragment>
+  </Hero>
+
+  <div class="w-2/3 m-auto">
+    <Headline title="Hacknights Schedule"/>
+    <List posts={BUGSMASHERS_SCHEDULE}/>
+  </div>
+
+  <div class="w-2/3 m-auto">
+    <Headline title="Project Night Dates"/>
+    <Timeline items={PROJECT_NIGHTS} defaultIcon='tabler:code'/>
+  </div>
+
+</Layout>
