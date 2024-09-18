@@ -1,0 +1,26 @@
+---
+import { BUGSMASHERS_SCHEDULE } from "../../../data/bugsmashers"
+import Layout from "../../../layouts/PageLayout.astro"
+import Headline from "../../../components/ui/Headline.astro"
+import List from "../../../components/blog/List.astro"
+
+export function getStaticPaths () {
+  const tags = BUGSMASHERS_SCHEDULE.flatMap((postItem) => postItem.tags)
+  const paths = tags.map((tag) => ({params: {tagId: tag}}));
+  return paths; // Could shorten to one line, kept for posterity
+}
+
+const { tagId } = Astro.params;
+const metadata = {
+  title: tagId
+};
+
+const meetings = BUGSMASHERS_SCHEDULE.filter((item) => item.tags && item.tags.includes(tagId!))
+---
+
+<Layout metadata={metadata}>
+<Headline title={'Tag: ' + tagId!}/>
+  <div class="w-2/3 m-auto">
+    <List posts={meetings}/>
+  </div>
+</Layout>
