@@ -77,8 +77,6 @@ export default function Tutors() {
     });
   });
 
-  console.log(tutorTimeSlots);
-
   const tutorNameStyle = (color) => ({
     backgroundColor: color, // Add a background color to improve visibility
     padding: "0px", // Add some padding for spacing
