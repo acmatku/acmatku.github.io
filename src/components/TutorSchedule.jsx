@@ -87,7 +87,7 @@ export default function Tutors() {
     alignItems: "center", // Center vertically
     textAlign: "center", // Center text
     minHeight: "48px", // Ensure that even empty slots have a minimum height
-    opacity: 0.97, // Reduce opacity to improve visibility of overlapping slots
+    opacity: 0.77, // Reduce opacity to improve visibility of overlapping slots
   });
 
   const [selectedClass, setSelectedClass] = useState(""); // State for selected class
@@ -178,6 +178,7 @@ export default function Tutors() {
                                         <div
                                           key={tutor.name}
                                           style={tutorNameStyle(tutor.color)}
+                                          title={tutor.courses.join(", ")}
                                         >
                                           {index === 0 &&
                                           tutorTimeSlots[tutor.name].some(
