@@ -1,4 +1,3 @@
-import type { Item } from '../types';
 import { createBugsmasherPosts, getFormattedDate } from '../utils/utils';
 
 export interface BugsmasherMeeting {
@@ -30,11 +29,11 @@ const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['git', 'github', 'cli', 'repo'],
   },
   {
-    title: 'KUBL Collab (Tentative)',
+    title: 'KUBL Collab',
     subtitle: 'Collab with KU Blockchain club on building websites.',
     semester: 'F24',
     date: new Date('October 10, 2024'),
-    content: 'This will focus on frontend development.',
+    content: 'This will focus on frontend development. Learn how to use HTML, CSS, and JavaScript to build your first website!',
     tags: ['web-dev', 'frontend', 'javascript', 'html', 'css'],
   },
   {
@@ -58,7 +57,7 @@ const HACKNIGHTS: BugsmasherMeeting[] = [
     subtitle: 'What is a tech stack?',
     semester: 'F24',
     date: new Date('December 12, 2024'),
-    content: 'Learn what kinds of tech companies use to build and deploy their software!',
+    content: 'Learn what kinds of software tools companies use to build and deploy their software!',
     tags: ['tech-stack', 'lamp', 'mern'],
   },
 ];
@@ -72,7 +71,7 @@ export const PROJECT_NIGHTS = [
   },
   {
     title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('October 2, 2024')),
+    description: getFormattedDate(new Date('October 3, 2024')),
   },
   {
     title: 'Project Day ' + day++,
