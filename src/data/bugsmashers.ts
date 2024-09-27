@@ -29,8 +29,8 @@ const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['git', 'github', 'cli', 'repo'],
   },
   {
-    title: 'KUBL Collab',
-    subtitle: 'Collab with KU Blockchain club on building websites.',
+    title: 'KUBI Collab',
+    subtitle: 'Collab with KU Blockchain Institute on building websites.',
     semester: 'F24',
     date: new Date('October 10, 2024'),
     content: 'This will focus on frontend development. Learn how to use HTML, CSS, and JavaScript to build your first website!',
