@@ -197,6 +197,20 @@ export const TUTORS = [
     ],
   },
   {
+    name: "Charlie Doherty",
+    color: COLORS[colorIndex++ % COLORS.length],
+    times: [
+      ["M", 14, 15],
+    ],
+    courses: [
+      "EECS 168",
+      "EECS 268",
+      "EECS 348",
+      "MATH 125",
+      "MATH 126",
+    ],
+  },
+  {
     name: "John Rader",
     color: COLORS[colorIndex++ % COLORS.length],
     times: [
@@ -211,5 +225,5 @@ export const TUTORS = [
       "MATH 126",
       "MATH 290",
     ],
-  }
+  },
 ];
