@@ -7,37 +7,38 @@ const metadata = {
   title: 'Tutoring',
 };
 
+/* Sign Up Button  - Add to the second Hero component under the actions prop*/
 const heroActions = [
   {
     text: "Sign Up",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSeOieGEFNjaL4N4TdpFg6WlEjPIlmBTdMylodziQQxvTEkncw/viewform?usp=sf_link",
+    href: "",
     target: "_blank",
+    rel: "noopener,noreferrer",
     variant: "primary",
   },
 ];
-
 ---
 
 <Layout metadata={metadata}>
 
-  <Hero tagline="Tutoring">
+  <Hero tagline="KU ACM Tutoring">
     <Fragment slot="title">
-      We are here to help! <br/>
+      We Are Here to Help! <br>
     </Fragment>
     <Fragment slot="subtitle">All tutoring is held in <b>LEEP2 1328</b></Fragment>
+    <Fragment slot="content">
+      <b>Click on a tutor's slot to get a full list of all the classes they teach!</b>
+    </Fragment>
   </Hero>
 
   <Tutors client:load/>
 
-  <Hero
-    tagline="JOIN THE TEAM"
-    actions={heroActions}
-    >
+  <Hero tagline="JOIN THE TEAM">
     <Fragment slot="title">
-      Want to become a tutor?
+      Want to Become a Tutor?
     </Fragment>
     <Fragment slot="subtitle">
-      Join our <u><a href="https://discord.com/invite/yhRshEnJUB" target="_blank">Discord</a></u> to learn more!
+      Join our <u><a href="https://discord.com/invite/yhRshEnJUB" target="_blank" rel="noopener,noreferrer">Discord</a></u> to learn more!
     </Fragment>
   </Hero>
   
