@@ -1,6 +1,7 @@
 import { I18N } from "../utils/config";
 import type { Post } from "../types";
 import type { BugsmasherMeeting } from "../data/bugsmashers";
+import type { Tutor } from "../data/tutors";
 
 export const createBugsmasherPosts = (meetings: BugsmasherMeeting[], authors: string): Post[] => {
   return meetings.map((meeting) => {
@@ -15,6 +16,25 @@ export const createBugsmasherPosts = (meetings: BugsmasherMeeting[], authors: st
       content: meeting.content,
       author: authors,
       tags: (meeting.tags ? meeting.tags : undefined),
+    })
+  })
+}
+
+export const createTutorPosts = (tutors: Tutor[]): Post[] => {
+  return tutors.map((tutor) => {
+    const slug = tutor.name
+      .toLowerCase()
+      .trim()
+      .replaceAll(/\s/g, "-");
+    return ({
+      title: tutor.name,
+      id: 'tutor-' + slug,
+      slug: slug,
+      publishDate: new Date(), // Manually added this date
+      permalink: '/tutoring/' + slug,
+      excerpt: "Hello, I'm tutoring for the Spring 2025 semester!", // Manually changed the semester
+      content: `I am available to tutor the following classes: ${tutor.courses.join(', ')}`,
+      author: tutor.name,
     })
   })
 }
