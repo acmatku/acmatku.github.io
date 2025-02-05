@@ -37,6 +37,10 @@ export default function Tutors() {
     width: "12.5%", // Ensures that each weekday column is the same width
   };
 
+  const timeSlots = {
+    borderTop: "1px solid grey", // Give the time slots a border to visually discern time
+  }
+
   const prettyTime = (time) => {
     const hours = Math.floor(time);
     const minutes = (time - hours) * 60;
@@ -114,9 +118,9 @@ export default function Tutors() {
               className='class="inline-flex justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm '
             >
               <option value="">All</option>
-              {Array.from(
-                new Set(TUTORS.flatMap((tutor) => tutor.courses)),
-              ).map((course) => (
+              {Array.from(new Set(TUTORS.flatMap((tutor) => tutor.courses)))
+                .toSorted()
+                .map((course) => (
                 <option key={course} value={course}>
                   {course}
                 </option>
@@ -152,7 +156,7 @@ export default function Tutors() {
                       </tr>
                     </thead>
                     <tbody id="schedule">
-                      {Array.from({ length: 17 }, (_, i) => 9 + i * 0.5).map(
+                      {Array.from({ length: 15 }, (_, i) => 9 + i * 0.5).map(
                         (hour) => (
                           <React.Fragment key={hour}>
                             {hour <= 16 && (
@@ -163,36 +167,36 @@ export default function Tutors() {
                                 >
                                   <td
                                     style={{ ...timeStyle, ...cellStyle, transform: "translateY(-25%)", verticalAlign: "top" }}
-                                  >{`${prettyTime(hour)}`}</td>
+                                  >
+                                    {`${prettyTime(hour)}`}
+                                  </td>
                                   {["M", "T", "W", "R", "F"].map((day) => (
-                                    <td key={day} style={cellStyle}>
+                                    <td key={day} style={{...cellStyle, ...timeSlots}}>
                                       {TUTORS.filter((tutor) =>
                                         tutorTimeSlots[tutor.name].some(
                                           (slot) =>
                                             slot.day === day &&
                                             slot.startHour <= hour &&
                                             slot.endHour > hour &&
-                                            (!selectedClass ||
-                                              tutor.courses.includes(
-                                                selectedClass,
-                                              )),
-                                        ),
-                                      ).map((tutor, index) => (
-                                        <a
-                                          rel="noopener,noreferrer"
-                                          target="_blank"
-                                          key={tutor.name}
-                                          style={tutorNameStyle(tutor.color)}
-                                          title={tutor.courses.join(", ")}
-                                           href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
-                                        >
-                                          {index === 0 &&
-                                          tutorTimeSlots[tutor.name].some(
-                                            (slot) => slot.startHour === hour && slot.day === day
-                                          )
-                                            ? tutor.name
-                                            : ""}
-                                        </a>
+                                            (!selectedClass || tutor.courses.includes(selectedClass))
+                                        )).map((tutor, index) => (
+                                          <a
+                                            rel="noopener,noreferrer"
+                                            target="_blank"
+                                            key={tutor.name}
+                                            style={tutorNameStyle(tutor.color)}
+                                            title={tutor.courses.join(", ")}
+                                            href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
+                                          >
+                                            {
+                                              index === 0 &&
+                                              tutorTimeSlots[tutor.name].some(
+                                                (slot) => slot.startHour === hour && slot.day === day
+                                              )
+                                                ? tutor.name
+                                                : ""
+                                            }
+                                          </a>
                                       ))}
                                     </td>
                                   ))}

@@ -106,7 +106,7 @@ export const TUTORS: Tutor[] = [
       "MATH 125",
       "MATH 126",
       "MATH 127",
-      "MATH 210",
+      "MATH 290",
     ],
   },
   {
@@ -192,7 +192,7 @@ export const TUTORS: Tutor[] = [
       "EECS 168",
       "EECS 268",
       "EECS 210",
-      "EECS 330",
+      "EECS 388",
       "EECS 348",
       "MATH 125",
       "MATH 126",
