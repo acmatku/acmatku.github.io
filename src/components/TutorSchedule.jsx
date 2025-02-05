@@ -114,9 +114,9 @@ export default function Tutors() {
               className='class="inline-flex justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm '
             >
               <option value="">All</option>
-              {Array.from(
-                new Set(TUTORS.flatMap((tutor) => tutor.courses)),
-              ).map((course) => (
+              {Array.from(new Set(TUTORS.flatMap((tutor) => tutor.courses)))
+                .toSorted()
+                .map((course) => (
                 <option key={course} value={course}>
                   {course}
                 </option>
@@ -163,7 +163,9 @@ export default function Tutors() {
                                 >
                                   <td
                                     style={{ ...timeStyle, ...cellStyle, transform: "translateY(-25%)", verticalAlign: "top" }}
-                                  >{`${prettyTime(hour)}`}</td>
+                                  >
+                                    {`${prettyTime(hour)}`}
+                                  </td>
                                   {["M", "T", "W", "R", "F"].map((day) => (
                                     <td key={day} style={cellStyle}>
                                       {TUTORS.filter((tutor) =>
@@ -172,27 +174,25 @@ export default function Tutors() {
                                             slot.day === day &&
                                             slot.startHour <= hour &&
                                             slot.endHour > hour &&
-                                            (!selectedClass ||
-                                              tutor.courses.includes(
-                                                selectedClass,
-                                              )),
-                                        ),
-                                      ).map((tutor, index) => (
-                                        <a
-                                          rel="noopener,noreferrer"
-                                          target="_blank"
-                                          key={tutor.name}
-                                          style={tutorNameStyle(tutor.color)}
-                                          title={tutor.courses.join(", ")}
-                                           href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
-                                        >
-                                          {index === 0 &&
-                                          tutorTimeSlots[tutor.name].some(
-                                            (slot) => slot.startHour === hour && slot.day === day
-                                          )
-                                            ? tutor.name
-                                            : ""}
-                                        </a>
+                                            (!selectedClass || tutor.courses.includes(selectedClass))
+                                        )).map((tutor, index) => (
+                                          <a
+                                            rel="noopener,noreferrer"
+                                            target="_blank"
+                                            key={tutor.name}
+                                            style={tutorNameStyle(tutor.color)}
+                                            title={tutor.courses.join(", ")}
+                                            href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
+                                          >
+                                            {
+                                              index === 0 &&
+                                              tutorTimeSlots[tutor.name].some(
+                                                (slot) => slot.startHour === hour && slot.day === day
+                                              )
+                                                ? tutor.name
+                                                : ""
+                                            }
+                                          </a>
                                       ))}
                                     </td>
                                   ))}
