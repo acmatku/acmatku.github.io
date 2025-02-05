@@ -37,6 +37,10 @@ export default function Tutors() {
     width: "12.5%", // Ensures that each weekday column is the same width
   };
 
+  const timeSlots = {
+    borderTop: "1px solid grey", // Give the time slots a border to visually discern time
+  }
+
   const prettyTime = (time) => {
     const hours = Math.floor(time);
     const minutes = (time - hours) * 60;
@@ -152,7 +156,7 @@ export default function Tutors() {
                       </tr>
                     </thead>
                     <tbody id="schedule">
-                      {Array.from({ length: 17 }, (_, i) => 9 + i * 0.5).map(
+                      {Array.from({ length: 15 }, (_, i) => 9 + i * 0.5).map(
                         (hour) => (
                           <React.Fragment key={hour}>
                             {hour <= 16 && (
@@ -167,7 +171,7 @@ export default function Tutors() {
                                     {`${prettyTime(hour)}`}
                                   </td>
                                   {["M", "T", "W", "R", "F"].map((day) => (
-                                    <td key={day} style={cellStyle}>
+                                    <td key={day} style={{...cellStyle, ...timeSlots}}>
                                       {TUTORS.filter((tutor) =>
                                         tutorTimeSlots[tutor.name].some(
                                           (slot) =>
