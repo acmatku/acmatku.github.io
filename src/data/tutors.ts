@@ -86,7 +86,7 @@ export const TUTORS: Tutor[] = [
     color: COLORS[idx++ % COLORS.length],
     id: idx,
     times: [
-      ["M", 13, 14],
+      ["R", 9, 10],
     ],
     courses: [
       "EECS 168",

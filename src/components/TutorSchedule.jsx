@@ -155,14 +155,14 @@ export default function Tutors() {
                       {Array.from({ length: 17 }, (_, i) => 9 + i * 0.5).map(
                         (hour) => (
                           <React.Fragment key={hour}>
-                            {hour < 16 && (
+                            {hour <= 16 && (
                               <>
                                 <tr
                                   style={rowStyle}
                                   className="hover:bg-gray-900"
                                 >
                                   <td
-                                    style={{ ...timeStyle, ...cellStyle }}
+                                    style={{ ...timeStyle, ...cellStyle, transform: "translateY(-25%)", verticalAlign: "top" }}
                                   >{`${prettyTime(hour)}`}</td>
                                   {["M", "T", "W", "R", "F"].map((day) => (
                                     <td key={day} style={cellStyle}>
