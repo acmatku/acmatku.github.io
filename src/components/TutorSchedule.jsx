@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TUTORS } from "~/data/tutors";
+import { TUTORS } from "../data/tutors";
 
 export default function Tutors() {
   const tableStyle = {
@@ -78,6 +78,8 @@ export default function Tutors() {
   });
 
   const tutorNameStyle = (color) => ({
+    display: "block",
+    textDecoration: "none",
     backgroundColor: color, // Add a background color to improve visibility
     padding: "0px", // Add some padding for spacing
     color: "white", // Change the text color to white
@@ -88,6 +90,7 @@ export default function Tutors() {
     textAlign: "center", // Center text
     minHeight: "48px", // Ensure that even empty slots have a minimum height
     opacity: 0.77, // Reduce opacity to improve visibility of overlapping slots
+    cursor: "pointer",
   });
 
   const [selectedClass, setSelectedClass] = useState(""); // State for selected class
@@ -152,14 +155,14 @@ export default function Tutors() {
                       {Array.from({ length: 17 }, (_, i) => 9 + i * 0.5).map(
                         (hour) => (
                           <React.Fragment key={hour}>
-                            {hour < 16 && (
+                            {hour <= 16 && (
                               <>
                                 <tr
                                   style={rowStyle}
                                   className="hover:bg-gray-900"
                                 >
                                   <td
-                                    style={{ ...timeStyle, ...cellStyle }}
+                                    style={{ ...timeStyle, ...cellStyle, transform: "translateY(-25%)", verticalAlign: "top" }}
                                   >{`${prettyTime(hour)}`}</td>
                                   {["M", "T", "W", "R", "F"].map((day) => (
                                     <td key={day} style={cellStyle}>
@@ -175,10 +178,13 @@ export default function Tutors() {
                                               )),
                                         ),
                                       ).map((tutor, index) => (
-                                        <div
+                                        <a
+                                          rel="noopener,noreferrer"
+                                          target="_blank"
                                           key={tutor.name}
                                           style={tutorNameStyle(tutor.color)}
                                           title={tutor.courses.join(", ")}
+                                           href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
                                         >
                                           {index === 0 &&
                                           tutorTimeSlots[tutor.name].some(
@@ -186,7 +192,7 @@ export default function Tutors() {
                                           )
                                             ? tutor.name
                                             : ""}
-                                        </div>
+                                        </a>
                                       ))}
                                     </td>
                                   ))}

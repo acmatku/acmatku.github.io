@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+
+import SinglePost from "../../components/blog/SinglePost.astro"
+import Layout from "../../layouts/PageLayout.astro"
+import { createTutorPosts } from "../../utils/utils";
+import { TUTORS } from "../../data/tutors";
+
+export const TUTOR_POSTS = createTutorPosts(TUTORS);
+
+export const getStaticPaths = (() => {
+  return TUTOR_POSTS.map((post) => ({params: {tutorId: post.slug}}));
+}) satisfies GetStaticPaths;
+
+const getTutor = (id: string) => {
+  return TUTOR_POSTS.find((post) => id === post.slug);
+}
+
+const { tutorId } = Astro.params;
+const post = getTutor(tutorId)!;
+const metadata = {
+  title: `Tutoring - ${post.title}`,
+};
+---
+
+<Layout metadata={metadata}>
+  <SinglePost post={post} url={post.permalink}/>
+</Layout>

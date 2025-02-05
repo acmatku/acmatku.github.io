@@ -1,20 +1,20 @@
 ---
+import type { GetStaticPaths } from "astro";
+
 import { BUGSMASHERS_SCHEDULE } from "../../data/bugsmashers"
 import Layout from "../../layouts/PageLayout.astro"
 import SinglePost from "../../components/blog/SinglePost.astro"
 
-export function getStaticPaths () {
-  const paths = BUGSMASHERS_SCHEDULE.map((postItem) => ({params: {post: postItem.slug}}));
-  return paths; // Could shorten to one line, kept for posterity
-}
+export const getStaticPaths = (() => {
+  return BUGSMASHERS_SCHEDULE.map((postItem) => ({params: {post: postItem.slug}}));
+}) satisfies GetStaticPaths;
 
-function getPost(postSlug: string) {
+const getPost = (postSlug: string) => {
   return BUGSMASHERS_SCHEDULE.find((postItem) => postItem.slug == postSlug);
 }
 
 const { post } = Astro.params;
 const postObj = getPost(post)!;
-const postUrl = postObj.permalink;
 
 const metadata = {
   title: postObj.title,
@@ -22,5 +22,5 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <SinglePost post={postObj} url={postUrl}/>
+  <SinglePost post={postObj} url={postObj.permalink}/>
 </Layout>
