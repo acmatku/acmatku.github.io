@@ -3,7 +3,10 @@ import type { GetStaticPaths } from "astro";
 
 import SinglePost from "../../components/blog/SinglePost.astro"
 import Layout from "../../layouts/PageLayout.astro"
-import { TUTOR_POSTS } from "../../data/tutors";
+import { createTutorPosts } from "../../utils/utils";
+import { TUTORS } from "../../data/tutors";
+
+export const TUTOR_POSTS = createTutorPosts(TUTORS);
 
 export const getStaticPaths = (() => {
   return TUTOR_POSTS.map((post) => ({params: {tutorId: post.slug}}));

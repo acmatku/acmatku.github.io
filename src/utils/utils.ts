@@ -1,7 +1,7 @@
 import { I18N } from "../utils/config";
 import type { Post } from "../types";
 import type { BugsmasherMeeting } from "../data/bugsmashers";
-import type { Tutor } from "../data/tutors";
+import type { Tutor } from "../data/tutorTypes";
 
 export const createBugsmasherPosts = (meetings: BugsmasherMeeting[], authors: string): Post[] => {
   return meetings.map((meeting) => {

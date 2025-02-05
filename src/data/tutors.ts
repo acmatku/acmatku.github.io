@@ -1,4 +1,4 @@
-import { createTutorPosts } from "../utils/utils";
+import type { Tutor } from "./tutorTypes"
 
 const COLORS = [
   "#f94144",
@@ -14,15 +14,6 @@ const COLORS = [
 ];
 
 let idx = 0;
-
-export type TimeSlot = [day: string, start: number, end: number];
-export interface Tutor {
-  name: string,
-  id: number,
-  color: string,
-  times: TimeSlot[]
-  courses: string[]
-};
 
 export const TUTORS: Tutor[] = [
   {
@@ -275,6 +266,4 @@ export const TUTORS: Tutor[] = [
     ],
   },
 ];
-
-export const TUTOR_POSTS = createTutorPosts(TUTORS);
 
