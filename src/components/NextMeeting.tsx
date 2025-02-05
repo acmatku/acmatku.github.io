@@ -1,5 +1,4 @@
 import type { Meeting } from "../data/meetings";
-import { getFormattedDate } from "../utils/utils";
 
 interface NextMeetingProps {
   meetings: Meeting[]
@@ -7,7 +6,12 @@ interface NextMeetingProps {
 
 const NextMeeting = ({ meetings }: NextMeetingProps) => {
   const today = new Date();
-  const nextMeeting = meetings.filter((meeting) => meeting.date >= today).at(0);
+  today.setHours(0, 0, 0, 0); // Set to beginning of day
+
+  const futureMeetings = meetings
+    .sort((a, b) => +new Date(a.date) - +new Date(b.date)) // +new Date() coerces type to number
+    .filter((meeting) => new Date(meeting.date) >= today);
+  const nextMeeting = futureMeetings.at(0);
 
   return (
     nextMeeting && (
@@ -21,7 +25,7 @@ const NextMeeting = ({ meetings }: NextMeetingProps) => {
           <h1 className="text-4xl md:text-5xl font-bold tracking-widest font-heading">
             {nextMeeting.title}
           </h1>
-          <p className="p-3 text-lg text-blue-300 font-medium">{getFormattedDate(nextMeeting.date)}</p>
+          <p className="p-3 text-lg text-blue-300 font-medium">{nextMeeting.date}</p>
           <p className="mt-2 md:mt-3 mx-auto text-xl text-gray-500 dark:text-slate-400 font-medium">
             {nextMeeting.subtitle}
           </p>
