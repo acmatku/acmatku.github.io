@@ -16,23 +16,18 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     subtitle: "Bring your resumes and get some help prepping for the career fair!",
   },
   {
-    date: "February 19, 2025",
-    title: "Bugsmashers Takeover!",
-    subtitle: "TBD",
+    date: "February 26, 2025",
+    title: "Making the Most of Your Undergrad",
+    subtitle: "The BugSmashers will talk about how to make your undergraduate experience at KU worth it!",
   },
   {
-    date: "February, 26, 2025",
+    date: "March 5, 2025",
     title: "Lighting Talks",
     subtitle: "Listen to your fellow students talk about things that interest them. Maybe they'll interest you too!",
   },
   {
-    date: "March 5, 2025",
+    date: "March 12, 2025",
     title: "Research Meeting",
     subtitle: "Come learn about research and research opportunities!",
-  },
-  {
-    date: "March 12, 2025",
-    title: "Fun Meeting",
-    subtitle: "We're having fun!",
   },
 ]
