@@ -28,7 +28,7 @@ export const headerData = {
   actions: [
     {
       text: "Discord",
-      href: "https://discord.com/invite/yhRshEnJUB",
+      href: "https://discord.gg/SgFkFv4bUR",
       target: "_blank",
       variant: "primary",
     },
@@ -50,7 +50,7 @@ export const footerData = {
     {
       ariaLabel: "Discord",
       icon: "tabler:brand-discord",
-      href: "https://discord.com/invite/yhRshEnJUB",
+      href: "https://discord.gg/SgFkFv4bUR",
     },
     {
       ariaLabel: "Linktree",

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99998 285.74999"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <rect
+     style="display:inline;fill:none;stroke:#dcdfe4;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2"
+     width="480.07111"
+     height="261.08554"
+     x="14.200348"
+     y="14.081147"
+     ry="6.0754418" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.52487574,0,0,0.52487574,-30.932153,-37.90803)"
+     id="text27"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9826px;line-height:normal;font-family:'FiraCode Nerd Font Mono';-inkscape-font-specification:'FiraCode Nerd Font Mono';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect27);display:inline;opacity:1;fill:#dcdfe4;fill-opacity:1;stroke:none;stroke-width:0.433515;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
+       x="98.703125"
+       y="122.89688"
+       id="tspan10"><tspan
+         style="fill:#c678dd"
+         id="tspan2">root</tspan><tspan
+         style="fill:#61afef"
+         id="tspan3">@</tspan><tspan
+         style="fill:#c678dd"
+         id="tspan4">kuacm.club</tspan><tspan
+         style="fill:#98c379"
+         id="tspan5">:</tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan6">~</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan7"> </tspan><tspan
+         style="fill:#56b6c2"
+         id="tspan8">$ </tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="neofetch-text" textLength="0">neofetch
+</tspan></tspan><tspan id="neofetch-body" style="opacity:0"><tspan
+       x="98.703125"
+       y="137.87513"
+       id="tspan18"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan11">                                   </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan12">%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan13">                                </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan14">root</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan15">@</tspan><tspan
+         style="fill:#e06c75"
+         id="tspan16">kuacm.club</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan17">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="152.85338"
+       id="tspan22"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan19">                                 </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan20">%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan21">                              ---------------------
+</tspan></tspan><tspan
+       x="98.703125"
+       y="167.83164"
+       id="tspan28"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan23">                               </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan24">%%%%%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan25">                            </tspan><tspan
+         style="fill:#98c379"
+         id="tspan26">OS</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan27">: ACM Linux From Scratch arm64
+</tspan></tspan><tspan
+       x="98.703125"
+       y="182.80989"
+       id="tspan34"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan29">                             </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan30">%%%%%%%%%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan31">                          </tspan><tspan
+         style="fill:#98c379"
+         id="tspan32">Kernel</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan33">: 4.3.25
+</tspan></tspan><tspan
+       x="98.703125"
+       y="197.78815"
+       id="tspan83"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan35">                            </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan50">%%%%%%    %%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan52">                        </tspan><tspan
+         style="fill:#98c379"
+         id="tspan79">Uptime</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan82">: 4834 days, 11 hours, 11 min
+</tspan></tspan><tspan
+       x="98.703125"
+       y="212.76641"
+       id="tspan90"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan84">                          </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan85">%%%%%%       %%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan86">                       </tspan><tspan
+         style="fill:#98c379"
+         id="tspan88">Packages</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan89">: 154
+</tspan></tspan><tspan
+       x="98.703125"
+       y="227.74466"
+       id="tspan96"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan91">                        </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan92">%%%%%%           %%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan93">                     </tspan><tspan
+         style="fill:#98c379"
+         id="tspan94">Shell</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan95">: eecs(h) 5.1.16
+</tspan></tspan><tspan
+       x="98.703125"
+       y="242.72292"
+       id="tspan102"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan97">                      </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan98">%%%%%%               %%%%%%</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan99">                   </tspan><tspan
+         style="fill:#98c379"
+         id="tspan100">Theme</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan101">: ACM@KU-22 
+</tspan></tspan><tspan
+       x="98.703125"
+       y="257.70118"
+       id="tspan108"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan103">                    </tspan><tspan
+         style="fill:#e06c75"
+         id="tspan104">%%%%%% </tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan105">                                         </tspan><tspan
+         style="fill:#98c379"
+         id="tspan106">Icons</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan107">: ACM@KU-22
+</tspan></tspan><tspan
+       x="98.703125"
+       y="272.67942"
+       id="tspan114"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan109">                                               </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan110">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan111">               </tspan><tspan
+         style="fill:#98c379"
+         id="tspan112">Terminal</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan113">: Eaton-LEEP2 Terminal
+</tspan></tspan><tspan
+       x="98.703125"
+       y="287.65766"
+       id="tspan120"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan115">                                                 </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan116">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan117">             </tspan><tspan
+         style="fill:#98c379"
+         id="tspan118">CPU</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan119">: KU ACM1
+</tspan></tspan><tspan
+       x="98.703125"
+       y="302.6359"
+       id="tspan126"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan121">  @@@@@@@@@       @@@@@@@  @@@@ @@@@@  @@@@@@     </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan122">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan123">            </tspan><tspan
+         style="fill:#98c379"
+         id="tspan124">GPU</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan125">: KU ACM1
+</tspan></tspan><tspan
+       x="98.703125"
+       y="317.61414"
+       id="tspan132"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan127">  @@@@@@@@@@    @@@@@@@@@  @@@@@@@@@@@@@@@@@@@      </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan128">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan129">          </tspan><tspan
+         style="fill:#98c379"
+         id="tspan130">Memory</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan131">: 2961MiB / 16384MiB
+</tspan></tspan><tspan
+       x="98.703125"
+       y="332.59238"
+       id="tspan136"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan133">      @@@@@@@  @@@@@       @@@@    @@@@   @@@@        </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan134">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan135">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="347.57062"
+       id="tspan140"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan137">  @@@@@@@@@@@  @@@@        @@@@    @@@@    @@@          </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan138">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan139">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="362.54886"
+       id="tspan144"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan141"> @@@@    @@@@  @@@@        @@@@    @@@@    @@@            </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan142">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan143">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="377.5271"
+       id="tspan148"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan145"> @@@@@  @@@@@   @@@@@@@@@  @@@@    @@@@    @@@          </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan146">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan147">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="392.50534"
+       id="tspan152"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan149">  @@@@@@@@@@@    @@@@@@@@  @@@@    @@@@    @@@        </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan150">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan151">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="407.48359"
+       id="tspan156"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan153">                                                    </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan154">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan155">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="422.46183"
+       id="tspan162"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan157">            </tspan><tspan
+         style="fill:#5a6374"
+         id="tspan158">UNIVERSITY  OF  KANSAS</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan159">                </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan160">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan161">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="437.44007"
+       id="tspan166"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan163">                                                 </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan164">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan165">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="452.41831"
+       id="tspan170"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan167">                                               </tspan><tspan
+         style="fill:#e5c07b"
+         id="tspan168">;;;;;;</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan169">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="467.39655"
+       id="tspan173"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan171">                   </tspan><tspan
+         style="fill:#61afef"
+         id="tspan172"> ######
+</tspan></tspan><tspan
+       x="98.703125"
+       y="482.37479"
+       id="tspan175"><tspan
+         style="fill:#61afef"
+         id="tspan174">                      ######               ######
+</tspan></tspan><tspan
+       x="98.703125"
+       y="497.35303"
+       id="tspan177"><tspan
+         style="fill:#61afef"
+         id="tspan176">                        ######           ######
+</tspan></tspan><tspan
+       x="98.703125"
+       y="512.33127"
+       id="tspan179"><tspan
+         style="fill:#61afef"
+         id="tspan178">                          ######       ######
+</tspan></tspan><tspan
+       x="98.703125"
+       y="527.30954"
+       id="tspan181"><tspan
+         style="fill:#61afef"
+         id="tspan180">                            ######    ######
+</tspan></tspan><tspan
+       x="98.703125"
+       y="542.28781"
+       id="tspan183"><tspan
+         style="fill:#61afef"
+         id="tspan182">                             #############
+</tspan></tspan><tspan
+       x="98.703125"
+       y="557.26609"
+       id="tspan185"><tspan
+         style="fill:#61afef"
+         id="tspan184">                               #########
+</tspan></tspan><tspan
+       x="98.703125"
+       y="572.24436"
+       id="tspan188"><tspan
+         style="fill:#61afef"
+         id="tspan186">                                 #####</tspan><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan187">
+</tspan></tspan><tspan
+       x="98.703125"
+       y="587.22263"
+       id="tspan191"><tspan
+         style="font-weight:600;-inkscape-font-specification:'FiraCode Nerd Font Mono Semi-Bold'"
+         id="tspan189">                                   </tspan><tspan
+         style="fill:#61afef"
+         id="tspan190">#</tspan></tspan></tspan></text>
+</svg>
