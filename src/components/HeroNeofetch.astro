@@ -1,0 +1,27 @@
+<img src="/src/assets/images/acm_neofetch.svg" alt="ACM Neofetch"/>
+
+<script>
+  const neofetchText = document.getElementById("neofetch-text")!;
+  const neofetchBody = document.getElementById("neofetch-body")!;
+
+  const textString = neofetchText.textContent!;
+  let textLength = 0;
+  let index = 0;
+  const speed = 100; // milliseconds per character
+
+  const typeWriter = () => {
+    if (index < textString.length) {
+      textLength += neofetchText.getComputedTextLength() / textString.length;
+      neofetchText.setAttribute('textLength', textLength);
+      index++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  document.addEventListener("load", () => {
+    // Start the typewriter effect
+    typeWriter();
+    neofetchBody.style.opacity = "100%";
+  });
+</script>
+  
