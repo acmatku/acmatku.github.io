@@ -26,8 +26,33 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     subtitle: "Listen to your fellow students talk about things that interest them. Maybe they'll interest you too!",
   },
   {
-    date: "March 12, 2025",
+    date: "April 2, 2025",
+    title: "HackKU Prep + Community Chair Elections!!",
+    subtitle: "Learn about HackKU and Hackathons in general!",
+  },
+  {
+    date: "April 9, 2025",
     title: "Research Meeting",
-    subtitle: "Come learn about research and research opportunities!",
+    subtitle: "Dylan and friends talk about doing research at KU!",
+  },
+  {
+    date: "April 16, 2025",
+    title: "BugSmashers Takeover",
+    subtitle: "The BugSmashers invade 🪲",
+  },
+  {
+    date: "April 23, 2025",
+    title: "Microsoft (Tentative)",
+    subtitle: "Sandy/Firangiz/James come and talk??",
+  },
+  {
+    date: "April 30, 2025",
+    title: "Classic ACM (Tentative)",
+    subtitle: "We will find something to do...",
+  },
+  {
+    date: "May 7, 2025",
+    title: "Officer Elections for 25-26!!",
+    subtitle: "Come elect our new board for the Fall 25' and Spring 26' school year!",
   },
 ]
