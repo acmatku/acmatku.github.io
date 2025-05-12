@@ -3,5 +3,5 @@ package-lock.json
 package-lock.json
 .idea
 bin
-test
+dist
 exclude
