@@ -30,6 +30,12 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/emma-roy3251/",
   },
   {
+    name: "Connor",
+    image: "/officers/connor.jpg",
+    role: "Community Chair",
+    link: "",
+  },
+  {
     name: "Addison Bartelli",
     image: "/officers/addison.jpg",
     role: "Webmaster",
