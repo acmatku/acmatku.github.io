@@ -5,19 +5,8 @@ export interface Meeting {
 }
 
 export const UPCOMING_MEETINGS: Meeting[] = [
+  // spring 25
   {
-    date: "August 27, 2025",
-    title: "Intro and Info Meeting",
-    subtitle: "Show up for the first meeting of the semester! The exec team will be talking about the club and upcoming opportunities!",
-  },
-]
-
-
-/*
-
-old spring 25
-
-{
     date: "February 5, 2025",
     title: "Alexis of Da Fed!",
     subtitle: "Come listen to a KU ACM alum talk about their experience at the Federal Reserve!",
@@ -67,5 +56,20 @@ old spring 25
     title: "Officer Elections for 25-26!!",
     subtitle: "Come elect our new board for the Fall 25' and Spring 26' school year!",
   },
-
-*/
+  // fall 25
+  {
+    date: "August 27, 2025",
+    title: "Intro and Info Meeting",
+    subtitle: "Show up for the first meeting of the semester! The exec team will be talking about the club and upcoming opportunities!",
+  },
+  {
+    date: "September 3, 2025",
+    title: "Career Insights: Jason Salge",
+    subtitle: "ACM is hosting Jason Salge of CBOE Global Markets. Learn about FinTech and CS Careers!",
+  },
+  {
+    date: "September 10, 2025",
+    title: "Career Fair Prep Meeting",
+    subtitle: "Bring your resumes and get some help prepping for the career fair!",
+  },
+]
