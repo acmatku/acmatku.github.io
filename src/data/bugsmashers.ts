@@ -11,7 +11,7 @@ export interface BugsmasherMeeting {
 
 const AUTHORS = 'Molly M. & Thomas S.';
 
-const HACKNIGHTS: BugsmasherMeeting[] = [
+export const HACKNIGHTS: BugsmasherMeeting[] = [
   {
     title: 'Operating Systems',
     subtitle: 'Windows, Linux, and Command Line',
