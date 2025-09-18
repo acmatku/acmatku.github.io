@@ -1,0 +1,19 @@
+---
+import Hero from '../components/widgets/Hero.astro';
+import Layout from '../layouts/PageLayout.astro';
+import Timeline from '../components/ui/Timeline.astro';
+import { UPCOMING_MEETINGS } from '../data/meetings';
+import { BUGSMASHERS_SCHEDULE } from '../data/bugsmashers';
+import { HACKNIGHTS } from '../data/bugsmashers';
+
+const metadata = {
+  title: 'Calendar',
+};
+---
+
+<Layout metadata={metadata}>
+    <Hero tagline='Archive'>
+        <Fragment slot='title'>Google Slides of ACM Past!</Fragment>
+        <Timeline items={UPCOMING_MEETINGS.concat(UPCOMING_MEETINGS)} defaultIcon='tabler:code'/>
+    </Hero>
+</Layout>

@@ -119,7 +119,7 @@ export default function Tutors() {
             >
               <option value="">All</option>
               {Array.from(new Set(TUTORS.flatMap((tutor) => tutor.courses)))
-                .toSorted()
+                .slice().sort() // replaces .toSorted()
                 .map((course) => (
                 <option key={course} value={course}>
                   {course}
