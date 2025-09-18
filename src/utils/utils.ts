@@ -32,7 +32,7 @@ export const createTutorPosts = (tutors: Tutor[]): Post[] => {
       slug: slug,
       publishDate: new Date(), // Manually added this date
       permalink: '/tutoring/' + slug,
-      excerpt: "Hello, I'm tutoring for the Spring 2025 semester!", // Manually changed the semester
+      excerpt: "Hello, I'm tutoring for the Fall 2025 semester!", // Manually changed the semester. Again.
       content: `I am available to tutor the following classes: ${tutor.courses.join(', ')}`,
       author: tutor.name,
     })
