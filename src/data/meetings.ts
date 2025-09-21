@@ -72,4 +72,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Career Fair Prep Meeting",
     subtitle: "Bring your resumes and get some help prepping for the career fair!",
   },
+  {
+    date: "September 24, 2025",
+    title: "Bugsmashers Takeover!",
+    subtitle: "Molly and Thomas take over the general meeting this week.",
+  },
 ]
