@@ -92,4 +92,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Scratch Codeoff!",
     subtitle: "Take a trip back to high school as ACM hold a fun scratch-based meeting!",
   },
+  {
+    date: "October 22, 2025",
+    title: "Bugsmashers Takeover 2",
+    subtitle: "The Bugsmashers will be taking over another meeting with an exciting topic.",
+  },
 ]
