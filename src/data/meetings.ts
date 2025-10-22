@@ -97,4 +97,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Bugsmashers Takeover 2",
     subtitle: "The Bugsmashers will be taking over another meeting with an exciting topic.",
   },
+  {
+    date: "October 29, 2025",
+    title: "Text Editor Fashion",
+    subtitle: "Dellie is giving a talk about text editors and IDEs and will speak on spicing up your development experience.",
+  },
 ]

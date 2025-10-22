@@ -29,12 +29,21 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['vcs', 'version control', 'git'],
   },
   {
-    title: 'Basic Web Tech',
-    subtitle: 'HTML, CSS, and JavaScript',
+    title: 'Windows Subsystem for Linux (WSL)',
+    subtitle: 'From Enemies to Friends',
     semester: 'F25',
-    date: new Date('October 9, 2025'),
-    content: 'Learn how to use HTML, CSS, and JavaScript to create a personal website.',
-    tags: ['html', 'css', 'javascript', 'website'],
+    date: new Date('October 8, 2025'),
+    content: 'Learn to install and customize WSL on your Windows machine.',
+    tags: ['WSL', 'Linux', 'Ricing'],
+  },
+  /*
+  {
+    title: 'Software Reverse Engineering',
+    subtitle: 'No Source Code, No Problem!',
+    semester: 'F25',
+    date: new Date('October 30, 2025'),
+    content: 'Use Ghidra to understand and reverse engineer binaries.',
+    tags: ['reverse engineering', 'ghidra'],
   },
   {
     title: 'Website Kickstarter',
@@ -44,13 +53,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: 'Use HTML, CSS, and JavaScript to create a personal website.',
     tags: ['html', 'css', 'javascript', 'website'],
   },
+  */
   {
-    title: 'Software Reverse Engineering',
-    subtitle: 'No Source Code, No Problem!',
+    title: 'Basic Web Tech',
+    subtitle: 'HTML, CSS, and JavaScript',
     semester: 'F25',
-    date: new Date('October 30, 2025'),
-    content: 'Use Ghidra to understand and reverse engineer binaries.',
-    tags: ['reverse engineering', 'ghidra'],
+    date: new Date('October 23, 2025'),
+    content: 'Learn how to use HTML, CSS, and JavaScript to create a personal website.',
+    tags: ['html', 'css', 'javascript', 'website'],
   },
   {
     title: 'Make a Mobile App',
