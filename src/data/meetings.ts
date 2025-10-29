@@ -102,4 +102,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Text Editor Fashion",
     subtitle: "Dellie is giving a talk about text editors and IDEs and will speak on spicing up your development experience.",
   },
+  {
+    date: "November 5, 2025",
+    title: "Lightning Talks",
+    subtitle: "Come and listen to (and maybe give) miniture talks on a whole litany of vaguely CS-adjacent topics!",
+  },
 ]
