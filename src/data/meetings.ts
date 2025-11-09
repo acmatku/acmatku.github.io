@@ -107,4 +107,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Lightning Talks",
     subtitle: "Come and listen to (and maybe give) miniture talks on a whole litany of vaguely CS-adjacent topics!",
   },
+  {
+    date: "November 12, 2025",
+    title: "Meeting?",
+    subtitle: "We have no clue what we're doing yet ¯\_(ツ)_/¯",
+  },
 ]
