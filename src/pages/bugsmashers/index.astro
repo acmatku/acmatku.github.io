@@ -5,10 +5,42 @@ import Hero from '../../components/widgets/Hero.astro';
 import Headline from '../../components/ui/Headline.astro';
 import Layout from '../../layouts/PageLayout.astro';
 import { BUGSMASHERS_SCHEDULE, PROJECT_NIGHTS } from '../../data/bugsmashers.ts'
+import NextMeeting from '../../components/NextMeeting';
+import { UPCOMING_MEETINGS, type Meeting } from '../../data/meetings';
+import { HACKNIGHTS } from '../../data/bugsmashers.ts';
+import { date } from 'astro:schema';
 
 const metadata = {
   title: 'BugSmashers',
 };
+
+const localeDateStringOptsLong: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+}
+
+const localeDateStringOptsShort: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+}
+
+const bugSmashersMeetings: Meeting[] = HACKNIGHTS.map(post => ({
+    date: post.date.toLocaleDateString("en-US", localeDateStringOptsLong),
+    subtitle: post.subtitle,
+    title: post.title,
+} as Meeting)).concat(PROJECT_NIGHTS.map(pn => ({
+    date: pn.date.toLocaleDateString("en-US", localeDateStringOptsLong),
+    title: pn.title,
+    subtitle: "Work on a project or just hang out at this week's project night!",
+} as Meeting)))
+
+const allMeetingsForTimeline = HACKNIGHTS.map(hn => ({
+    title: hn.title,
+    description: `${hn.date.toLocaleDateString("en-US", localeDateStringOptsShort)} - ${hn.subtitle}`,
+    date: hn.date
+})).concat(PROJECT_NIGHTS).sort((a,b) => a.date.getTime() - b.date.getTime());
 ---
 
 <Layout metadata={metadata}>
@@ -23,14 +55,11 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <div class="w-2/3 m-auto">
-    <Headline title="Hacknights Schedule"/>
-    <List posts={BUGSMASHERS_SCHEDULE}/>
-  </div>
+  <NextMeeting meetings={bugSmashersMeetings} client:load/>
 
-  <div class="w-2/3 m-auto">
-    <Headline title="Project Night Dates"/>
-    <Timeline items={PROJECT_NIGHTS} defaultIcon='tabler:code'/>
+  <div class="w-2/3 m-auto mb-8">
+    <Headline title="All Meetings"/>
+    <Timeline items={allMeetingsForTimeline} defaultIcon='tabler:code'/>
   </div>
 
 </Layout>
