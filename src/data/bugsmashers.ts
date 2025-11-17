@@ -1,3 +1,4 @@
+import { date } from 'astro:schema';
 import { createBugsmasherPosts, getFormattedDate } from '../utils/utils';
 
 export interface BugsmasherMeeting {
@@ -150,34 +151,42 @@ export const PROJECT_NIGHTS = [
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('September 18, 2025')),
+    date: new Date('September 18, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('October 2, 2025')),
+    date: new Date('October 2, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('October 30, 2025')),
+    date: new Date('October 30, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('Feburary 19, 2026')),
+    date: new Date('Feburary 19, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('March 5, 2026')),
+    date: new Date('March 5, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('March 26, 2026')),
+    date: new Date('March 26, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('April 9, 2026')),
+    date: new Date('April 9, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('April 23, 2026')),
+    date: new Date('April 23, 2026')
   },
 ]
 
