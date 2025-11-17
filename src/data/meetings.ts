@@ -109,7 +109,11 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   },
   {
     date: "November 12, 2025",
-    title: "Meeting?",
-    subtitle: "We have no clue what we're doing yet ¯\_(ツ)_/¯",
-  },
+    title: "AI Club Collab Meeting",
+    subtitle: "Spencer Talks about AI and Google Colab!",
+  },{
+    date: "November 19, 2025",
+    title: "Dr. Alexander Talk",
+    subtitle: "Dr. Alexander will be giving a talk likely about his research topics.",
+  }
 ]
