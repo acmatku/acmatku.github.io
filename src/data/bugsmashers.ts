@@ -1,3 +1,4 @@
+import { date } from 'astro:schema';
 import { createBugsmasherPosts, getFormattedDate } from '../utils/utils';
 
 export interface BugsmasherMeeting {
@@ -29,21 +30,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['vcs', 'version control', 'git'],
   },
   {
-    title: 'Basic Web Tech',
-    subtitle: 'HTML, CSS, and JavaScript',
+    title: 'Windows Subsystem for Linux (WSL)',
+    subtitle: 'From Enemies to Friends',
     semester: 'F25',
-    date: new Date('October 9, 2025'),
-    content: 'Learn how to use HTML, CSS, and JavaScript to create a personal website.',
-    tags: ['html', 'css', 'javascript', 'website'],
+    date: new Date('October 8, 2025'),
+    content: 'Learn to install and customize WSL on your Windows machine.',
+    tags: ['WSL', 'Linux', 'Ricing'],
   },
-  {
-    title: 'Website Kickstarter',
-    subtitle: 'It\'s now your turn!',
-    semester: 'F25',
-    date: new Date('October 16, 2025'),
-    content: 'Use HTML, CSS, and JavaScript to create a personal website.',
-    tags: ['html', 'css', 'javascript', 'website'],
-  },
+  /*
   {
     title: 'Software Reverse Engineering',
     subtitle: 'No Source Code, No Problem!',
@@ -53,20 +47,37 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['reverse engineering', 'ghidra'],
   },
   {
-    title: 'Make a Mobile App',
-    subtitle: 'Learn About Mobile Frameworks.',
+    title: 'Website Kickstarter',
+    subtitle: 'It\'s now your turn!',
     semester: 'F25',
-    date: new Date('November 6, 2025'),
-    content: 'Use Flutter or Swift to make a cross-platform mobile app.',
-    tags: ['mobile', 'flutter', 'swift', 'app'],
+    date: new Date('October 16, 2025'),
+    content: 'Use HTML, CSS, and JavaScript to create a personal website.',
+    tags: ['html', 'css', 'javascript', 'website'],
+  },
+  */
+  {
+    title: 'Basic Web Tech',
+    subtitle: 'HTML, CSS, and JavaScript',
+    semester: 'F25',
+    date: new Date('October 23, 2025'),
+    content: 'Learn how to use HTML, CSS, and JavaScript to create a personal website.',
+    tags: ['html', 'css', 'javascript', 'website'],
   },
   {
     title: 'Gamedev!',
     subtitle: 'An Introduction to Godot',
     semester: 'F25',
-    date: new Date('November 20, 2025'),
+    date: new Date('November 6, 2025'),
     content: 'This meeting will be focused different operating systems and navigating the command line.',
     tags: ['games', 'godot'],
+  },
+  {
+    title: 'Make a Mobile App',
+    subtitle: 'Learn About Mobile Frameworks.',
+    semester: 'F25',
+    date: new Date('November 20, 2025'),
+    content: 'Use Flutter or Swift to make a cross-platform mobile app.',
+    tags: ['mobile', 'flutter', 'swift', 'app'],
   },
   {
     title: 'C and C++',
@@ -140,34 +151,42 @@ export const PROJECT_NIGHTS = [
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('September 18, 2025')),
+    date: new Date('September 18, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('October 2, 2025')),
+    date: new Date('October 2, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('October 30, 2025')),
+    date: new Date('October 30, 2025')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('Feburary 19, 2026')),
+    date: new Date('Feburary 19, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('March 5, 2026')),
+    date: new Date('March 5, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('March 26, 2026')),
+    date: new Date('March 26, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('April 9, 2026')),
+    date: new Date('April 9, 2026')
   },
   {
     title: 'Project Day ' + day++,
     description: getFormattedDate(new Date('April 23, 2026')),
+    date: new Date('April 23, 2026')
   },
 ]
 

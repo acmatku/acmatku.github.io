@@ -142,24 +142,6 @@ export const TUTORS: Tutor[] = [
     ],
   },
   {
-    name: "Anass Alshobaki",
-    color: COLORS[idx++ % COLORS.length],
-    id: idx,
-    times: [
-      ["M", 15, 16],
-      ["T", 9, 10],
-      ["R", 9, 9.5],
-    ],
-    courses: [
-      "EECS 140",
-      "MATH 125",
-      "MATH 126",
-      "MATH 127",
-      "EPHX 210",
-      "PHSX 212",
-    ],
-  },
-  {
     name: "Marco Martinez",
     color: COLORS[idx++ % COLORS.length],
     id: idx,
@@ -182,7 +164,7 @@ export const TUTORS: Tutor[] = [
     id: idx,
     times: [
       ["W", 15, 16],
-      ["R", 9.5, 10.5],
+      ["R", 9, 10.5],
     ],
     courses: [
       "EECS 168",

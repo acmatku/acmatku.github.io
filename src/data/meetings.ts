@@ -87,4 +87,39 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Gibbons Q&A",
     subtitle: "Dr. Gibbons will be doing his yearly Q&A at this week's meeting!",
   },
+  {
+    date: "October 15, 2025",
+    title: "Scratch Codeoff!",
+    subtitle: "Take a trip back to high school as ACM hold a fun scratch-based meeting!",
+  },
+  {
+    date: "October 22, 2025",
+    title: "Bugsmashers Takeover 2",
+    subtitle: "The Bugsmashers will be taking over another meeting with an exciting topic.",
+  },
+  {
+    date: "October 29, 2025",
+    title: "Text Editor Fashion",
+    subtitle: "Dellie is giving a talk about text editors and IDEs and will speak on spicing up your development experience.",
+  },
+  {
+    date: "November 5, 2025",
+    title: "Lightning Talks",
+    subtitle: "Come and listen to (and maybe give) miniture talks on a whole litany of vaguely CS-adjacent topics!",
+  },
+  {
+    date: "November 12, 2025",
+    title: "AI Club Collab Meeting",
+    subtitle: "Spencer Talks about AI and Google Colab!",
+  },
+  {
+    date: "November 19, 2025",
+    title: "Dr. Alexander Talk",
+    subtitle: "Dr. Alexander will be giving a talk likely about his research topics.",
+  },
+  {
+    date: "December 3, 2025",
+    title: "Fun Meeting!!",
+    subtitle: "Join ACM for some pre-finals fun to end the semester.",
+  },
 ]
