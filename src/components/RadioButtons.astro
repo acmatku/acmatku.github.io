@@ -1,0 +1,47 @@
+---
+import _ from "lodash";
+
+interface Props {
+    buttonIDs: string[];
+    buttonText: string[];
+    inputElementName: string;
+}
+
+const {
+    buttonIDs,
+    buttonText,
+    inputElementName,
+} = Astro.props;
+
+if (buttonText && buttonText?.length !== buttonIDs.length) {
+    throw "RadioButtons.astro: Passed text length !== IDs length";
+}
+
+const buttonProps = _.zip(buttonIDs, buttonText);
+---
+
+<div 
+    id={`${inputElementName}-baseContainer`}
+    class="flex flex-row gap-x-2"
+>
+    {
+        buttonProps.map(btn => (
+            <span>
+                <input
+                    type="radio"
+                    id={`${inputElementName}-${btn[0]}`}
+                    name={inputElementName}
+                    value={btn[0]}
+                    class="hidden peer"
+                />
+                <label
+                    for={`${inputElementName}-${btn[0]}`}
+                    id={`${inputElementName}-${btn[0]}-label`}
+                    class="p-2 border rounded-xl cursor-pointer peer-checked:cursor-auto peer-checked:bg-green-400 select-none"
+                >
+                    {btn[1]}
+                </label>
+            </span>
+        ))
+    }
+</div>
