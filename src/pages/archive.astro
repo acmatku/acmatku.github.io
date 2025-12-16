@@ -3,7 +3,6 @@ import Hero from '../components/widgets/Hero.astro';
 import Layout from '../layouts/PageLayout.astro';
 import Timeline from '../components/ui/Timeline.astro';
 import { BUGSMASHERS_SCHEDULE, PROJECT_NIGHTS } from '../data/bugsmashers';
-import RadioButtons from '../components/RadioButtons.astro';
 import { ALL_ARCHIVE_ITEMS, ARCHIVE_YEARS } from '../data/archive';
 import ArchiveListing from '../components/ArchiveListing';
 
@@ -21,7 +20,7 @@ const metadata = {
       <ArchiveListing
         buttonIDs={["All"].concat(ARCHIVE_YEARS)}
         buttonText={["All"].concat(ARCHIVE_YEARS)}
-        inputElementName='YearsRadio'
+        inputElementName='yearsRadio'
         items={ALL_ARCHIVE_ITEMS}
         client:load
       />

@@ -20,6 +20,10 @@ export const headerData = {
       href: getPermalink("/bugsmashers"),
     },
     {
+      text: "Archive",
+      href: getPermalink("/archive"),
+    },
+    {
       text: "HackKU⤴",
       href: "https://hackku.org/",
       target: "_blank",
