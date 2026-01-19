@@ -33,7 +33,7 @@ const RadioButtons = ({buttonIDs, buttonText, inputElementName, stateSetter} : R
                         <label
                             htmlFor={`${inputElementName}-${btn[0]}`}
                             id={`${inputElementName}-${btn[0]}-label`}
-                            className="p-2 border-2 rounded-xl border-slate-950 cursor-pointer peer-checked:cursor-auto bg-slate-900 peer-checked:bg-slate-800 select-none box-border block peer-focus-visible:border-slate-200"
+                            className="p-2 border-2 rounded-xl border-slate-950 cursor-pointer peer-checked:cursor-auto bg-slate-900 peer-checked:bg-slate-800 select-none box-border block peer-checked:border-slate-200 peer-focus-visible:bg-blue-300"
                             onFocus={(e) => e.currentTarget.click()}
                         >
                             {btn[1]}

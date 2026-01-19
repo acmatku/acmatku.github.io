@@ -1,5 +1,5 @@
-import { useEffect, useState, type SetStateAction } from "react";
-import { ALL_ARCHIVE_ITEMS, ARCHIVE_YEARS, type ArchiveItem, type ArchiveYear } from "../data/archive";
+import { useEffect, useState} from "react";
+import { ALL_ENTRY_TYPES, ARCHIVE_YEARS, type ArchiveEntryType, type ArchiveItem, type ArchiveYear } from "../data/archive";
 import RadioButtons from "./RadioButtons";
 
 interface ArchiveListingProps {
@@ -63,8 +63,10 @@ const ArchiveItemDisplay = ({ item } : { item: ArchiveItem }) => {
 }
 
 const ArchiveListing = ({ buttonText, buttonIDs, inputElementName, items }: ArchiveListingProps) => {
-    const defaultYearFilterState = ARCHIVE_YEARS.at(-1)!;
-    const [yearFilter, setYearFilter] = useState(defaultYearFilterState);
+    const defaultYearFilterState = ARCHIVE_YEARS.at(-1) || "All";
+    const [yearFilter, setYearFilter] = useState<ArchiveYear | "All">(defaultYearFilterState);
+    const [entryTypeFilter, setEntryTypeFilter] = useState<ArchiveEntryType | "All">("All");
+    const [filteredItemList, setFilteredItemList] = useState<ArchiveItem[]>([]);
 
     // After first render
     useEffect(() => {
@@ -73,15 +75,44 @@ const ArchiveListing = ({ buttonText, buttonIDs, inputElementName, items }: Arch
         if (lastInput) {
             lastInput.checked = true;
         }
+
+        const entryTypeInput = document.querySelector(`#entryTypeRadio-baseContainer input[value="All"]`) as HTMLInputElement;
+        if (entryTypeInput) {
+            entryTypeInput.checked = true;
+        }
     }, []);
+
+    useEffect(() => {
+        setFilteredItemList(items
+            .filter(e => yearFilter === "All" || e.year === yearFilter)
+            .filter(e => entryTypeFilter === "All" || e.entryType === entryTypeFilter)
+        )
+    }, [yearFilter, entryTypeFilter])
 
     return (
         <section className="archiveLising">
-            <RadioButtons buttonIDs={buttonIDs} buttonText={buttonText} inputElementName={inputElementName} stateSetter={setYearFilter}></RadioButtons>
+            <div className="flex flex-row justify-between flex-wrap">
+                <RadioButtons
+                    buttonIDs={buttonIDs}
+                    buttonText={buttonText}
+                    inputElementName={inputElementName}
+                    stateSetter={setYearFilter}
+                />
+                <RadioButtons
+                    buttonIDs={["All"].concat(ALL_ENTRY_TYPES)}
+                    buttonText={["All"].concat(ALL_ENTRY_TYPES)}
+                    inputElementName="entryTypeRadio"
+                    stateSetter={setEntryTypeFilter}
+                />
+            </div>
             <div className="flex flex-col gap-y-4">
-                {items.filter(e => e.year === yearFilter).map((e, idx) => (
-                    <ArchiveItemDisplay item={e} />
-                ))}
+                { 
+                    filteredItemList.length > 0 ?
+                    filteredItemList.map((e, idx) => <ArchiveItemDisplay item={e} key={idx} />) :
+                    <p className="text-2xl text-center my-8">
+                        No entries match this query.
+                    </p>
+                }
             </div>
         </section>
     );
