@@ -2,18 +2,27 @@
 import Hero from '../components/widgets/Hero.astro';
 import Layout from '../layouts/PageLayout.astro';
 import Timeline from '../components/ui/Timeline.astro';
-import { UPCOMING_MEETINGS } from '../data/meetings';
-import { BUGSMASHERS_SCHEDULE } from '../data/bugsmashers';
-import { HACKNIGHTS } from '../data/bugsmashers';
+import { BUGSMASHERS_SCHEDULE, PROJECT_NIGHTS } from '../data/bugsmashers';
+import { ALL_ARCHIVE_ITEMS, ARCHIVE_YEARS } from '../data/archive';
+import ArchiveListing from '../components/ArchiveListing';
 
 const metadata = {
-  title: 'Calendar',
+  title: 'Archive',
 };
 ---
 
 <Layout metadata={metadata}>
     <Hero tagline='Archive'>
         <Fragment slot='title'>Google Slides of ACM Past!</Fragment>
-        <Timeline items={UPCOMING_MEETINGS.concat(UPCOMING_MEETINGS)} defaultIcon='tabler:code'/>
     </Hero>
+
+    <div class="w-2/3 m-auto mb-8">
+      <ArchiveListing
+        buttonIDs={["All"].concat(ARCHIVE_YEARS)}
+        buttonText={["All"].concat(ARCHIVE_YEARS)}
+        inputElementName='yearsRadio'
+        items={ALL_ARCHIVE_ITEMS}
+        client:load
+      />
+    </div>
 </Layout>

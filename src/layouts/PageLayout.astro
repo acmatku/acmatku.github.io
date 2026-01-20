@@ -25,8 +25,8 @@ const { metadata } = Astro.props;
   <main>
     <slot />
   </main>
+  <div class="grow"></div>
   <slot name="footer">
-    
     <Footer {...footerData} />
   </slot>
 </Layout>
