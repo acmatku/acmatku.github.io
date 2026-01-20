@@ -141,7 +141,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     semester: 'S26',
     date: new Date('Feburary 26, 2026'),
     content: 'An exam help session for CS and CyE students.',
-    tags: ['cpu', 'gpu', 'parallelism'],
+    tags: [],
   },
 ];
 
