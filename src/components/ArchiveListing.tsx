@@ -108,7 +108,8 @@ const ArchiveListing = ({ buttonText, buttonIDs, inputElementName, items }: Arch
             <div className="flex flex-col gap-y-4">
                 { 
                     filteredItemList.length > 0 ?
-                    filteredItemList.map((e, idx) => <ArchiveItemDisplay item={e} key={idx} />) :
+                    filteredItemList.toSorted((a, b) => b.date.valueOf() - a.date.valueOf())
+                    .map((e, idx) => <ArchiveItemDisplay item={e} key={idx} />) :
                     <p className="text-2xl text-center my-8">
                         No entries match this query.
                     </p>
