@@ -26,7 +26,8 @@ export type ArchiveTag = "Test" |
     "Fun" |
     "Schoonover" |
     "Professional Development" |
-    "Intro";
+    "Intro" |
+    "Web";
 
 export const ALL_ENTRY_TYPES: ArchiveEntryType[] = [
     "Meetings", "Bugsmashers", "HackKU", "Miscellaneous"
@@ -48,6 +49,7 @@ export type ArchiveItem = {
 }
 
 export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
+    // general FA25
     {
         date: new Date("2025-12-03"),
         semester: "Fall",
@@ -241,6 +243,96 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/1p6fQ5bxVPbSFUus6wYRdNfxGnmxhReYw1b6IYgCXfPg/edit?usp=sharing")
             }
         ]
-    }
-
+    },
+    // bugsmashers FA25, project nights excluded
+    {
+        date: new Date("2025-10-08"),
+        name: "BugSmashers: WSL",
+        semester: "Fall",
+        year: "25-26",
+        description: "The BugSmashers go over Windows Subsystem for Linux.",
+        entryType: "Bugsmashers",
+        tags: ["Linux", "Workshops"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/14MogaF3CjJkxf7XK3uoWS2vahEb2mc6jqdF1BHUVOTk/edit?usp=sharing")
+            }
+        ]
+    },
+    {
+        date: new Date("2025-09-25"),
+        name: "BugSmashers: Version Control",
+        semester: "Fall",
+        year: "25-26",
+        description: "The BugSmashers talk about Git version control.",
+        entryType: "Bugsmashers",
+        tags: ["Workshops"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1-2eGTQNp2fp3MNqkDCi_aojvKP4X3jFgH6nHNRjdtNk/edit?usp=sharing")
+            }
+        ]
+    },
+    {
+        date: new Date("September 11, 2025"),
+        entryType: "Bugsmashers",
+        name: "BugSmashers: Operating Systems",
+        semester: "Fall",
+        year: "25-26",
+        description: "The BugSmashers discuss Linux, Windows and their differences.",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1alvePVtm0MfpbobuoJFV8_SPuXDz0DHYjlV80Nu4AtE/edit?usp=sharing")
+            }
+        ],
+        tags: ["Linux", "Workshops"]
+    },
+    {
+        name: 'BugSmashers: Software Reverse Engineering',
+        semester: 'Fall',
+        date: new Date('November 6, 2025'),
+        description: 'BugSmashers use Ghidra to understand and reverse engineer binaries.',
+        tags: ["Workshops"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1i-B-1kk93D0hASc9gR7clzlTcNO9VvbaUzH-wV4pR9Q/edit?usp=sharing")
+            }
+        ]
+  },
+  {
+        name: 'BugSmashers: Web Development',
+        semester: 'Fall',
+        date: new Date('october 23, 2025'),
+        description: 'BugSmashers introduce HTML, CSS, and JavaScript, the three pillars of web development.',
+        tags: ["Workshops", "Web"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1iM_cGTaYbSFi6ufjSg7NN9qBFf1SJFT7gqTL6fyptYQ/edit?usp=sharing")
+            }
+        ]
+  },
+  {
+        name: 'BugSmashers: Mobile Frameworks',
+        semester: 'Fall',
+        date: new Date('November 20, 2025'),
+        description: 'BugSmashers host a workshop on Flutter, a cross-platform for Mobile, Desktop, and Web.',
+        tags: ["Workshops", "Web", "Mobile"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1Up9y7tBpgbI0aK03bn7RQ72Fn-2G0kZncRzHcWAwsHE/edit?usp=sharing")
+            }
+        ]
+  },
 ];

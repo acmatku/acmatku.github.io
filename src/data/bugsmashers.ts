@@ -37,15 +37,15 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: 'Learn to install and customize WSL on your Windows machine.',
     tags: ['WSL', 'Linux', 'Ricing'],
   },
-  /*
   {
     title: 'Software Reverse Engineering',
     subtitle: 'No Source Code, No Problem!',
     semester: 'F25',
-    date: new Date('October 30, 2025'),
+    date: new Date('November 6, 2025'),
     content: 'Use Ghidra to understand and reverse engineer binaries.',
     tags: ['reverse engineering', 'ghidra'],
   },
+  /*
   {
     title: 'Website Kickstarter',
     subtitle: 'It\'s now your turn!',
@@ -63,14 +63,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: 'Learn how to use HTML, CSS, and JavaScript to create a personal website.',
     tags: ['html', 'css', 'javascript', 'website'],
   },
-  {
+/*   {
     title: 'Gamedev!',
     subtitle: 'An Introduction to Godot',
     semester: 'F25',
     date: new Date('November 6, 2025'),
     content: 'This meeting will be focused different operating systems and navigating the command line.',
     tags: ['games', 'godot'],
-  },
+  }, */
   {
     title: 'Make a Mobile App',
     subtitle: 'Learn About Mobile Frameworks.',
@@ -87,14 +87,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: 'This meeting will be focused on C and C++. Learn about pointers and memory management.',
     tags: ['c', 'c++', 'pointers'],
   },
-  {
+/*   {
     title: 'Compiler Kickstarter',
     subtitle: 'Get Started on Your Own Compiler',
     semester: 'S26',
     date: new Date('January 29, 2026'),
     content: 'Get started on your own compiler.',
     tags: ['c', 'compiler'],
-  },
+  }, */
   {
     title: 'Hardware Projects',
     subtitle: 'Pi and Arduino',
