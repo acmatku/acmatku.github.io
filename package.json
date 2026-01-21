@@ -23,7 +23,7 @@
     "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.17",
     "astro": "^4.16.18",
-    "astro-icon": "^1.0.0-next.2",
+    "astro-icon": "^1.1.5",
     "limax": "4.1.0",
     "lodash": "^4.17.23",
     "lodash.merge": "^4.6.2",
