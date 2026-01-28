@@ -126,6 +126,6 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   {
     date: "January 28, 2026",
     title: "Kickoff Meeting",
-    subtitle: "Join ACM to Kick-off the Spring Semester!",
+    subtitle: "Join ACM to Kick-off the Spring Semester with a game of Stack Overfeud!!",
   },
 ]
