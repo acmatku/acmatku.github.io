@@ -23,6 +23,16 @@ export const headerData = {
       text: "Archive",
       href: getPermalink("/archive"),
     },
+
+    // ICP TEMP - REMOVE 2/8/26
+    ...(Date.now() < (new Date("2026-02-07T17:00:00-06:00")).getTime()) ?
+    [
+      {
+        text:"IPC 2026",
+        href: getPermalink("/ipc")
+      }
+    ] : [],
+
     {
       text: "HackKU⤴",
       href: "https://hackku.org/",

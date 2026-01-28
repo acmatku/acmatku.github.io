@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/PageLayout.astro';
+import Hero from '../components/widgets/Hero.astro';
+import Button from '../components/ui/Button.astro';
+
+const metadata = {
+  title: 'ICP 2026',
+  ignoreTitleTemplate: true,
+};
+
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero>
+    <Fragment slot="title">Intramural Programming Competition 2026</Fragment>
+    
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline mt-16">
+        A 12-hour MLH Hack Day at the University of Kansas! There will be prizes for the winners of two themed tracks alongside free food for all attendees!
+      </span>
+    </Fragment>
+  </Hero>
+
+  <div class="w-2/3 m-auto flex flex-col items-center justify-center mb-16 gap-8">
+    <ul class="flex gap-8 text-4xl">
+      <li>🗓️ 02/08/26</li>
+      <li>🕘 9AM - 9PM</li>
+      <li>📍 LEEP2</li>
+    </ul>
+
+    <div class="flex gap-8">
+      <div class="flex flex-col justify-center">
+        <p class="text-2xl">And if you're interested...</p>
+      </div>
+      <Button {...({ text: 'Apply to be a Judge!', href: 'https://discord.gg/SgFkFv4bUR', target: '_blank', variant: 'primary'})} />
+    </div>
+
+    <div></div>
+  </> 
+</Layout>
