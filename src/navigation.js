@@ -29,7 +29,7 @@ export const headerData = {
     [
       {
         text:"IPC 2026",
-        href: getPermalink("/ipc")
+        href: getPermalink("/ipc26")
       }
     ] : [],
 
