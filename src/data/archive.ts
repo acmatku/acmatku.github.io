@@ -335,4 +335,24 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             }
         ]
   },
+  // Main meetings SP26
+  {
+        date: new Date("2026-01-28"),
+        name: "Stack Overfeud Spring 2026",
+        description: "ACM kicked off the Spring 2026 semester with a fun game of Stack Overfeud.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Fun", "Intro"],
+        links: [
+            {
+                name: "Slides (Adminstrivia)",
+                url: new URL(" https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
+            },
+            {
+                name: "Slides (Stack Overflow)",
+                url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
+            }
+        ]
+    },
 ];

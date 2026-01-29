@@ -128,4 +128,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Kickoff Meeting",
     subtitle: "Join ACM to Kick-off the Spring Semester with a game of Stack Overfeud!!",
   },
+  {
+    date: "February 4, 2026",
+    title: "Collab w/ KU Blockchain",
+    subtitle: "ACM and KUBI are collaborating on a presentation about blockchain technologies. Show up to learn about this emerging technology!",
+  },
 ]
