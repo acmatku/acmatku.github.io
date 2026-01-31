@@ -17,7 +17,7 @@ const RadioButtons = ({buttonIDs, buttonText, inputElementName, stateSetter} : R
     return (
         <fieldset
             id={`${inputElementName}-baseContainer`}
-            className="flex flex-row gap-x-2 mb-2"
+            className="flex flex-row gap-x-2 mb-2 flex-wrap"
         >
             {
                 buttonProps.map((btn, idx) => (

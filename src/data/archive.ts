@@ -5,10 +5,16 @@ Parsed date strings are in ISO format (YYYY-MM-DD)
 */
 
 // be sure to edit these at the same time. not sure of a great way to couple them with code.
+export type ArchiveYear = "25-26";
 export const ARCHIVE_YEARS: ArchiveYear[] = [
     "25-26"
 ];
-export type ArchiveYear = "25-26";
+
+// be sure to edit these at the same time. not sure of a great way to couple them with code.
+export type ArchiveEntryType = "Meetings" | "Bugsmashers" | "HackKU" | "Miscellaneous";
+export const ALL_ENTRY_TYPES: ArchiveEntryType[] = [
+    "Meetings", "Bugsmashers", "HackKU", "Miscellaneous"
+];
 
 // Modify as needed.
 export type ArchiveTag = "Test" |
@@ -28,11 +34,6 @@ export type ArchiveTag = "Test" |
     "Professional Development" |
     "Intro" |
     "Web";
-
-export const ALL_ENTRY_TYPES: ArchiveEntryType[] = [
-    "Meetings", "Bugsmashers", "HackKU", "Miscellaneous"
-];
-export type ArchiveEntryType = "Meetings" | "Bugsmashers" | "HackKU" | "Miscellaneous";
 
 export type ArchiveItem = {
     name: string;
@@ -352,6 +353,22 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             {
                 name: "Slides (Stack Overflow)",
                 url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
+            }
+        ]
+    },
+    // Bugsmashers SP26
+    {
+        name: 'BugSmashers: C and C++',
+        semester: 'Spring',
+        date: new Date('January 29, 2026'),
+        description: 'BugSmashers host a workshop on C and C++, critical low-level languages.',
+        tags: ["Workshops"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1HW7KIK---Vk6yaaHbwwXtd5jwJJwGwZE1ow_6m3OoH4/edit?usp=sharing")
             }
         ]
     },
