@@ -24,19 +24,19 @@ const metadata = {
   </Hero>
 
   <div class="w-2/3 m-auto flex flex-col items-center justify-center mb-16 gap-8">
-    <ul class="flex gap-8 text-4xl">
+    <ul class="flex flex-col md:flex-row gap-8 text-4xl">
       <li>🗓️ 02/08/26</li>
       <li>🕘 9AM - 9PM</li>
       <li>📍 LEEP2</li>
     </ul>
 
-    <div class="flex gap-8">
+    <div class="flex flex-col md:flex-row gap-8">
       <div class="flex flex-col justify-center">
         <p class="text-2xl">More information is available on the Devpost!</p>
       </div>
       <Button {...({ text: 'Take me there!', href: 'https://ku-ipc.devpost.com/', target: '_blank', variant: 'primary'})} />
     </div>
-    <div class="flex gap-8">
+    <div class="flex flex-col md:flex-row gap-8">
       <div class="flex flex-col justify-center">
         <p class="text-2xl">And if you're interested...</p>
       </div>
