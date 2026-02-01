@@ -351,7 +351,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL(" https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
             },
             {
-                name: "Slides (Stack Overflow)",
+                name: "Slides (Stack Overfeud)",
                 url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
             }
         ]
