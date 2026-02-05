@@ -4,6 +4,10 @@ DATA FOR THE ARCHIVE PAGE ../pages/archive.astro
 Parsed date strings are in ISO format (YYYY-MM-DD)
 */
 
+const baseURL = import.meta.env.MODE === "development"
+  ? "http://localhost:4321"
+  : "https://kuacm.club";
+
 // be sure to edit these at the same time. not sure of a great way to couple them with code.
 export type ArchiveYear = "25-26";
 export const ARCHIVE_YEARS: ArchiveYear[] = [
@@ -368,6 +372,10 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             {
                 name: "Slides (Adminstrivia)",
                 url: new URL("https://docs.google.com/presentation/d/1qAxIp56VAfcjNcAvpiTlegmQeDssRozDFKTe0_SGU04/edit?usp=sharing")
+            },
+            {
+                name: "Slides (KU Blockchain)",
+                url: new URL("/archive/KUBI-ACM-2026-02-05.pdf", baseURL),
             },
         ]
     },
