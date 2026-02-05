@@ -30,7 +30,7 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/emma-roy3251/",
   },
   {
-    name: "Connor",
+    name: "Connor Eaton",
     image: "/officers/connor.jpg",
     role: "Community Chair",
     link: "",
@@ -56,13 +56,13 @@ export const OfficerList = [
   {
     name: "Thomas Savasten",
     image: "/officers/thomas.jpg",
-    role: "Programming Club Co-chair",
+    role: "BugSmashers Co-chair",
     link: "https://www.linkedin.com/in/thomassavasten/",
   },
   {
     name: "Molly Masalskis",
     image: "/officers/molly.jpg",
-    role: "Programming Club Co-chair",
+    role: "BugSmashers Co-chair",
     link: "https://www.linkedin.com/in/mollymasalskis/ ",
   }
 ];
