@@ -97,7 +97,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
   }, */
   {
     title: 'Hardware Projects',
-    subtitle: 'Pi and Arduino',
+    subtitle: 'Learn how to mix hardware and software with Raspberry Pi/Arduino',
     semester: 'S26',
     date: new Date('Feburary 12, 2026'),
     content: 'Learn how to mix hardware and software with Raspberry Pi/Arduino',

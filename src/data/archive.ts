@@ -348,12 +348,27 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (Adminstrivia)",
-                url: new URL(" https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
             },
             {
                 name: "Slides (Stack Overfeud)",
                 url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
             }
+        ]
+    },
+    {
+        date: new Date("2026-02-04"),
+        name: "ACM x KUBI",
+        description: "ACM holds a joint meeting with KU Blockchain.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Workshops", "Collab"],
+        links: [
+            {
+                name: "Slides (Adminstrivia)",
+                url: new URL("https://docs.google.com/presentation/d/1qAxIp56VAfcjNcAvpiTlegmQeDssRozDFKTe0_SGU04/edit?usp=sharing")
+            },
         ]
     },
     // Bugsmashers SP26

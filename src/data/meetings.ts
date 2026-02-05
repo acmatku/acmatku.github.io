@@ -133,4 +133,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Collab w/ KU Blockchain",
     subtitle: "ACM and KUBI are collaborating on a presentation about blockchain technologies. Show up to learn about this emerging technology!",
   },
+  {
+    date: "February 11, 2026",
+    title: "James Hurd on Microsoft",
+    subtitle: "Past ACM Co-Chair and HackKU director James Hurd speaks on his experience at Microsoft.",
+  },
 ]

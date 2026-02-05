@@ -25,7 +25,7 @@ export const headerData = {
     },
 
     // ICP TEMP - REMOVE 2/8/26
-    ...(Date.now() < (new Date("2026-02-07T17:00:00-06:00")).getTime()) ?
+    ...(new Date() < (new Date("2026-02-08T00:00:00-06:00"))) ?
     [
       {
         text:"IPC 2026",
