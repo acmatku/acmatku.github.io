@@ -56,7 +56,7 @@ const ArchiveItemDisplay = ({ item } : { item: ArchiveItem }) => {
             {item.tags && item.tags.length > 0 ?
             <div className="flex flex-row gap-x-2 flex-wrap">
                 <p>Tags:</p>
-                {item.tags?.map((e, idx) => <p key={idx} className="p-1 bg-slate-600 rounded-md">{e}</p>)}
+                {item.tags?.map((e, idx) => <p key={idx} className="p-1 bg-slate-600 rounded-md">{e}</p>) || "None"}
             </div> : <></>}
         </div>
     );
