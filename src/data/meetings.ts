@@ -141,6 +141,6 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   {
     date: "February 18, 2026",
     title: "Python after 168 and 268",
-    subtitle: "Serom and Andrew talk about what Python looks like introductory classes.",
+    subtitle: "Serom and Andrew talk about what Python looks like after introductory classes.",
   },
 ]
