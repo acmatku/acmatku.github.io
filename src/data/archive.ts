@@ -187,7 +187,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         tags: ["Professor", "Industry", "Schoonover"],
         links: [
             {
-                name: "Slides (Adminstivia Only)",
+                name: "Slides (Administrivia Only)",
                 url: new URL("https://docs.google.com/presentation/d/1CvU8NHBhaB2mV93EVIiKmIJ8mP0Fi7BDcOjy2OQ50KA/edit?usp=sharing")
             }
         ]
@@ -351,7 +351,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         tags: ["Fun", "Intro"],
         links: [
             {
-                name: "Slides (Adminstrivia)",
+                name: "Slides (Administrivia)",
                 url: new URL("https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
             },
             {
@@ -370,7 +370,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         tags: ["Workshops", "Collab"],
         links: [
             {
-                name: "Slides (Adminstrivia)",
+                name: "Slides (Administrivia)",
                 url: new URL("https://docs.google.com/presentation/d/1qAxIp56VAfcjNcAvpiTlegmQeDssRozDFKTe0_SGU04/edit?usp=sharing")
             },
             {
@@ -389,7 +389,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         tags: ["Talks", "Industry"],
         links: [
             {
-                name: "Slides (Adminstrivia)",
+                name: "Slides (Administrivia)",
                 url: new URL("https://docs.google.com/presentation/d/1YXJFMiMYXLehz5g7lMI1OZvP0X2SaoTa8b90tDAJIzY/edit?usp=sharing")
             },
             {
@@ -418,7 +418,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         name: 'BugSmashers: Hardware Projects',
         semester: 'Spring',
         date: new Date('2026-02-12'),
-        description: 'BugSmashers host a workshop embedded systems and hardware projects.',
+        description: 'BugSmashers host a workshop on embedded systems and hardware projects.',
         tags: ["Workshops", "Talks"],
         entryType: "Bugsmashers",
         year: "25-26",
