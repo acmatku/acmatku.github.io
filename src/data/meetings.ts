@@ -138,4 +138,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "James Hurd on Microsoft",
     subtitle: "Past ACM Co-Chair and HackKU director James Hurd speaks on his experience at Microsoft.",
   },
+  {
+    date: "February 18, 2026",
+    title: "Python after 168 and 268",
+    subtitle: "Serom and Andrew talk about what Python looks like introductory classes.",
+  },
 ]

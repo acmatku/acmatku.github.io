@@ -379,13 +379,32 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("2026-02-11"),
+        name: "James Hurd on SDAN at Microsoft",
+        description: "Past ACM Co-Chair and HackKU director James Hurd speaks on his experience with software-defined accelerated networking at Microsoft.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Talks", "Industry"],
+        links: [
+            {
+                name: "Slides (Adminstrivia)",
+                url: new URL("https://docs.google.com/presentation/d/1YXJFMiMYXLehz5g7lMI1OZvP0X2SaoTa8b90tDAJIzY/edit?usp=sharing")
+            },
+            {
+                name: "Overview and James' Slides",
+                url: new URL("https://jameshurd.net/talks/sdan_at_msft/"),
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
         semester: 'Spring',
         date: new Date('January 29, 2026'),
         description: 'BugSmashers host a workshop on C and C++, critical low-level languages.',
-        tags: ["Workshops"],
+        tags: ["Workshops", "Talks"],
         entryType: "Bugsmashers",
         year: "25-26",
         links: [
@@ -395,4 +414,39 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             }
         ]
     },
+    {
+        name: 'BugSmashers: Hardware Projects',
+        semester: 'Spring',
+        date: new Date('2026-02-12'),
+        description: 'BugSmashers host a workshop embedded systems and hardware projects.',
+        tags: ["Workshops", "Talks"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/12AgcF7-ZGCAYnMAdpZg_zhoKnIaIXFiIlang8-1mx-A/edit?usp=sharing")
+            }
+        ]
+    },
+    // Misc
+    {
+        date: new Date ("February 7, 2026"),
+        name: "Intramural Programming Competition 2026",
+        entryType: "Miscellaneous",
+        semester: "Spring",
+        year: "25-26",
+        description: "An MLH Hack Day held by KU ACM in LEEP2!",
+        tags: [],
+        links: [
+            {
+                name: "Devpost",
+                url: new URL("https://ku-ipc.devpost.com/")
+            },
+            {
+                name: "Intro Slides",
+                url: new URL("https://docs.google.com/presentation/d/167BSrwijXcb2PXZO-mv1FRznZpNaeZ87MC8dFDoGKAc/edit?usp=sharing")
+            }
+        ]
+    }
 ];
