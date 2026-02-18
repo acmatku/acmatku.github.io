@@ -2,6 +2,7 @@ import { I18N } from "../utils/config";
 import type { Post } from "../types";
 import type { BugsmasherMeeting } from "../data/bugsmashers.ts";
 import type { Tutor } from "../data/tutorTypes";
+import { term } from "../data/general.ts";
 
 export const createBugsmasherPosts = (meetings: BugsmasherMeeting[], authors: string): Post[] => {
   return meetings.map((meeting) => {
@@ -32,8 +33,10 @@ export const createTutorPosts = (tutors: Tutor[]): Post[] => {
       slug: slug,
       publishDate: new Date(), // Manually added this date
       permalink: '/tutoring/' + slug,
-      excerpt: "Hello, I'm tutoring for the Fall 2025 semester!", // Manually changed the semester. Again.
-      content: `I am available to tutor the following classes: ${tutor.courses.join(', ')}`,
+      excerpt: `Hello, I'm tutoring for the ${term} semester!`,
+      content: `I am available to tutor the following classes: ${tutor.courses.join(', ')}.
+      ${/* Special Cases go below as ternary operations */ ""}
+      ${tutor.flags?.includes("eliana-sp26") ? "I'm only available on Thursday 2/26, 3/12, 4/9, 4/16, 4/23, and 5/7!" : ""}`,
       author: tutor.name,
     })
   })
