@@ -6,5 +6,5 @@ export interface Tutor {
   color: string,
   times: TimeSlot[],
   courses: string[],
+  flags?: string[], // for hacky nonsense
 }
-

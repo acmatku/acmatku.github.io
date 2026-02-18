@@ -81,10 +81,10 @@ export default function Tutors() {
     });
   });
 
-  const tutorNameStyle = (color) => ({
+  const tutorNameStyle = (color, day, flags) => ({
     display: "block",
     textDecoration: "none",
-    backgroundColor: color, // Add a background color to improve visibility
+    background: color, // Add a background color to improve visibility
     padding: "0px", // Add some padding for spacing
     color: "white", // Change the text color to white
     height: "100%", // Ensure full height
@@ -95,6 +95,11 @@ export default function Tutors() {
     minHeight: "48px", // Ensure that even empty slots have a minimum height
     opacity: 0.77, // Reduce opacity to improve visibility of overlapping slots
     cursor: "pointer",
+
+    // edge cases you need to hackingly add in.
+    ...(flags && day === "R" && flags.includes("eliana-sp26") ? {
+      background: `repeating-linear-gradient(135deg, ${color}, ${color} 20px, rgba(0,0,0,0) 20px, rgba(0,0,0,0) 40px)`
+    } : {}),
   });
 
   const [selectedClass, setSelectedClass] = useState(""); // State for selected class
@@ -184,7 +189,7 @@ export default function Tutors() {
                                             rel="noopener,noreferrer"
                                             target="_blank"
                                             key={tutor.name}
-                                            style={tutorNameStyle(tutor.color)}
+                                            style={tutorNameStyle(tutor.color, day, tutor.flags)}
                                             title={tutor.courses.join(", ")}
                                             href={`/tutoring/${tutor.name.toLowerCase().trim().replaceAll(/\s/g, "-")}`}
                                           >

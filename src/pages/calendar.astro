@@ -4,6 +4,7 @@ import Layout from '../layouts/PageLayout.astro';
 import NextMeeting from '../components/NextMeeting';
 import Timeline from '../components/ui/Timeline.astro';
 import { UPCOMING_MEETINGS } from '../data/meetings'
+import { term } from '../data/general';
 
 const metadata = {
   title: 'Calendar',
@@ -17,7 +18,7 @@ const metadata = {
       Come See What We're Up To! <br/>
     </Fragment>
 
-    <Fragment slot="subtitle">We are meeting in <strong class="font-bold">LEEP2 G415 Wed 6-7 PM</strong> for the <em class="italic">Spring 2026</em> semester.</Fragment>
+    <Fragment slot="subtitle">We are meeting in <strong class="font-bold">LEEP2 G415 Wed 6-7 PM</strong> for the <em class="italic">{term}</em> semester.</Fragment>
   </Hero>
 
   <NextMeeting meetings={UPCOMING_MEETINGS} client:load/>
