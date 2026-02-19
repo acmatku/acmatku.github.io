@@ -99,7 +99,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     title: 'Hardware Projects',
     subtitle: 'Learn how to mix hardware and software with Raspberry Pi/Arduino',
     semester: 'S26',
-    date: new Date('Feburary 12, 2026'),
+    date: new Date('February 12, 2026'),
     content: 'Learn how to mix hardware and software with Raspberry Pi/Arduino',
     tags: ['raspberry pi', 'arduino', 'hardware'],
   },
@@ -107,7 +107,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     title: 'Computer Componments',
     subtitle: 'CPU vs. GPU and Their Applications',
     semester: 'S26',
-    date: new Date('Feburary 26, 2026'),
+    date: new Date('February 26, 2026'),
     content: 'This meeting will discuss the roles played by different computer hardware components, especially GPUs and CPUs, and their strengths and weaknesses.',
     tags: ['cpu', 'gpu', 'parallelism'],
   },
@@ -139,7 +139,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     title: 'Exam Help!',
     subtitle: 'One of Two Exam Help Sessions',
     semester: 'S26',
-    date: new Date('Feburary 26, 2026'),
+    date: new Date('February 26, 2026'),
     content: 'An exam help session for CS and CyE students.',
     tags: [],
   },
@@ -165,8 +165,8 @@ export const PROJECT_NIGHTS = [
   },
   {
     title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('Feburary 19, 2026')),
-    date: new Date('Feburary 19, 2026')
+    description: getFormattedDate(new Date('February 19, 2026')),
+    date: new Date('February 19, 2026')
   },
   {
     title: 'Project Day ' + day++,
