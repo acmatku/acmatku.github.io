@@ -56,21 +56,21 @@ export type ArchiveItem = {
 export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
     // general FA25
     {
-        date: new Date("2025-12-03"),
+        date: new Date("12/03/2025"),
         semester: "Fall",
         year: "25-26",
         name: "ACM x SASE End of Year Wind-Down",
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/180XO632jU4g8gC7YC2khLfOVg2nN-qjEyRlEmSTeJZk/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/180XO632jU4g8gC7YC2khLfOVg2nN-qjEyRlEmSTeJZk/edit")
             },
         ],
         entryType: "Meetings",
         tags: ["Collab", "Fun"],
     },
     {
-        date: new Date("2025-11-19"),
+        date: new Date("11/19/2025"),
         name: "Dr. Alexander on Grad School",
         semester: "Fall",
         year: "25-26",
@@ -79,13 +79,13 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "ACM Slides",
-                url: new URL("https://docs.google.com/presentation/d/1IV50-xAsipy-A27PYsard40ZYocNBbjLgVFlJGQsXE8/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1IV50-xAsipy-A27PYsard40ZYocNBbjLgVFlJGQsXE8/edit")
             }
         ],
         tags: ["Research", "Talks", "Dr. Alexander", "Professor"]
     },
     {
-        date: new Date("2025-11-12"),
+        date: new Date("11/12/2025"),
         name: "ACM x AI Club Workshop",
         semester: "Fall",
         year: "25-26",
@@ -93,14 +93,14 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1IqY1HyNw4NH_lQCQUNpG85KIyqoTvi1ZYcx5CCdN6cA/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1IqY1HyNw4NH_lQCQUNpG85KIyqoTvi1ZYcx5CCdN6cA/edit")
             }
         ],
         description: "Spencer from AI club walks ACM through creating an ML classifier.",
         tags: ["AI/ML", "Collab", "Workshops"]
     },
     {
-        date: new Date("2025-11-05"),
+        date: new Date("11/05/2025"),
         name: "Lightning Talks Fall '25",
         description: "ACM members speak on their most adamently-held computing-adjacent beliefs.",
         semester: "Fall",
@@ -110,28 +110,28 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Meeting Slides",
-                url: new URL("https://docs.google.com/presentation/d/1h5tOP0Yqm45dPzIBC0lkynWz_ZqnBSkloTCo5nqMBD0/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1h5tOP0Yqm45dPzIBC0lkynWz_ZqnBSkloTCo5nqMBD0/edit")
             },
             {
                 name: "Why Ubuntu is the Worst Linux Distribution -- Addison",
-                url: new URL("https://docs.google.com/presentation/d/1c_76_IuYCtx_dBAxwAHQRVfHeoL2banni9VJpZJ5O7s/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1c_76_IuYCtx_dBAxwAHQRVfHeoL2banni9VJpZJ5O7s/edit")
             },
             {
                 name: "Async Rust and the Borrow Checker -- Eyassu",
-                url: new URL("https://drive.google.com/file/d/1PdFNXR3pKHYK0T1bA6eSSeAJeNnbNviu/view?usp=sharing")
+                url: new URL("https://drive.google.com/file/d/1PdFNXR3pKHYK0T1bA6eSSeAJeNnbNviu/view")
             },
             {
                 name: "Intro to Blockchain and When Not to Use It -- Nischay",
-                url: new URL("https://drive.google.com/file/d/106XTtxfwOPxiGbwbkaffyDzm2FkesoY0/view?usp=sharing")
+                url: new URL("https://drive.google.com/file/d/106XTtxfwOPxiGbwbkaffyDzm2FkesoY0/view")
             },
             {
                 name: "How Does a Neural Net Work? -- Spencer",
-                url: new URL("https://docs.google.com/presentation/d/1iUANCfwOrKjmzzsdMWrZM75SZW6EBauuWsV9r4UGaKQ/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1iUANCfwOrKjmzzsdMWrZM75SZW6EBauuWsV9r4UGaKQ/edit")
             },
         ]
     },
     {
-        date: new Date ("2025-10-29"),
+        date: new Date("10/29/2025"),
         name: "Dellie Speaks on Vim and Terminal",
         semester: "Fall",
         year: "25-26",
@@ -140,18 +140,18 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "ACM Slides",
-                url: new URL("https://docs.google.com/presentation/d/1qwSmbg3JAok9vP1NVQcyRjmbRPXVJGlx9tBIPuFbrNc/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1qwSmbg3JAok9vP1NVQcyRjmbRPXVJGlx9tBIPuFbrNc/edit")
             },
             {
                 name: "Dellie's Slides",
-                url: new URL("https://docs.google.com/presentation/d/1G2K7bSbTkRZMkwV9h6NYyOmrwaYY3qaGb8yaA7ii_Ho/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1G2K7bSbTkRZMkwV9h6NYyOmrwaYY3qaGb8yaA7ii_Ho/edit")
             }
         ]
     },
     {
         name: "Scratch Competition",
         description: "ACM members put their programming skills to the test in the finest language there is.",
-        date: new Date("2025-10-05"),
+        date: new Date("10/05/2025"),
         semester: "Fall",
         year: "25-26",
         entryType: "Meetings",
@@ -159,12 +159,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/120JU7FjvmSHKb7emKjAMcu8eGl2emuLdz-vbWxjr_B4/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/120JU7FjvmSHKb7emKjAMcu8eGl2emuLdz-vbWxjr_B4/edit")
             }
         ]
     },
     {
-        date: new Date("2025-10-08"),
+        date: new Date("10/08/2025"),
         name: "Dr. Gibbons Q&A",
         description: "Dr. Gibbons answers the most pressing questions CS students have to offer. This meeting was conducted as a live zoom call which cannot be made available here.",
         semester: "Fall",
@@ -174,12 +174,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/10jhpGxNx8sjAY1sESiUUsW499StkuM_C9ayGeqmv6gU/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/10jhpGxNx8sjAY1sESiUUsW499StkuM_C9ayGeqmv6gU/edit")
             }
         ]
     },
     {
-        date: new Date("2025-10-01"),
+        date: new Date("10/01/2025"),
         name: "Schoonover Speaks on Industry Experience at Garmin",
         year: "25-26",
         semester: "Fall",
@@ -188,12 +188,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (Administrivia Only)",
-                url: new URL("https://docs.google.com/presentation/d/1CvU8NHBhaB2mV93EVIiKmIJ8mP0Fi7BDcOjy2OQ50KA/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1CvU8NHBhaB2mV93EVIiKmIJ8mP0Fi7BDcOjy2OQ50KA/edit")
             }
         ]
     },
     {
-        date: new Date("2025-09-24"),
+        date: new Date("09/24/2025"),
         name: "BugSmashers Takeover: Jeopardy!",
         semester: "Fall",
         year: "25-26",
@@ -202,12 +202,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Meeting and Jeopardy Slides",
-                url: new URL("https://docs.google.com/presentation/d/1Nj9wqRv9E_qi9I4c3drECnlwnbcTxGvM/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
+                url: new URL("https://docs.google.com/presentation/d/1Nj9wqRv9E_qi9I4c3drECnlwnbcTxGvM/edit")
             }
         ]
     },
     {
-        date: new Date("2025-09-10"),
+        date: new Date("09/10/2025"),
         name: "Resume Review and Workshop",
         semester: "Fall",
         year: "25-26",
@@ -216,12 +216,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1tnGYLaTlxDsjojrEOrmaA_D_Kwm3cDzlxzUjHj7houI/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1tnGYLaTlxDsjojrEOrmaA_D_Kwm3cDzlxzUjHj7houI/edit")
             }
         ]
     },
     {
-        date: new Date("2025-09-03"),
+        date: new Date("09/03/2025"),
         name: "Jason Salge Speaks on Experience at CBOE",
         year: "25-26",
         semester: "Fall",
@@ -230,12 +230,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (ACM Only)",
-                url: new URL("https://docs.google.com/presentation/d/1WP7a-hDwQgzfdsr4qjb_Huq_PLjgzu1BFHAsoXGihxQ/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1WP7a-hDwQgzfdsr4qjb_Huq_PLjgzu1BFHAsoXGihxQ/edit")
             }
         ]
     },
     {
-        date: new Date("2025-08-27"),
+        date: new Date("08/27/2025"),
         name: "25-26 Intro Meeting",
         semester: "Fall",
         year: "25-26",
@@ -245,13 +245,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1p6fQ5bxVPbSFUus6wYRdNfxGnmxhReYw1b6IYgCXfPg/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1p6fQ5bxVPbSFUus6wYRdNfxGnmxhReYw1b6IYgCXfPg/edit")
             }
         ]
     },
-    // bugsmashers FA25, project nights excluded
     {
-        date: new Date("2025-10-08"),
+        date: new Date("10/08/2025"),
         name: "BugSmashers: WSL",
         semester: "Fall",
         year: "25-26",
@@ -261,12 +260,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/14MogaF3CjJkxf7XK3uoWS2vahEb2mc6jqdF1BHUVOTk/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/14MogaF3CjJkxf7XK3uoWS2vahEb2mc6jqdF1BHUVOTk/edit")
             }
         ]
     },
     {
-        date: new Date("2025-09-25"),
+        date: new Date("09/25/2025"),
         name: "BugSmashers: Version Control",
         semester: "Fall",
         year: "25-26",
@@ -276,12 +275,12 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1-2eGTQNp2fp3MNqkDCi_aojvKP4X3jFgH6nHNRjdtNk/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1-2eGTQNp2fp3MNqkDCi_aojvKP4X3jFgH6nHNRjdtNk/edit")
             }
         ]
     },
     {
-        date: new Date("September 11, 2025"),
+        date: new Date("09/11/2025"),
         entryType: "Bugsmashers",
         name: "BugSmashers: Operating Systems",
         semester: "Fall",
@@ -290,7 +289,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1alvePVtm0MfpbobuoJFV8_SPuXDz0DHYjlV80Nu4AtE/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1alvePVtm0MfpbobuoJFV8_SPuXDz0DHYjlV80Nu4AtE/edit")
             }
         ],
         tags: ["Linux", "Workshops"]
@@ -306,14 +305,14 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1i-B-1kk93D0hASc9gR7clzlTcNO9VvbaUzH-wV4pR9Q/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1i-B-1kk93D0hASc9gR7clzlTcNO9VvbaUzH-wV4pR9Q/edit")
             }
         ]
   },
   {
         name: 'BugSmashers: Web Development',
         semester: 'Fall',
-        date: new Date('october 23, 2025'),
+        date: new Date('October 23, 2025'),
         description: 'BugSmashers introduce HTML, CSS, and JavaScript, the three pillars of web development.',
         tags: ["Workshops", "Web"],
         entryType: "Bugsmashers",
@@ -321,7 +320,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1iM_cGTaYbSFi6ufjSg7NN9qBFf1SJFT7gqTL6fyptYQ/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1iM_cGTaYbSFi6ufjSg7NN9qBFf1SJFT7gqTL6fyptYQ/edit")
             }
         ]
   },
@@ -336,13 +335,13 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1Up9y7tBpgbI0aK03bn7RQ72Fn-2G0kZncRzHcWAwsHE/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1Up9y7tBpgbI0aK03bn7RQ72Fn-2G0kZncRzHcWAwsHE/edit")
             }
         ]
   },
   // Main meetings SP26
   {
-        date: new Date("2026-01-28"),
+        date: new Date("01/28/2026"),
         name: "Stack Overfeud Spring 2026",
         description: "ACM kicked off the Spring 2026 semester with a fun game of Stack Overfeud.",
         year: "25-26",
@@ -352,16 +351,16 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (Administrivia)",
-                url: new URL("https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1oPwNCIxjRLuvj5c5-ZCOpTKndLs77n9mkQh7RD4h8C4/edit")
             },
             {
                 name: "Slides (Stack Overfeud)",
-                url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit?usp=sharing&ouid=112849630344823845812&rtpof=true&sd=true")
+                url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit&ouid=112849630344823845812&rtpof=true&sd=true")
             }
         ]
     },
     {
-        date: new Date("2026-02-04"),
+        date: new Date("02/04/2026"),
         name: "ACM x KUBI",
         description: "ACM holds a joint meeting with KU Blockchain.",
         year: "25-26",
@@ -371,7 +370,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (Administrivia)",
-                url: new URL("https://docs.google.com/presentation/d/1qAxIp56VAfcjNcAvpiTlegmQeDssRozDFKTe0_SGU04/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1qAxIp56VAfcjNcAvpiTlegmQeDssRozDFKTe0_SGU04/edit")
             },
             {
                 name: "Slides (KU Blockchain)",
@@ -380,7 +379,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         ]
     },
     {
-        date: new Date("2026-02-11"),
+        date: new Date("02/11/2026"),
         name: "James Hurd on SDAN at Microsoft",
         description: "Past ACM Co-Chair and HackKU director James Hurd speaks on his experience with software-defined accelerated networking at Microsoft.",
         year: "25-26",
@@ -390,11 +389,26 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides (Administrivia)",
-                url: new URL("https://docs.google.com/presentation/d/1YXJFMiMYXLehz5g7lMI1OZvP0X2SaoTa8b90tDAJIzY/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1YXJFMiMYXLehz5g7lMI1OZvP0X2SaoTa8b90tDAJIzY/edit")
             },
             {
                 name: "Overview and James' Slides",
                 url: new URL("https://jameshurd.net/talks/sdan_at_msft/"),
+            },
+        ]
+    },
+    {
+        date: new Date("02/18/2026"),
+        name: "Advanced Python Programming",
+        description: "Andrew and Serom discuss more advanced concepts in Python including multitasking and Reactivex.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1GCl1qOwas6KtJOaCHM3B_eTEaUWUezMtLLp9OrGdfxU/edit")
             },
         ]
     },
@@ -410,14 +424,14 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/1HW7KIK---Vk6yaaHbwwXtd5jwJJwGwZE1ow_6m3OoH4/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/1HW7KIK---Vk6yaaHbwwXtd5jwJJwGwZE1ow_6m3OoH4/edit")
             }
         ]
     },
     {
         name: 'BugSmashers: Hardware Projects',
         semester: 'Spring',
-        date: new Date('2026-02-12'),
+        date: new Date('02/12/2026'),
         description: 'BugSmashers host a workshop on embedded systems and hardware projects.',
         tags: ["Workshops", "Talks"],
         entryType: "Bugsmashers",
@@ -425,7 +439,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         links: [
             {
                 name: "Slides",
-                url: new URL("https://docs.google.com/presentation/d/12AgcF7-ZGCAYnMAdpZg_zhoKnIaIXFiIlang8-1mx-A/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/12AgcF7-ZGCAYnMAdpZg_zhoKnIaIXFiIlang8-1mx-A/edit")
             }
         ]
     },
@@ -445,7 +459,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
             {
                 name: "Intro Slides",
-                url: new URL("https://docs.google.com/presentation/d/167BSrwijXcb2PXZO-mv1FRznZpNaeZ87MC8dFDoGKAc/edit?usp=sharing")
+                url: new URL("https://docs.google.com/presentation/d/167BSrwijXcb2PXZO-mv1FRznZpNaeZ87MC8dFDoGKAc/edit")
             }
         ]
     }

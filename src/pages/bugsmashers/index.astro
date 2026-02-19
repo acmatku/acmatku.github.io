@@ -36,11 +36,13 @@ const bugSmashersMeetings: Meeting[] = HACKNIGHTS.map(post => ({
     subtitle: "Work on a project or just hang out at this week's project night!",
 } as Meeting)))
 
+const tmpDateForCompare = new Date();
+tmpDateForCompare.setHours(0,0,0,0);
 const allMeetingsForTimeline = HACKNIGHTS.map(hn => ({
     title: hn.title,
     description: `${hn.date.toLocaleDateString("en-US", localeDateStringOptsShort)} - ${hn.subtitle}`,
     date: hn.date
-})).concat(PROJECT_NIGHTS).sort((a,b) => a.date.getTime() - b.date.getTime());
+})).concat(PROJECT_NIGHTS).sort((a,b) => a.date.getTime() - b.date.getTime()).filter(e => e.date >= tmpDateForCompare);
 ---
 
 <Layout metadata={metadata}>
@@ -58,7 +60,7 @@ const allMeetingsForTimeline = HACKNIGHTS.map(hn => ({
   <NextMeeting meetings={bugSmashersMeetings} client:load/>
 
   <div class="w-2/3 m-auto mb-8">
-    <Headline title="All Meetings"/>
+    <Headline title="Future Meetings"/>
     <Timeline items={allMeetingsForTimeline} defaultIcon='tabler:code'/>
   </div>
 
