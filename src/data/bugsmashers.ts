@@ -104,11 +104,11 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['raspberry pi', 'arduino', 'hardware'],
   },
   {
-    title: 'CPUs vs GPUs',
-    subtitle: 'What\'s the Difference Really?',
+    title: 'Computer Componments',
+    subtitle: 'CPU vs. GPU and Their Applications',
     semester: 'S26',
     date: new Date('Feburary 26, 2026'),
-    content: 'This meeting will discuss the differences between GPUs and CPUs, their strengths and weaknesses.',
+    content: 'This meeting will discuss the roles played by different computer hardware components, especially GPUs and CPUs, and their strengths and weaknesses.',
     tags: ['cpu', 'gpu', 'parallelism'],
   },
   {
