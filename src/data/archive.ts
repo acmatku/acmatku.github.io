@@ -355,7 +355,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
             {
                 name: "Slides (Stack Overfeud)",
-                url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit&ouid=112849630344823845812&rtpof=true&sd=true")
+                url: new URL("https://docs.google.com/presentation/d/1Kt99VdkBJNLwR_gp4QFzN8aDRW837ZGB/edit")
             }
         ]
     },
