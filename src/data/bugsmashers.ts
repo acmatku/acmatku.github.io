@@ -104,7 +104,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     tags: ['raspberry pi', 'arduino', 'hardware'],
   },
   {
-    title: 'Computer Componments',
+    title: 'Computer Components',
     subtitle: 'CPU vs. GPU and Their Applications',
     semester: 'S26',
     date: new Date('February 26, 2026'),

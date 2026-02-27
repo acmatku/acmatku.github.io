@@ -412,6 +412,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("02/25/2026"),
+        name: "BugSmashers Takeover: Game Night",
+        description: "Thomas and Molly coordinate a video game night.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Fun"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1KiOEyKbhuwyYWI7wHgML5ndpRahWEshZ8epQ_5LJ62M/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -440,6 +455,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             {
                 name: "Slides",
                 url: new URL("https://docs.google.com/presentation/d/12AgcF7-ZGCAYnMAdpZg_zhoKnIaIXFiIlang8-1mx-A/edit")
+            }
+        ]
+    },
+    {
+        name: 'BugSmashers: Hardware Components',
+        semester: 'Spring',
+        date: new Date('02/26/2026'),
+        description: 'BugSmashers discuss different parts of a computer and configure a system with PCPartPicker.',
+        tags: ["Talks"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1RfQ_3Fi97PBgjXDjIAyWvti2LgQfHXi05bMES7X-IUg/edit")
             }
         ]
     },
