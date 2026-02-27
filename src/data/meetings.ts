@@ -148,4 +148,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "BugSmashers Takeover: Game Night!",
     subtitle: "The BugSmashers take over this week's general meeting to bring out some games! Be there!",
   },
+  {
+    date: "March 4, 2026",
+    title: "Programming Best Practices",
+    subtitle: "Hunter and Dellie discuss programming best practices important to learn for any new software engineer.",
+  },
 ]
