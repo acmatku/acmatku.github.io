@@ -151,6 +151,11 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   {
     date: "March 4, 2026",
     title: "Programming Best Practices",
-    subtitle: "Hunter and Dellie discuss programming best practices important to learn for any new software engineer.",
+    subtitle: "Aniketh and Hunter discuss programming best practices important to learn for any new software engineer.",
+  },
+  {
+    date: "March 12, 2026",
+    title: "ACM x WIC: Leetcode and Art Night",
+    subtitle: "ACM joins Women in Computing for a Leetcode and art combo meeting!",
   },
 ]

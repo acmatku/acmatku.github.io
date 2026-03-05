@@ -427,6 +427,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("03/04/2026"),
+        name: "Writing Quality Code",
+        description: "Aniketh and Hunter go over principles for writing quality, maintainable code.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1E9KvrVNxbw_qWtdXlS8vuW6YehF0D9wOOOxLbiDjl5I/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
