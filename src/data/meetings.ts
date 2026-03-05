@@ -151,7 +151,7 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   {
     date: "March 4, 2026",
     title: "Programming Best Practices",
-    subtitle: "Aniketh and Dellie discuss programming best practices important to learn for any new software engineer.",
+    subtitle: "Aniketh and Hunter discuss programming best practices important to learn for any new software engineer.",
   },
   {
     date: "March 12, 2026",
