@@ -115,7 +115,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     title: 'Quantum Computing',
     subtitle: 'Say Goodbye to Your Encryption',
     semester: 'S26',
-    date: new Date('March 12, 2026'),
+    date: new Date('March 26, 2026'),
     content: 'A meeting about quantum computing where you\'ll find out what a qubit is.',
     tags: ['quantum', 'qubit'],
   },
@@ -175,8 +175,8 @@ export const PROJECT_NIGHTS = [
   },
   {
     title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('March 26, 2026')),
-    date: new Date('March 26, 2026')
+    description: getFormattedDate(new Date('March 10, 2026')),
+    date: new Date('March 10, 2026')
   },
   {
     title: 'Project Day ' + day++,
