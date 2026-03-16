@@ -442,6 +442,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("03/12/2026"),
+        name: "Leetcode and Pot Painting with WIC",
+        description: "ACM joins Women in Computing for a Leetcode and art combo meeting!",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Workshops", "Fun", "Collab"],
+        links: [
+            {
+                name: "ACM Admin Slides",
+                url: new URL("https://docs.google.com/presentation/d/1ZxWI28b08-VafwZ7IEdBaBTQiMx54TSIjv-LVeyvsts/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',

@@ -158,4 +158,14 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "ACM x WIC: Leetcode and Art Night",
     subtitle: "LEEP2 2425: ACM joins Women in Computing for a Leetcode and art combo meeting!",
   },
+  {
+    date: "March 25, 2026",
+    title: "Alarm.com Industry Speaker",
+    subtitle: "Possibly an industry speaker from Alarm.com? Still in the works.",
+  },
+  {
+    date: "April 1, 2026",
+    title: "ACM x Upsilon Pi Epsilon",
+    subtitle: "ACM is holding a collaborative meeting with Upsilon Pi Epsilon, a computer science honor society.",
+  },
 ]
