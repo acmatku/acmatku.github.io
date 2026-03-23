@@ -161,7 +161,7 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   {
     date: "March 25, 2026",
     title: "Alarm.com Industry Speaker",
-    subtitle: "Possibly an industry speaker from Alarm.com? Still in the works.",
+    subtitle: "Join ACM for a speech from a software engineer from Alarm.com.",
   },
   {
     date: "April 1, 2026",
