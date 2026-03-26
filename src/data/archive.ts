@@ -457,6 +457,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("03/25/2026"),
+        name: "Alarm.com Speaker",
+        description: "Jeff Kissick of Alarm.com discussed his role in industry and Alarm.com's internship program.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Industry"],
+        links: [
+            {
+                name: "ACM Admin Slides",
+                url: new URL("https://docs.google.com/presentation/d/1O7KTj2aClio4bynG6y9isEvsKshd32CegZy5HYV9QYk/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -500,6 +515,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             {
                 name: "Slides",
                 url: new URL("https://docs.google.com/presentation/d/1RfQ_3Fi97PBgjXDjIAyWvti2LgQfHXi05bMES7X-IUg/edit")
+            }
+        ]
+    },
+    {
+        name: 'BugSmashers: Quantum Computing',
+        semester: 'Spring',
+        date: new Date('03/26/2026'),
+        description: 'BugSmashers introduce quantum computing concepts and discuss their effects on the discipline.',
+        tags: ["Talks", "Workshops"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1oChkw9y-csv7spz98Yk0rdTXEyQi-YIZ0_VHSJmUq68/edit")
             }
         ]
     },
