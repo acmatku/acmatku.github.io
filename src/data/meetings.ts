@@ -168,4 +168,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "ACM x Upsilon Pi Epsilon",
     subtitle: "ACM is holding a collaborative meeting with Upsilon Pi Epsilon, a computer science honor society.",
   },
+  {
+    date: "April 8, 2026",
+    title: "Archer Speaker on DevOps",
+    subtitle: "Bruce Allison of Archer Integrated Risk Management will speak on their experience with DevOps and service ownership.",
+  },
 ]

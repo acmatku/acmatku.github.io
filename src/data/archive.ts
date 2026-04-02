@@ -464,11 +464,30 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         year: "25-26",
         semester: "Spring",
         entryType: "Meetings",
-        tags: ["Industry"],
+        tags: ["Talks", "Industry"],
         links: [
             {
                 name: "ACM Admin Slides",
                 url: new URL("https://docs.google.com/presentation/d/1O7KTj2aClio4bynG6y9isEvsKshd32CegZy5HYV9QYk/edit")
+            },
+        ]
+    },
+    {
+        date: new Date("04/01/2026"),
+        name: "ACM x Upsilon Pi Epsilon",
+        description: "ACM and UPE hold a joint meeting with a pair programming activity.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Collab", "Fun"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1FOoSsA8SynX-P7grXlpa3XR2uCf0NjBfqXbL1hNeWxA/edit")
+            },
+            {
+                name: "Pair Programming Challenges",
+                url: new URL("https://docs.google.com/document/d/1yOZ21R00bcEymdxYrp94QINmWvQrGDWjAfJ48n7S4Ig/edit")
             },
         ]
     },
