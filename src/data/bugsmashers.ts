@@ -123,7 +123,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     title: 'White Hat Hacking',
     subtitle: 'Join the Red Team!',
     semester: 'S26',
-    date: new Date('April 2, 2026'),
+    date: new Date('April 9, 2026'),
     content: 'At this meeting, you\'ll work through some offensive hacking exercises.',
     tags: ['red team', 'ctf', 'cybersecurity'],
   },
@@ -180,8 +180,8 @@ export const PROJECT_NIGHTS = [
   },
   {
     title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('April 9, 2026')),
-    date: new Date('April 9, 2026')
+    description: getFormattedDate(new Date('April 2, 2026')),
+    date: new Date('April 2, 2026')
   },
   {
     title: 'Project Day ' + day++,
