@@ -173,4 +173,24 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Archer Speaker on DevOps",
     subtitle: "Bruce Allison of Archer Integrated Risk Management will speak on their experience with DevOps and service ownership.",
   },
+  {
+    date: "April 13, 2026",
+    title: "HackKU Beginner's Series: Intro C++ 6-7pm Eaton 2",
+    subtitle: "New to writing code in statically-typed c-like languages? Pull up to this entry in the beginner's series to learn more!",
+  },
+  {
+    date: "April 14, 2026",
+    title: "HackKU Beginner's Series: AI for Non-Coders 6-7pm LEEP G415",
+    subtitle: "Learn how to leverage AI in this beginner's series workshop! Open and accessible to students of all backgrounds.",
+  },
+  {
+    date: "April 15, 2026",
+    title: "HackKU Beginner's Series: Hackathons 101 6-7pm Eaton 2",
+    subtitle: "Never attended a hackathon before? Attend this beginner's series talk to learn what its all about a get pointers on what to bring and expect!",
+  },
+  {
+    date: "April 16, 2026",
+    title: "HackKU Beginner's Series: Intro JavaScript 5-6pm LEEP G415",
+    subtitle: "Molly and Thomas will go over introductory JavaScript concepts in this beginner's series workshop. Show up to learn about frameworks and the DOM!",
+  },
 ]
