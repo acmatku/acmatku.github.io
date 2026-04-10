@@ -1,4 +1,3 @@
-import { date } from 'astro:schema';
 import { createBugsmasherPosts, getFormattedDate } from '../utils/utils';
 
 export interface BugsmasherMeeting {
@@ -127,13 +126,21 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: 'At this meeting, you\'ll work through some offensive hacking exercises.',
     tags: ['red team', 'ctf', 'cybersecurity'],
   },
-  {
+/*   {
     title: 'Encryption',
     subtitle: 'How to Make Math Work for You',
     semester: 'S26',
     date: new Date('April 16, 2026'),
     content: 'At this meeting, you\'ll learn the basics of public-key cryptography.',
     tags: ['encryption', 'aes'],
+  }, */
+  {
+    title: "HackKU Beginner's Series: Intro JavaScript",
+    content: "Molly and Thomas will go over introductory JavaScript concepts in this beginner's series workshop. Show up to learn about frameworks and the DOM!",
+    date: new Date("04/16/2026"),
+    semester: "S26",
+    subtitle: "Learn about dynamic typing, the DOM, and frameworks!",
+    tags: ["hackku", "javascript", "web"]
   },
   {
     title: 'Exam Help!',

@@ -37,6 +37,7 @@ export type ArchiveTag = "Test" |
     "Schoonover" |
     "Professional Development" |
     "Intro" |
+    "Cybersecurity" |
     "Web";
 
 export type ArchiveItem = {
@@ -299,7 +300,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         semester: 'Fall',
         date: new Date('November 6, 2025'),
         description: 'BugSmashers use Ghidra to understand and reverse engineer binaries.',
-        tags: ["Workshops"],
+        tags: ["Workshops", "Cybersecurity"],
         entryType: "Bugsmashers",
         year: "25-26",
         links: [
@@ -491,6 +492,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("04/08/2026"),
+        name: "Archer Speaker on DevOps",
+        description: "Bruce Allison of Archer Integrated Risk Management will speak on their experience with DevOps and service ownership.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Industry", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1vUUA89Ik5o7tyAi0H-jIu7r1dBN4K-CNo8Eonnn_ctA/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -549,6 +565,25 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             {
                 name: "Slides",
                 url: new URL("https://docs.google.com/presentation/d/1oChkw9y-csv7spz98Yk0rdTXEyQi-YIZ0_VHSJmUq68/edit")
+            }
+        ]
+    },
+    {
+        name: 'BugSmashers: Ethical Hacking',
+        semester: 'Spring',
+        date: new Date('04/09/2026'),
+        description: 'BugSmashers discuss ethical hacking career paths and tools.',
+        tags: ["Talks", "Cybersecurity"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/12ucvYznOVhjNkxYL-7Mb0E83FMgqlW3VlP1s0Ggc0aA/edit")
+            },
+            {
+                name: "TryHackMe - Relevant Exercise",
+                url: new URL("https://tryhackme.com/")
             }
         ]
     },
