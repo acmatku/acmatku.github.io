@@ -193,4 +193,14 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "HackKU Beginner's Series: Intro JavaScript 5-6pm LEEP G415",
     subtitle: "Molly and Thomas will go over introductory JavaScript concepts in this beginner's series workshop. Show up to learn about frameworks and the DOM!",
   },
+  {
+    date: "April 22, 2026",
+    title: "BugSmashers Takeover: Game Night!",
+    subtitle: "Come to ACM to play a collection of games!",
+  },
+  {
+    date: "April 29, 2026",
+    title: "Elections",
+    subtitle: "Show up to guide the future of ACM! ACM needs you!",
+  },
 ]
