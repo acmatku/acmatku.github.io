@@ -507,6 +507,36 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("04/15/2026"),
+        name: "HackKU Beginner's Series: Intro to Hackathons",
+        description: "HackKU Directors Dellie and Alivia walk through useful things to know for your first hackathon!",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides (ACM Admin)",
+                url: new URL("https://docs.google.com/presentation/d/1vUUA89Ik5o7tyAi0H-jIu7r1dBN4K-CNo8Eonnn_ctA/edit")
+            },
+        ]
+    },
+    {
+        date: new Date("04/22/2026"),
+        name: "BugSmashers Takeover: Game Night",
+        description: "A meeting with card games",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: ["Fun"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/14eTK5GWUeSYpJVIPMMGizVo_JR3xMfa42Z8lKoog_R0/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -585,6 +615,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 name: "TryHackMe - Relevant Exercise",
                 url: new URL("https://tryhackme.com/")
             }
+        ]
+    },
+     {
+        name: 'HackKU Beginner\'s Series: Intro to JavaScript',
+        semester: 'Spring',
+        date: new Date('04/16/2026'),
+        description: 'Molly and Thomas go over introductory JavaScript concepts in this beginner\'s series workshop covering frameworks and the DOM!',
+        tags: ["Talks", "Web", "Workshops"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1rUQfYZBF-NR0Hn5u7aUWFwaWQqJFVGFYhVeGCMCFndw/edit")
+            },
         ]
     },
     // Misc
