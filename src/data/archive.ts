@@ -537,6 +537,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("04/29/2026"),
+        name: "ACM Elections!",
+        description: "Officers were elected for the 26-27 school year.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: [],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1AqM1U0mp-rE0EIVIurmSyLiARkhQJPIaa3VWDd96lEs/edit")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -632,6 +647,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+     {
+        name: 'BugSmashers: Study Tips for Finals',
+        semester: 'Spring',
+        date: new Date('04/30/2026'),
+        description: 'Molly and Thomas go over studying strategies and discuss how brains work to remember things.',
+        tags: ["Talks"],
+        entryType: "Bugsmashers",
+        year: "25-26",
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1xq51R_eoa55aC-BLKNxzki5sVvRhnb3NMS3x356h1qI/edit")
+            },
+        ]
+    },
     // Misc
     {
         date: new Date ("February 7, 2026"),
@@ -651,5 +681,116 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/167BSrwijXcb2PXZO-mv1FRznZpNaeZ87MC8dFDoGKAc/edit")
             }
         ]
-    }
+    },
+    // HackKU26
+    {
+        date: new Date("4/17/26 19:30Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Opening Ceremony",
+        semester: "Spring",
+        year: "25-26",
+        description: "HackKU, Kansas' largest hackathon begins its 2026 installment! Peep the intro slides.",
+        tags: [],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1NFyLo6Twk0DEssEdvmoPRbLiPWM8J7EcmEcKA4-8atw/edit")
+            },
+        ]
+    },
+     {
+        date: new Date("4/17/26 21:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Intro to React and Full-Stack Applications Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "Addie and Hunter give a talk about the inner-workings of full-stack apps and how to build them with React.",
+        tags: ["Workshops", "Talks", "Web"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://addiebart.net/hackku26")
+            },
+            {
+                name: "Demo Source Code",
+                url: new URL("https://github.com/addiebart/hackku26-react-demo")
+            }
+        ]
+    },
+    {
+        date: new Date("4/17/26 21:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Intro to Hosting and Cloud Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "Previous HackKU Director and SWE at Microsoft, James, gives a talk about the cloud and application hosting.",
+        tags: ["Workshops", "Talks", "Web"],
+        links: [
+            {
+                name: "Slides and Overview",
+                url: new URL("https://jameshurd.net/talks/the-amazing-digital-cloud/")
+            }
+        ]
+    },
+    {
+        date: new Date("4/17/26 22:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Intro to APIs Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "Thomas and Molly give a talk on APIs at HackKU - What they are and how you can use them!",
+        tags: ["Workshops", "Talks", "Web"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/11Mq0oIK_v8lxq1ncIStyHBmEcX2iEWySPs0nX3HYhZs/edit")
+            }
+        ]
+    },
+    {
+        date: new Date("4/17/26 22:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: UX Field Guide by Security Benefit",
+        semester: "Spring",
+        year: "25-26",
+        description: "Christian Nam, Design Lead at Security Benefit, gives a talk about effective UI/UX design and recommends some tools.",
+        tags: ["Workshops", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("/archive/uxfieldguide-hackku26-secbenefit.pdf", baseURL)
+            }
+        ]
+    },
+       {
+        date: new Date("4/18/26 10:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Art + Code Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "Aniketh and Maral discuss how you can integrate art into your projects like websites.",
+        tags: ["Workshops", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("/archive/artplustech-hackku26.pdf", baseURL)
+            }
+        ]
+    },
+      {
+        date: new Date("4/18/26 17:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Life as an Organizer Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "HackKU26 organizers discuss how what it's like to be involved with organizing a hackathon, discussing the wide array of roles.",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1PIr0COYUy7Em5uSg-49bFQWIuC9Rj9ytoZlhn5QvT9Y/edit", baseURL)
+            }
+        ]
+    },
+
 ];

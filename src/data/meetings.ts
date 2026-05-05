@@ -203,4 +203,9 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Elections",
     subtitle: "Show up to guide the future of ACM! ACM needs you!",
   },
+  {
+    date: "5/6/26",
+    title: "Code Swap!",
+    subtitle: "Show up to the final meeting of the semester to play code swap! Start on a problem and hand your laptop off to someone else and vice-versa!",
+  },
 ]
