@@ -45,6 +45,7 @@ const ArchiveItemDisplay = ({ item } : { item: ArchiveItem }) => {
                             referrerPolicy="no-referrer"
                             rel="noreferrer"
                             className="underline"
+                            target="_blank"
                         >{e.name}</a>
                         <span
                             className="text-slate-600 ml-2"
