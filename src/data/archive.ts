@@ -762,6 +762,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             }
         ]
     },
+    {
+        date: new Date("4/17/26 22:00Z"),
+        entryType: "HackKU",
+        name: "HackKU26: Introduction to Git Workshop",
+        semester: "Spring",
+        year: "25-26",
+        description: "Andrew and Dellie introduce Git, a tool for collaborating on software projects.",
+        tags: ["Workshops", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1df6fBsBbM4m2hVuV4r6EFMdpAnRXzQauMXDEniMCJag/edit")
+            }
+        ]
+    },
        {
         date: new Date("4/18/26 10:00Z"),
         entryType: "HackKU",
