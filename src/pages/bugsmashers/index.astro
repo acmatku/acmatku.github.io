@@ -61,7 +61,8 @@ const allMeetingsForTimeline = HACKNIGHTS.map(hn => ({
 
   <div class="w-2/3 m-auto mb-8">
     <Headline title="Future Meetings"/>
-    <Timeline items={allMeetingsForTimeline} defaultIcon='tabler:code'/>
+    {allMeetingsForTimeline.length <= 0 ? <p class="mx-auto w-fit">There are no upcoming meetings planned</p> : 
+    <Timeline items={allMeetingsForTimeline} defaultIcon='tabler:code'/>}
   </div>
 
 </Layout>
