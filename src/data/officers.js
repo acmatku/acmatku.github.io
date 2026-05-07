@@ -30,10 +30,10 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/emma-roy3251/",
   },
   {
-    name: "Connor Eaton",
-    image: "/officers/connor.jpg",
+    name: "Trey Campbell",
+    image: "/officers/trey.jpg",
     role: "Community Chair",
-    link: "",
+    link: "https://www.linkedin.com/in/trey-campbell-ku?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
   {
     name: "Addison Bartelli",
