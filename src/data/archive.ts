@@ -9,9 +9,9 @@ const baseURL = import.meta.env.MODE === "development"
   : "https://kuacm.club";
 
 // be sure to edit these at the same time. not sure of a great way to couple them with code.
-export type ArchiveYear = "25-26";
+export type ArchiveYear = "25-26" | "26-27";
 export const ARCHIVE_YEARS: ArchiveYear[] = [
-    "25-26"
+    "25-26", "26-27"
 ];
 
 // be sure to edit these at the same time. not sure of a great way to couple them with code.
@@ -552,6 +552,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
+    {
+        date: new Date("05/05/2026"),
+        name: "Code Swap!",
+        description: "ACM memebers play Code Swap, where memebers play choose different coding problems and swap halfway through to finish each other's problems.",
+        year: "25-26",
+        semester: "Spring",
+        entryType: "Meetings",
+        tags: [],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1G-8bdw4Wmbma29UhR_TfVpVutNlfK_UKVS_rN8WDvXk/edit?usp=sharing")
+            },
+        ]
+    },
     // Bugsmashers SP26
     {
         name: 'BugSmashers: C and C++',
@@ -808,4 +823,10 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         ]
     },
 
+    //Fall 26
+
+
+
 ];
+
+
