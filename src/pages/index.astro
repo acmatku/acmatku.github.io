@@ -2,6 +2,7 @@
 import Layout from '../layouts/PageLayout.astro';
 import Hero from '../components/widgets/Hero.astro';
 import Features from '../components/widgets/Features.astro';
+import NeofetchHeader from '../components/NeofetchHero';
 
 const metadata = {
   title: 'KU ACM',
@@ -18,8 +19,11 @@ const metadata = {
       { text: 'Contact ACM@KU', href: 'mailto:acmukansas@gmail.com', variant: "primary" },
       { text: 'Join Discord', href: 'https://discord.gg/SgFkFv4bUR', target: '_blank', variant: 'primary'},
     ]}
-    image={{ src: '~/assets/images/acm_neofetch.png', alt: 'ACM Hero Image' }}
   >
+    <Fragment slot="neofetch">
+      <NeofetchHeader client:load />
+    </Fragment>
+
     <Fragment slot="title">KU ACM</Fragment>
     
     <Fragment slot="subtitle">
