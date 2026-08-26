@@ -13,15 +13,15 @@ export const OfficerList = [
   },
   {
     name: "Joshua L.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/noicon.jpg",
     role: "Treasurer",
-    link: "",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
   {
     name: "Owen",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/noicon.jpg",
     role: "Secretary",
-    link: "",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
   {
     name: "Lena Palmieri",
@@ -37,15 +37,15 @@ export const OfficerList = [
   },
   {
     name: "William Ojiako",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/william.jpg",
     role: "Webmaster",
     link: "https://www.linkedin.com/in/william-ojiako-295233396/",
   },
   {
     name: "Rishabh anand",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/rishabh.jpg",
     role: "Logistics Chair",
-    link: "",
+    link: "https://www.linkedin.com/in/rishabh-anand99/",
   },
   {
     name: "Andrew Huang",
@@ -55,21 +55,21 @@ export const OfficerList = [
   },
   {
     name: "Alivia",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/alivia.jpg",
     role: "HackKU Co-Chair",
-    link: "",
+    link: "https://www.linkedin.com/in/alivia-hanes-94205a32a/",
   },
 
   {
     name: "Eyassu",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    image: "/officers/noicon.jpg",
     role: "BugSmashers Co-chair",
-    link: "",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
   {
-    name: "Lily",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUYgiqHqZUQoyPSU6YuRaETa0TgBjVxevdw&s",
+    name: "Lillian Brooks-Kanost",
+    image: "/officers/lillian.jpg",
     role: "BugSmashers Co-chair",
-    link: "",
+    link: "https://www.linkedin.com/in/lbrookskanost/",
   }
 ];

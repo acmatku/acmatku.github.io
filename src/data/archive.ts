@@ -15,9 +15,9 @@ export const ARCHIVE_YEARS: ArchiveYear[] = [
 ];
 
 // be sure to edit these at the same time. not sure of a great way to couple them with code.
-export type ArchiveEntryType = "Meetings" | "Bugsmashers" | "HackKU" | "Miscellaneous";
+export type ArchiveEntryType = "Meetings" | "BugSmashers" | "HackKU" | "Miscellaneous";
 export const ALL_ENTRY_TYPES: ArchiveEntryType[] = [
-    "Meetings", "Bugsmashers", "HackKU", "Miscellaneous"
+    "Meetings", "BugSmashers", "HackKU", "Miscellaneous"
 ];
 
 // Modify as needed.
@@ -256,7 +256,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         semester: "Fall",
         year: "25-26",
         description: "The BugSmashers go over Windows Subsystem for Linux.",
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         tags: ["Linux", "Workshops"],
         links: [
             {
@@ -271,7 +271,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         semester: "Fall",
         year: "25-26",
         description: "The BugSmashers talk about Git version control.",
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         tags: ["Workshops"],
         links: [
             {
@@ -282,7 +282,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
     },
     {
         date: new Date("09/11/2025"),
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         name: "BugSmashers: Operating Systems",
         semester: "Fall",
         year: "25-26",
@@ -301,7 +301,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('November 6, 2025'),
         description: 'BugSmashers use Ghidra to understand and reverse engineer binaries.',
         tags: ["Workshops", "Cybersecurity"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -316,7 +316,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('October 23, 2025'),
         description: 'BugSmashers introduce HTML, CSS, and JavaScript, the three pillars of web development.',
         tags: ["Workshops", "Web"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -331,7 +331,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('November 20, 2025'),
         description: 'BugSmashers host a workshop on Flutter, a cross-platform for Mobile, Desktop, and Web.',
         tags: ["Workshops", "Web", "Mobile"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -567,14 +567,14 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             },
         ]
     },
-    // Bugsmashers SP26
+    // BugSmashers SP26
     {
         name: 'BugSmashers: C and C++',
         semester: 'Spring',
         date: new Date('January 29, 2026'),
         description: 'BugSmashers host a workshop on C and C++, critical low-level languages.',
         tags: ["Workshops", "Talks"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -589,7 +589,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('02/12/2026'),
         description: 'BugSmashers host a workshop on embedded systems and hardware projects.',
         tags: ["Workshops", "Talks"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -604,7 +604,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('02/26/2026'),
         description: 'BugSmashers discuss different parts of a computer and configure a system with PCPartPicker.',
         tags: ["Talks"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -619,7 +619,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('03/26/2026'),
         description: 'BugSmashers introduce quantum computing concepts and discuss their effects on the discipline.',
         tags: ["Talks", "Workshops"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -634,7 +634,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('04/09/2026'),
         description: 'BugSmashers discuss ethical hacking career paths and tools.',
         tags: ["Talks", "Cybersecurity"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -653,7 +653,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('04/16/2026'),
         description: 'Molly and Thomas go over introductory JavaScript concepts in this beginner\'s series workshop covering frameworks and the DOM!',
         tags: ["Talks", "Web", "Workshops"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
@@ -668,7 +668,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         date: new Date('04/30/2026'),
         description: 'Molly and Thomas go over studying strategies and discuss how brains work to remember things.',
         tags: ["Talks"],
-        entryType: "Bugsmashers",
+        entryType: "BugSmashers",
         year: "25-26",
         links: [
             {
