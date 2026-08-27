@@ -9,7 +9,7 @@ export interface BugsmasherMeeting {
   content: string;
 }
 
-const AUTHORS = 'Molly M. & Thomas S.';
+const AUTHORS = 'Eyassu M. & Lillian B.';
 
 export const HACKNIGHTS: BugsmasherMeeting[] = [
   {
@@ -155,52 +155,11 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
 let day = 1;
 
 export const PROJECT_NIGHTS = [
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('September 18, 2025')),
-    date: new Date('September 18, 2025')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('October 2, 2025')),
-    date: new Date('October 2, 2025')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('October 30, 2025')),
-    date: new Date('October 30, 2025')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('February 19, 2026')),
-    date: new Date('February 19, 2026')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('March 5, 2026')),
-    date: new Date('March 5, 2026')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('March 10, 2026')),
-    date: new Date('March 10, 2026')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('April 2, 2026')),
-    date: new Date('April 2, 2026')
-  },
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('April 23, 2026')),
-    date: new Date('April 23, 2026')
-  },
-
-  {
-    title: 'Project Day ' + day++,
-    description: getFormattedDate(new Date('May 7, 2026')),
-    date: new Date('May 7, 2026')
-  },
+  // {
+  //   title: 'Project Day ' + day++,
+  //   description: getFormattedDate(new Date('September 18, 2025')),
+  //   date: new Date('September 18, 2025')
+  // },
 ]
 
 export const BUGSMASHERS_SCHEDULE = createBugsmasherPosts(HACKNIGHTS, AUTHORS);

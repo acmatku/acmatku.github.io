@@ -1,7 +1,7 @@
 export const OfficerList = [
   {
     name: "Thomas Savasten",
-    image: "/officers/thomas.jpg",
+    image: "/officers/thomas.jpeg",
     role: "Co-Chair",
     link: "https://www.linkedin.com/in/thomassavasten/",
   },
@@ -12,16 +12,16 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/mollymasalskis/",
   },
   {
-    name: "Joshua L.",
+    name: "Joshua Lor",
     image: "/officers/noicon.jpg",
     role: "Treasurer",
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
   {
-    name: "Owen",
-    image: "/officers/noicon.jpg",
+    name: "Owen Abbott",
+    image: "/officers/owen.jpg",
     role: "Secretary",
-    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    link: "https://www.linkedin.com/in/owenabbott/",
   },
   {
     name: "Lena Palmieri",
@@ -54,14 +54,14 @@ export const OfficerList = [
     link: "https://www.linkedin.com/in/andrew-l-huang",
   },
   {
-    name: "Alivia",
+    name: "Alivia Hanes",
     image: "/officers/alivia.jpg",
     role: "HackKU Co-Chair",
     link: "https://www.linkedin.com/in/alivia-hanes-94205a32a/",
   },
 
   {
-    name: "Eyassu",
+    name: "Eyassu Mongalo",
     image: "/officers/noicon.jpg",
     role: "BugSmashers Co-chair",
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
