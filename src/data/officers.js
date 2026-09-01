@@ -62,9 +62,9 @@ export const OfficerList = [
 
   {
     name: "Eyassu Mongalo",
-    image: "/officers/noicon.jpg",
+    image: "/officers/Eyassu.jpg",
     role: "BugSmashers Co-chair",
-    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    link: "https://www.linkedin.com/in/eyassu-mongalo",
   },
   {
     name: "Lillian Brooks-Kanost",
