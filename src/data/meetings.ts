@@ -212,5 +212,15 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     date: "9/1/26",
     title: "26-27 Intro Meeting",
     subtitle: "ACM and it's Exec Board introduce themselves for the year."
+  },
+  {
+    date: "9/8/26",
+    title: "Shark Tank: Bad Tech Edition",
+    subtitle: "Form a group with your table create a slide deck for a horrible idea and pitch it."
+  },
+  {
+    date: "9/15/26",
+    title: "Professor Spotlight",
+    subtitle: "Listen to professor Schoonover talk about his career at Garmin and how he transitioned to be a professor."
   }
 ]
