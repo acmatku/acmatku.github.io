@@ -566,6 +566,7 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/1G-8bdw4Wmbma29UhR_TfVpVutNlfK_UKVS_rN8WDvXk/edit?usp=sharing")
             },
         ]
+    
     },
     // BugSmashers SP26
     {
@@ -823,7 +824,23 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         ]
     },
 
-    //Fall 26
+    //Gen Fall 26
+
+    {
+        date: new Date("9/1/2026"),
+        entryType: "Meetings",
+        name: "26-27 Intro Meeting",
+        semester: "Fall",
+        year: "26-27",
+        description: "ACM and its Exec Board introduce themselves for the year.",
+        tags: ["Intro"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/11SP-vIkkQyN9lVgPIstmq0mO2_95sW1PfaM-OYYKCFE/edit?usp=sharing")
+            }
+        ]
+    }
 
 
 

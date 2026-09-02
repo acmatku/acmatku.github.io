@@ -13,9 +13,9 @@ export const OfficerList = [
   },
   {
     name: "Joshua Lor",
-    image: "/officers/noicon.jpg",
+    image: "/officers/Joshua.jpg",
     role: "Treasurer",
-    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    link: "https://www.linkedin.com/in/joshua-lor-b71602382/",
   },
   {
     name: "Owen Abbott",
