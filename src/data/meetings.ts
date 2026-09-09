@@ -208,6 +208,7 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Code Swap!",
     subtitle: "Show up to the final meeting of the semester to play code swap! Start on a problem and hand your laptop off to someone else and vice-versa!",
   },
+  // fall 26
   {
     date: "9/1/26",
     title: "26-27 Intro Meeting",
@@ -222,5 +223,10 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     date: "9/15/26",
     title: "Professor Spotlight",
     subtitle: "Listen to professor Schoonover talk about his career at Garmin and how he transitioned to be a professor."
-  }
+  },
+  {
+    date: "9/22/26",
+    title: "Career Fair Prep",
+    subtitle: "Career fair is on the 23rd. We will be doing resume reviews and help hammer out your pitch about yourself."
+  },
 ]
