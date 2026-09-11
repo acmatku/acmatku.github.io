@@ -855,10 +855,22 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/1CuyIrQazP6gIJj8tr6nQsjKeN7s4forpiTGBSVxpZ0E/edit?usp=sharing")
             }
         ]
-    }
-
-
-
+    },
+    {
+        date: new Date("9/10/2026"),
+        entryType: "BugSmashers",
+        name: "Intro to Linux / Bash",
+        semester: "Fall",
+        year: "26-27",
+        description: "Lillian and Eyassu presents why you should start learning Linux and Bash.",
+        tags: ["Workshops", "Linux"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1jqhFktj7RXqAy4jbRLmR32Ztf8kqYltg6jwJe7PGRGE/edit?usp=sharing")
+            }
+        ]
+    },
 ];
 
 
