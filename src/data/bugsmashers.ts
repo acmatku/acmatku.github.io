@@ -158,6 +158,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: '',
     tags: ["linux", "bash"]
   },
+  {
+    title: "Intro to Git and GitHub",
+    subtitle: "Bugsmasher presentation in LEEP 2420 from 6-7pm",
+    semester: "F26",
+    date: new Date("September 24, 2026"),
+    content: '',
+    tags: ["git", "github"]
+  }
 ];
 
 let day = 1;
@@ -172,6 +180,11 @@ export const PROJECT_NIGHTS = [
     title: "Project Day " + day++,
     description: getFormattedDate(new Date('September 17, 2026')),
     date: new Date('September 17, 2026')
+  },
+  {
+    title: "Project Day " + day++,
+    description: getFormattedDate(new Date('October 2, 2026')),
+    date: new Date('October 2, 2026')
   }
 ]
 
