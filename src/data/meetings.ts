@@ -229,4 +229,10 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     title: "Career Fair Prep",
     subtitle: "Career fair is on the 23rd. We will be doing resume reviews and help hammer out your pitch about yourself."
   },
+  {
+    date: "9/29/26",
+    title: "KUBI Collab",
+    subtitle: "Stay tuned for more information!"
+  }
+
 ]

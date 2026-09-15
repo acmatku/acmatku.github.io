@@ -165,7 +165,7 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     date: new Date("September 24, 2026"),
     content: '',
     tags: ["git", "github"]
-  }
+  },
 ];
 
 let day = 1;
