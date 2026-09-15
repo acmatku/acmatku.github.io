@@ -871,6 +871,22 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             }
         ]
     },
+    {
+        date: new Date("9/15/2026"),
+        entryType: "Meetings",
+        name: "Resume Workshop",
+        semester: "Fall",
+        year: "26-27",
+        description: "Prof. Schoonover talks about his career at Garmin and gives advice on what to put on your resumes.",
+        tags: ["Schoonover", "Professional Development", "Talks", "Professor"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1APCE-KrZUy_n_IUD56cbnAPTppSKVdnjzLuWeN5Lbog/edit?usp=sharing")
+            }
+        ]
+
+    },
 ];
 
 
