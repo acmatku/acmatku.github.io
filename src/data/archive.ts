@@ -887,6 +887,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
         ]
 
     },
+    {
+        date: new Date("9/22/2026"),
+        entryType: "Meetings",
+        name: "Career Fair Prep",
+        semester: "Fall",
+        year: "26-27",
+        description: "ACM members discuss how to prepare for the career fair and what to expect.",
+        tags: ["Professional Development", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1orPpoaLNG0PjZrtB9gV45p6DYiLfw7odG_Qtd3yLxQ0/edit?usp=sharing")
+            }
+        ]
+    }
 ];
 
 
