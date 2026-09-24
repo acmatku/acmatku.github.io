@@ -63,13 +63,25 @@ export const OfficerList = [
   {
     name: "Eyassu Mongalo",
     image: "/officers/Eyassu.jpg",
-    role: "BugSmashers Co-chair",
+    role: "BugSmashers Co-Chair",
     link: "https://www.linkedin.com/in/eyassu-mongalo",
   },
   {
     name: "Lillian Brooks-Kanost",
     image: "/officers/lillian.jpg",
-    role: "BugSmashers Co-chair",
+    role: "BugSmashers Co-Chair",
     link: "https://www.linkedin.com/in/lbrookskanost/",
-  }
+  },
+  {
+    name: "Dhruv Patel",
+    image: "/officers/Dhruv.jpg",
+    role: "EXPO Co-Chair",
+    link: " https://www.linkedin.com/in/dhruv-patel-0647a5338"
+  },
+  {
+    name: "Utkarsh Busi",
+    image: "/officers/noicon.jpg",
+    role: "EXPO Co-Chair",
+    link: ""
+  },s
 ];

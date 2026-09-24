@@ -901,7 +901,22 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/1orPpoaLNG0PjZrtB9gV45p6DYiLfw7odG_Qtd3yLxQ0/edit?usp=sharing")
             }
         ]
-    }
+    },
+    {
+        date: new Date("9/24/2026"),
+        entryType: "BugSmashers",
+        name: "Git / Github",
+        semester: "Fall",
+        year: "26-27",
+        description: "Learn the basics of Git and Github in this hands-on workshop.",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1fsTtUxHU1gxL2hlS6UfhcVBZ18gezappBAzDwEMaDYk/edit?usp=sharing")
+            }
+        ]
+    },
 ];
 
 
