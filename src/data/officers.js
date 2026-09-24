@@ -83,5 +83,5 @@ export const OfficerList = [
     image: "/officers/noicon.jpg",
     role: "EXPO Co-Chair",
     link: ""
-  },s
+  },
 ];
