@@ -158,14 +158,6 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: '',
     tags: ["linux", "bash"]
   },
-  {
-    title: "Intro to Git and GitHub",
-    subtitle: "Bugsmasher presentation in LEEP 2420 from 6-7pm",
-    semester: "F26",
-    date: new Date("September 24, 2026"),
-    content: '',
-    tags: ["git", "github"]
-  },
 ];
 
 let day = 1;
