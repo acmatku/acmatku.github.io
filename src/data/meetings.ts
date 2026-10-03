@@ -235,9 +235,14 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     subtitle: "Stay tuned for more information!"
   },
   {
-    date: "10/4/26",
+    date: "10/6/26",
     title: "BugSmashers Takeover!!",
     subtitle: "Stay tuned for more information!"
   },
+  {
+    date: "10/13/26",
+    title: "Developer Tools Talk",
+    subtitle: "Learn all about developer tools!"
+  }
 
 ]

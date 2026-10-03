@@ -158,6 +158,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     content: '',
     tags: ["linux", "bash"]
   },
+  {
+    title: "PyTorch",
+    subtitle: "Learn about AI projects done with PyTorch",
+    semester: "F26",
+    date: new Date("October 8, 2026"),
+    content: "",
+    tags: []
+  }
 ];
 
 let day = 1;
@@ -177,7 +185,7 @@ export const PROJECT_NIGHTS = [
     title: "Project Day " + day++,
     description: getFormattedDate(new Date('October 1, 2026')),
     date: new Date('October 1, 2026')
-  }
+  },
 ]
 
 export const BUGSMASHERS_SCHEDULE = createBugsmasherPosts(HACKNIGHTS, AUTHORS);
