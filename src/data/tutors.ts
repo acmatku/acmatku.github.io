@@ -151,26 +151,7 @@ export const TUTORS: Tutor[] = [
       "MATH 125"
     ]
   },
-  {
-    name: "Charvi R. Konudula",
-    color: COLORS[idx++ % COLORS.length],
-    id: idx,
-    times: [
-      ["T", 13.5, 14],
-      ["R", 13.5, 14],
-    ],
-    courses: [
-      "MATH 125",
-      "MATH 145",
-      "MATH 126",
-      "MATH 146",
-      "MATH 290",
-      "MATH 291",
-      "EECS 140",
-      "EECS 168",
-      "EECS 268"
-    ]
-  }
+  
   //template
   /*
   {
