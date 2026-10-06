@@ -18,195 +18,167 @@ const COLORS = [
 let idx = 0;
 
 export const TUTORS: Tutor[] = [
-  // {
-  //   name: "Thomas Savasten",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["M", 14, 16],
-  //     ["W", 14, 16],
-  //     ["F", 14, 16],
-  //   ],
-  //   courses: [
-  //     "EECS 138",
-  //     "EECS 140",
-  //     "EECS 168",
-  //     "EECS 210",
-  //     "EECS 268",
-  //     "EECS 330",
-  //     "EECS 348",
-  //     "EECS 388",
-  //     "EECS 510",
-  //     "EECS 678",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //   ],
-  // },
-  // {
-  //   name: "Dellie Wright",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["M", 11, 12],
-  //     ["W", 11, 12],
-  //     ["F", 11, 12],
-  //   ],
-  //   courses: [
-  //     "EECS 138",
-  //     "EECS 140",
-  //     "EECS 168",
-  //     "EECS 210",
-  //     "EECS 268",
-  //     "EECS 330",
-  //     "EECS 348",
-  //     "EECS 388",
-  //     "EECS 443",
-  //     "EECS 447",
-  //     "EECS 461",
-  //     "EECS 465",
-  //     "EECS 468",
-  //     "EECS 510",
-  //     "EECS 563",
-  //     "EECS 565",
-  //     "EECS 569",
-  //     "EECS 581",
-  //     "EECS 582",
-  //     "EECS 649",
-  //     "EECS 662",
-  //     "EECS 678",
-  //     "EECS 695",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //     "EPHX 210",
-  //   ],
-  // },
-  // {
-  //   name: "Lena Palmieri",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["T", 13, 15],
-  //     ["R", 13, 15],
-  //   ],
-  //   courses: [
-  //     "EECS 140",
-  //     "EECS 168",
-  //     "EECS 210",
-  //     "EECS 268",
-  //     "EECS 348",
-  //     "EECS 388",
-  //     "EECS 461",
-  //     "EECS 468",
-  //     "EECS 510",
-  //     "EECS 678",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //   ]
-  // },
-  // {
-  //   name: "Joshua Lins",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["T", 10, 12],
-  //     ["R", 10, 12],
-  //   ],
-  //   courses: [
-  //     "EECS 168",
-  //     "EECS 268",
-  //     "EECS 388",
-  //     "EECS 461",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //     "EPHX 210",
-  //   ]
-  // },
-  // {
-  //   name: "Nathenael Getahum",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["M", 12, 13],
-  //   ],
-  //   courses: [
-  //    "EECS 138",
-  //    "EECS 168",
-  //   ]
-  // },
-  // {
-  //   name: "Lauren D'Souza",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["M", 13, 14],
-  //     ["W", 13, 14],
-  //   ],
-  //   courses: [
-  //     "EECS 138",
-  //     "EECS 168",
-  //     "EECS 210",
-  //     "EECS 268",
-  //     "EECS 348",
-  //     "EECS 388",
-  //     "EECS 468",
-  //     "EECS 510",
-  //     "EECS 563",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //     "EPHX 210",
-  //   ]
-  // },
-  // {
-  //   name: "Zema Samuel",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["M", 9, 11],
-  //     ["F", 9, 11],
-  //   ],
-  //   courses: [
-  //    "EECS 138",
-  //    "EECS 168",
-  //   ]
-  // },
-  // {
-  //   name: "Eliana Isenburg",
-  //   color: COLORS[idx++ % COLORS.length],
-  //   id: idx,
-  //   times: [
-  //     ["W", 12, 13],
-  //     ["R", 9, 10],
-  //   ],
-  //   courses: [
-  //     "EECS 140",
-  //     "EECS 168",
-  //     "EECS 210",
-  //     "EECS 268",
-  //     "EECS 388",
-  //     "MATH 125",
-  //     "MATH 126",
-  //     "MATH 127",
-  //     "MATH 290",
-  //   ],
-  //   flags: ["eliana-sp26"],
-  // },
-/*   {
-    name: "Addison Bartelli",
+  {
+    name: "Thomas Savasten",
     color: COLORS[idx++ % COLORS.length],
     id: idx,
     times: [
-      ["T", 11, 12],
+      ["M", 9, 10],
+      ["W", 9, 10],
+      ["F", 9, 10],
+    ],
+    courses: [
+      "EECS 138",
+      "EECS 140",
+      "EECS 141",
+      "EECS 168",
+      "EECS 169",
+      "EECS 210",
+      "EECS 268",
+      "EECS 330",
+      "EECS 348",
+      "EECS 388",
+      "EECS 461",
+      "EECS 510",
+      "EECS 645",
+      "EECS 678",
+      "MATH 125",
+      "MATH 145",
+      "MATH 126",
+      "MATH 146",
+      "MATH 127",
+      "MATH 147",
+      "MATH 290",
+      "MATH 291",
+    ],
+  },
+  {
+    name: "Angel Schuerman",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["M", 10, 11],
+      ["T", 11, 12.5],
+      ["W", 10, 11],
       ["R", 11, 12],
+    ],
+    courses: [
+      "EECS 168",
+      "EECS 169", 
+    ],
+  },
+  {
+    name: "Aditya Kulkarni",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["M", 12, 14]
+    ],
+    courses: [
+      "MATH 125",
+      "MATH 145",
+      "EECS 168",
+      "EECS 169",
+      "EECS 268",
+    ]
+  },
+  {
+    name: "Alivia Hanes",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["T", 15, 16],
+      ["R", 14, 15],
+    ],
+    courses: [
+      "MATH 125",
+      "MATH 145",
+      "MATH 126",
+      "MATH 146",
+      "EECS 168",
+      "EECS 268",
+      "EECS 388",
+    ]
+  },
+  {
+    name: "Andrew Huang",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["W", 11, 12],
+      ["F", 10, 12]
+    ],
+    courses: [
+      "MATH 125",
+      "MATH 145",
+      "MATH 126",
+      "MATH 147",
+      "MATH 127",
+      "MATH 147",
+      "MATH 290",
+      "MATH 291",
+      "EECS 138",
+      "EECS 140",
+      "EECS 141",
+      "EECS 168",
+      "EECS 169",
+      "EECS 210",
+      "EECS 268",
+      "EECS 330",
+      "EECS 348",
+      "EECS 388",
+      "EECS 461",
+      "EECS 465",
+      "EECS 510",
+      "EECS 565",
+      "EECS 623",
+      "EECS 649",
+      "EECS 678",
+    ]
+  },
+  {
+    name: "Jaxon Keleher",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["R", 12, 13]
+    ],
+    courses: [
+      "EECS 138",
+      "EECS 140",
+      "EECS 168",
+      "EECS 268",
+      "MATH 125"
+    ]
+  },
+  {
+    name: "Charvi R. Konudula",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["T", 13.5, 14],
+      ["R", 13.5, 14],
+    ],
+    courses: [
+      "MATH 125",
+      "MATH 145",
+      "MATH 126",
+      "MATH 146",
+      "MATH 290",
+      "MATH 291",
+      "EECS 140",
+      "EECS 168",
+      "EECS 268"
+    ]
+  }
+  //template
+  /*
+  {
+    name: "Joe",
+    color: COLORS[idx++ % COLORS.length],
+    id: idx,
+    times: [
+      ["M", 9, 10],
     ],
     courses: [
       "EECS 138",
@@ -214,18 +186,10 @@ export const TUTORS: Tutor[] = [
       "EECS 168",
       "EECS 210",
       "EECS 268",
-      "EECS 330",
-      "EECS 348",
-      "EECS 388",
-      "EECS 465",
-      "EECS 468",
-      "EECS 565",
-      "EECS 569",
-      "EECS 581",
-      "EECS 677",
-      "EECS 678",
-      "MATH 125",
+      "ANYTHING"
     ],
-  }, */
+    flags: ["joe-sp26"],
+  }
+  */
 ];
 

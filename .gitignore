@@ -1,7 +1,57 @@
-node_modules
-package-lock.json
-package-lock.json
-.idea
-bin
-dist
-exclude
+# build output
+dist/
+.output/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# build/cache
+.cache/
+.vite/
+.parcel-cache/
+.turbo/
+.next/
+coverage/
+*.tsbuildinfo
+
+# deployment platforms
+.vercel/
+.netlify/
+.wrangler/
+
+# editors / IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# project-specific
+bin/
+exclude/
