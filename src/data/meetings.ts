@@ -241,8 +241,8 @@ export const UPCOMING_MEETINGS: Meeting[] = [
   },
   {
     date: "10/13/26",
-    title: "Developer Tools Talk",
-    subtitle: "Learn all about developer tools!"
+    title: "You don't have to be Software Engineer",
+    subtitle: "ACM discusses about other career paths and opportunities with a computer science degree."
   }
 
 ]

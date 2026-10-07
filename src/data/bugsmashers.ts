@@ -186,6 +186,11 @@ export const PROJECT_NIGHTS = [
     description: getFormattedDate(new Date('October 1, 2026')),
     date: new Date('October 1, 2026')
   },
+  {
+    title: "Project Day " + day++,
+    description: getFormattedDate(new Date('October 15, 2026')),
+    date: new Date('October 15, 2026')
+  },
 ]
 
 export const BUGSMASHERS_SCHEDULE = createBugsmasherPosts(HACKNIGHTS, AUTHORS);

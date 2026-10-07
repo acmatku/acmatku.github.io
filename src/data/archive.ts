@@ -917,6 +917,21 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
             }
         ]
     },
+    {
+        date: new Date("10/06/2026"),
+        entryType: "Meetings",
+        name: "BugSmasher's Takeover!!",
+        semester: "Fall",
+        year: "26-27",
+        description: "BugSmashers take lead in today's meeting.",
+        tags: ["Fun"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1CSpy4GRkZ9VHfrruTqmvGkhV8LtcSOi81k4uOv2c22o/edit?usp=sharing")
+            }
+        ]
+    }
 ];
 
 
