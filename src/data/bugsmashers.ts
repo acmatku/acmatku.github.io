@@ -165,6 +165,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     date: new Date("October 8, 2026"),
     content: "",
     tags: []
+  },
+  {
+    title: "How to Bugsmash",
+    subtitle: "Learn some debugging techniques!",
+    semester: "F26",
+    date: new Date("October 22, 2026"),
+    content: "",
+    tags: []
   }
 ];
 
