@@ -60,7 +60,6 @@ export const TUTORS: Tutor[] = [
       ["M", 10, 11],
       ["T", 11, 12.5],
       ["W", 10, 11],
-      ["R", 11, 12],
     ],
     courses: [
       "EECS 168",

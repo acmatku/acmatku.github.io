@@ -931,6 +931,38 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/1CSpy4GRkZ9VHfrruTqmvGkhV8LtcSOi81k4uOv2c22o/edit?usp=sharing")
             }
         ]
+    },
+
+    {
+        date: new Date("10/08/2026"),
+        entryType: "BugSmashers",
+        name: "Pytorch",
+        semester: "Fall",
+        year: "26-27",
+        description: "Learn the basics of Pytorch in this hands-on workshop.",
+        tags: ["Workshops", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1Km-dVh2Bb3dxUhiY394IrzXjqVAs2HwWyWWhmrL9MYw/edit?usp=sharing")
+            }
+        ]
+
+    },
+    {
+        date:  new Date("10/13/2026"),
+        entryType: "Meetings",
+        name: "Exploring other career options",
+        semester: "Fall",
+        year: "26-27",
+        description: "ACM members discuss other career options in the tech industry.",
+        tags: ["Professional Development", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/10JQT05erd2NRy-ENxqYRzk5pFG8msGtlXfqxB4Na1fE/edit?usp=sharing")
+            }
+        ]
     }
 ];
 
