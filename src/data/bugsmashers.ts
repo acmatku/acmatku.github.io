@@ -173,6 +173,14 @@ export const HACKNIGHTS: BugsmasherMeeting[] = [
     date: new Date("October 22, 2026"),
     content: "",
     tags: []
+  },
+  {
+    title: "WIC Hackathon Collab",
+    subtitle: "Stay tuned for more information.",
+    semester: "F26",
+    date: new Date("November 19, 2026"),
+    content: "",
+    tags: []
   }
 ];
 
@@ -199,6 +207,11 @@ export const PROJECT_NIGHTS = [
     description: getFormattedDate(new Date('October 15, 2026')),
     date: new Date('October 15, 2026')
   },
+  {
+    title: "Project Day " + day++,
+    description: getFormattedDate(new Date('October 29, 2026')),
+    date: new Date('October 29, 2026')
+  }
 ]
 
 export const BUGSMASHERS_SCHEDULE = createBugsmasherPosts(HACKNIGHTS, AUTHORS);
