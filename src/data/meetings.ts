@@ -248,6 +248,17 @@ export const UPCOMING_MEETINGS: Meeting[] = [
     date: "10/27/26",
     title: "Industry Speaker",
     subtitle: "An industry speaker will be coming to ACM to talk about their experience in the field."
-  }
-
+  },
+  {
+    date: "11/17/26",
+    title: "Lighting Talks",
+    subtitle: "4 speakers covering 4 fun topics."
+    
+  },
+  {
+    date: "11/24/26",
+    title: "BugSmashers Takeover",
+    subtitle: ""
+  },
+  
 ]

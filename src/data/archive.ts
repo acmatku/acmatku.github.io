@@ -963,7 +963,51 @@ export const ALL_ARCHIVE_ITEMS: ArchiveItem[] = [
                 url: new URL("https://docs.google.com/presentation/d/10JQT05erd2NRy-ENxqYRzk5pFG8msGtlXfqxB4Na1fE/edit?usp=sharing")
             }
         ]
+    },
+    {
+        date: new Date("10/22/2026"),
+        entryType: "Meetings",
+        name: "BugSmashing",
+        semester: "Fall",
+        year: "26-27",
+        description: "Bugsmashers talk you through ways to debug and fix code effectively.",
+        tags: ["Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/1cuEY1GKaNe_YLhOvagWFBalqjPgpLOcsxknag8eTezs/edit?usp=sharing")
+            }
+        ]
+    },
+    {
+        date: new Date("10/27/2026"),
+        entryType: "Meetings",
+        name: "Aniketh Yap sesh",
+        semester: "Fall",
+        year: "26-27",
+        description: "Anigoat gives wise words of wisdom.",
+        tags: ["Fun", "Talks", "Professor"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/10JQT05erd2NRy-ENxqYRzk5pFG8msGtlXfqxB4Na1fE/edit?usp=sharing")
+            }
+        ]
+    },
+    {
+        date: new Date("11/03/2026"),
+        entryType: "Meetings",
+        name: "LinkedIn and GitHub",
+        semester: "Fall",
+        year: "26-27",
+        description: "Tips on how to improve your LinkedIn and GitHub profiles.",
+        tags: ["Professional Development", "Talks"],
+        links: [
+            {
+                name: "Slides",
+                url: new URL("https://docs.google.com/presentation/d/13uRWqdFncPlJUeXSRxqiKLGlngUHX_ItbQwQ0bINj_4/edit?usp=sharing")
+            }
+        ]
     }
+
 ];
-
-
