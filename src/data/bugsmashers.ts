@@ -211,6 +211,12 @@ export const PROJECT_NIGHTS = [
     title: "Project Day " + day++,
     description: getFormattedDate(new Date('October 29, 2026')),
     date: new Date('October 29, 2026')
+  
+  },
+  {
+    title: "Project Day " + day++,
+    description: getFormattedDate(new Date('November 12, 2026')),
+    date: new Date('November 12, 2026')
   }
 ]
 
